@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
               <small>{node.frontmatter.date}</small>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.html,
+                  __html: node.html,
                 }}
               />
             </div>
