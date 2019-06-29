@@ -1,5 +1,6 @@
 ---
 title: There and back again 
+description: Della riscoperta di uno spazio tutto mio
 date: 2019-06-29
 ---
 
