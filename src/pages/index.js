@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
               <small>{node.frontmatter.date}</small>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
+                  __html: node.frontmatter.description || node.html,
                 }}
               />
             </div>
@@ -56,6 +56,7 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
+          html
           fields {
             slug
           }

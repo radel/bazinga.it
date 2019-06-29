@@ -54,8 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Scritto da <strong>{author}</strong>. Fullstack developer. Linux user. Amateur photographer. Music lover. Natural born tinkerer. Mountain wanderer. Part Time Runner.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

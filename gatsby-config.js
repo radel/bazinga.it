@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `bazinga.it`,
+    author: `Marco Bonomo`,
+    description: ``,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `radel`,
     },
   },
   plugins: [
@@ -27,6 +27,27 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-tumble-media`,
+            options: {
+              // optional, defaults to 700
+              // should be the same as whatever remark-images
+              // is using below.
+              maxWidth: 700,
+            },
+          },
+          `gatsby-remark-copy-linked-files`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // make this be the same as the remark-tumble-media
+              // value above
+              maxWidth: 700,
+              // don't let remark-images make the images too big
+              // which breaks the responsive design stuff.
+              wrapperStyle: "max-width:100% !important;",
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -57,11 +78,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Bazinga!`,
+        short_name: `Bazinga`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#fdde00`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
