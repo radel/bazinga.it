@@ -3,25 +3,26 @@ module.exports = {
     title: `bazinga.it`,
     author: `Marco Bonomo`,
     description: ``,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `radel`,
-    },
+    siteUrl: `https://www.bazinga.it/`,
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/radel`,
+      },
+      {
+        name: `instagram`,
+        url: `https://www.instagram.com/radel_`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/radel`
+      }
+    ]
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
+      resolve: "gatsby-theme-blog",
+      options: {},
     },
     {
       resolve: `gatsby-transformer-remark`,
