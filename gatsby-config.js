@@ -22,49 +22,32 @@ module.exports = {
   plugins: [
     {
       resolve: "gatsby-theme-blog",
-      options: {},
+      options: {
+        mdx: false
+     }
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-tumble-media`,
-            options: {
-              // optional, defaults to 700
-              // should be the same as whatever remark-images
-              // is using below.
-              maxWidth: 700,
-            },
-          },
-          `gatsby-remark-copy-linked-files`,
-          {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+         {
+          resolve:`gatsby-remark-tumble-media`,
+         },
+         {
             resolve: `gatsby-remark-images`,
             options: {
-              // make this be the same as the remark-tumble-media
-              // value above
-              maxWidth: 700,
-              // don't let remark-images make the images too big
-              // which breaks the responsive design stuff.
-              wrapperStyle: "max-width:100% !important;",
+              linkImagesToOriginal: false,
+              wrapperStyle: 'max-width:100% !important;'
             },
           },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          { resolve: `gatsby-remark-copy-linked-files` },
+          { resolve: `gatsby-remark-numbered-footnotes` },
+          { resolve: `gatsby-remark-smartypants` },
+          { resolve: `gatsby-remark-embed-spotify`}
         ],
+        remarkPlugins: [require(`remark-slug`)],
+        plugins: [ `gatsby-remark-images`, `gatsby-remark-tumble-media` ],
       },
     },
     `gatsby-transformer-sharp`,
