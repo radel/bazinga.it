@@ -1,0 +1,25 @@
+.photoset {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.photoset table {
+  margin: 0;
+  padding: 0;
+}
+
+.photosettable .rowcell,
+.photosettable .colcell {
+  padding: 0.5rem 1rem;
+  border-color: transparent;
+}
+
+.photosettable .w-680 {
+  width: auto;
+  max-width: 100%;
+}
+
+.gatsby-resp-image-wrapper {
+  padding: 0;
+  margin: 0;
+}
