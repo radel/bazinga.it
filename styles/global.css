@@ -1,5 +1,6 @@
 .photoset {
   max-width: 100%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -11,10 +12,16 @@
 .photosettable .rowcell,
 .photosettable .colcell {
   padding: 0.5rem 1rem;
-  border-color: transparent;
+  border-color: transparent !important;
 }
 
-.photosettable .w-680 {
+@media (max-width: 700px) {
+  .photosettable td.colcell {
+    border: 0px solid transparent !important;
+  }
+}
+
+.photosettable .photo {
   width: auto;
   max-width: 100%;
 }

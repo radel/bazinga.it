@@ -79,14 +79,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-tumble-media`,
             options: {
-              maxWidth: 920,
+              maxWidth: 900,
             },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
               linkImagesToOriginal: true,
-              maxWidth: 920,
+              maxWidth: 900,
               wrapperStyle: "max-width:100% !important; padding: 0; margin: 0;",
             },
           },
