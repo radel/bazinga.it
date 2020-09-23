@@ -1,18 +1,20 @@
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Bazinga!`,
+    siteTitle: `Bazinga`,
     // Default title of the page
-    siteTitleAlt: `I'm back, until I'm Not.`,
+    siteTitleAlt: `Marco bonomo's blog`,
+    siteCopyright: `Marco Bonomo`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `This is no time for caution`,
+    siteHeadline: `Cooper, this is no time for caution`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://www.bazinga.it`,
     // Used for SEO
-    siteDescription: ``,
+    siteDescription: `Hi! I'm Marco, I’m a full stack developer. I do things in php and javascript.`,
     // Will be set on the <html /> tag
     siteLanguage: `it`,
-    // Used for og:image and must be placed inside the `static` folder
+    titleTemplate: "%s · Bazinga",
+    // Used for og:image and must lekoartsbe placed inside the `static` folder
     siteImage: `/banner.jpg`,
     // Twitter Handle
     author: `@radel`,
@@ -24,7 +26,7 @@ module.exports = {
       },
       {
         name: `Instagram`,
-        url: `https://www.instagram.com/radel_`,
+        url: `https://www.instagram.com/radel_/`,
       },
     ],
     // Navigation links
@@ -36,39 +38,18 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-twitter`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: "gatsby-plugin-react-svg",
       options: {
-        mdx: false,
-        showLineNumbers: false,
-        navigation: [
-          {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
-        ],
-        externalLinks: [
-          {
-            name: `twitter`,
-            url: `https://twitter.com/radel`,
-          },
-          {
-            name: `github`,
-            url: `https://github.com/radel`,
-          },
-          {
-            name: `instagram`,
-            url: `https://instagram.com/radel_`,
-          },
-          {
-            name: `linkedin`,
-            url: `https://www.linkedin.com/marcobonomo/`,
-          },
-        ],
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
       },
     },
     {
@@ -77,54 +58,143 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-tumble-media`,
+            resolve: "gatsby-remark-embed-youtube",
             options: {
-              maxWidth: 900,
+              width: 800,
+              height: 400,
+            },
+          },
+          "gatsby-remark-responsive-iframe",
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
+              prompt: {
+                user: "marco",
+                host: "hoth",
+                global: false,
+              },
             },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              linkImagesToOriginal: true,
-              maxWidth: 900,
-              wrapperStyle: "max-width:100% !important; padding: 0; margin: 0;",
+              maxWidth: 960,
             },
           },
-          { resolve: `gatsby-remark-copy-linked-files` },
-          { resolve: `gatsby-remark-numbered-footnotes` },
-          { resolve: `gatsby-remark-smartypants` },
-          { resolve: `gatsby-remark-embed-spotify` },
         ],
-        remarkPlugins: [],
-        plugins: [`gatsby-remark-images`, `gatsby-remark-tumble-media`],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        path: `${__dirname}/content/posts`,
+        name: `posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/portfolio`,
+        name: `images`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bazinga!`,
-        short_name: `Bazinga`,
+        name: `Bazinga`,
+        short_name: `bazinga`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#fdde00`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteTitleAlt
+                siteTitle
+                siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.nodes.map((post) => {
+                return Object.assign({}, post.frontmatter, {
+                  description: post.excerpt,
+                  date: post.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + post.frontmatter.path,
+                  guid: site.siteMetadata.siteUrl + post.frontmatter.path,
+                  custom_elements: [{ "content:encoded": post.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMdx(sort: {order: DESC, fields: frontmatter___date}) {
+                  nodes {
+                    frontmatter {
+                        path
+                        title
+                        date
+                        excerpt
+                    }
+                    html
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Bazinga",
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.bazinga.it",
+        sitemap: "https://www.bazinga.it/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `IBM Plex Sans`,
+            variants: [`400`, `700`],
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-165453088-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        // Enables Google Optimize using your container Id
       },
     },
   ],
