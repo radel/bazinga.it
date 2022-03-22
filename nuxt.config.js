@@ -45,16 +45,21 @@ export default {
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    [
+      '@nuxtjs/google-fonts',
+      {
+        download: true,
+        display: 'swap',
+        overwriting: true,
+        families: {
+          'Ibm Plex Sans': {
+            wght: [300, 800]
+          }
+        }
+      }
+    ]
   ],
 
-  googleFonts: {
-    download: true,
-    display: 'swap',
-    families: {
-      'Ibm Plex Sans': [300, 800]
-    }
-  },
   /*
    ** Nuxt.js modules
    */
