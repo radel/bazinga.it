@@ -1,61 +1,25 @@
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg" alt="gatsby-novela-theme hero image" />
-</a>
+# nuxt-content-article
 
-<br/>
+The [content module](https://content.nuxtjs.org/) is a git files based headless CMS that provides powerful features when it comes to write blogs, documentation sites or just adding content to any regular website. In this post we will go through most of the benefits of this module and discover how we can create a blog with it.
 
-# Gatsby Starter Novela
+For detailed explanation on how to create this blog, check out [the tutorial](https://nuxtjs.org/blog/creating-blog-with-nuxt-content).
 
-With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby.
+Click here to view the [demo](https://blog-with-nuxt-content.netlify.app/)
 
-Novela is built by the team at [Narative](https://www.narative.co), and built for everyone that loves the web.
+![demo of blog](https://res.cloudinary.com/nuxt/video/upload/v1588091670/demo-blog-content_shk6kw.jpg)
 
-<div>
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
-</a>
-</div>
+## Build Setup
 
-<div>
-<a href="https://www.narative.co/design/open/novela" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-figma.jpg" alt="gatsby-novela-theme figma link" width="295px" />
-</a>
-</div>
+```bash
+# install dependencies
+$ yarn
 
-# Using Gatsby Starter Novela
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-This guide will take you through setting up Novela with Gatsby Starter Novela.
+# generate static project
+$ yarn generate
 
-### Step 1: Starter installation
-
-##### With `gatsby-cli`:
-
-```sh
-gatsby new novela-site https://github.com/narative/gatsby-starter-novela
+# view a production version of your app
+$ yarn start
 ```
-
-##### With `git clone`:
-
-```sh
-git clone git@github.com:narative/gatsby-starter-novela.git novela-site
-
-cd novela-site
-
-yarn
-```
-
-### Step 2: Develop & Build
-
-Once installed or cloned locally and all packages are installed you can begin developing your site.
-
-```sh
-# Run localhost
-yarn develop
-
-# Build your Gatsby site
-yarn build
-```
-
-### Help
-
-For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
