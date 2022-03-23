@@ -45,6 +45,7 @@ export default {
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
     [
       '@nuxtjs/google-fonts',
       {
@@ -60,6 +61,9 @@ export default {
     ]
   ],
 
+  image: {
+    provider: 'static'
+  },
   /*
    ** Nuxt.js modules
    */

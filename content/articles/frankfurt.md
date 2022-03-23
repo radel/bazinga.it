@@ -1,5 +1,5 @@
 ---
-title: frankfurt
+title: Frankfurt
 description: Summer time in frankfurt
 img: /images/frankfurt/frankfurt7.jpg
 alt: frankfurt
@@ -12,30 +12,16 @@ tags:
   - travel
 ---
 
----
-<div class="grid grid-cols-2 grid-cols-auto gap-4">
-
-![frankfurt](/images/frankfurt/frankfurt1.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt5.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt4.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt3.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt2.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt6.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt7.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt8.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt9.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt10.jpg)
-
-![frankfurt](/images/frankfurt/frankfurt11.jpg)
-
-</div>
+<image-gallery :items="[
+    '/images/frankfurt/frankfurt4.jpg',
+    '/images/frankfurt/frankfurt3.jpg',
+    '/images/frankfurt/frankfurt1.jpg',
+    '/images/frankfurt/frankfurt5.jpg',
+    '/images/frankfurt/frankfurt2.jpg',
+    '/images/frankfurt/frankfurt6.jpg',
+    '/images/frankfurt/frankfurt7.jpg',
+    '/images/frankfurt/frankfurt9.jpg',
+    '/images/frankfurt/frankfurt10.jpg',
+    '/images/frankfurt/frankfurt11.jpg'
+]" />
 

@@ -11,21 +11,13 @@ author:
 tags:
   - travel
 ---
-<div class="grid grid-cols-2 grid-cols-auto gap-4">
 
-![munchen](/images/munchen/munchen_1.jpg)  
-
-![munchen](/images/munchen/munchen_4.jpg)  
-
-![munchen](/images/munchen/munchen_3.jpg)  
-
-![munchen](/images/munchen/munchen_2.jpg)  
-
-![munchen](/images/munchen/munchen_5.jpg)  
-
-![munchen](/images/munchen/munchen_6.jpg)  
-
-![munchen](/images/munchen/munchen_7.jpg)  
-
-</div>
+<image-gallery :items="[
+    '/images/munchen/munchen_1.jpg',
+    '/images/munchen/munchen_4.jpg',
+    '/images/munchen/munchen_3.jpg',
+    '/images/munchen/munchen_7.jpg',
+    '/images/munchen/munchen_2.jpg',
+    '/images/munchen/munchen_5.jpg'
+]" />
 
