@@ -9,7 +9,7 @@
         <li
           v-for="article of articles"
           :key="article.slug"
-          class="xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
+          class="xs:w-full md:w-1/2 px-2"
         >
           <article-card :article="article" />
         </li>
@@ -25,7 +25,15 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles')
-      .only(['title', 'description', 'img', 'slug', 'author', 'createdAt'])
+      .only([
+        'title',
+        'description',
+        'img',
+        'slug',
+        'author',
+        'createdAt',
+        'tags'
+      ])
       .sortBy('createdAt', 'desc')
       .fetch()
     const tags = await $content('tags')

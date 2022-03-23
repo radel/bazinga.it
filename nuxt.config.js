@@ -62,7 +62,8 @@ export default {
   ],
 
   image: {
-    provider: 'static'
+    provider: 'static',
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
   },
   /*
    ** Nuxt.js modules

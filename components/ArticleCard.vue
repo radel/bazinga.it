@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4">
+  <div class="mt-4">
     <NuxtLink
       :to="{ name: 'blog-slug', params: { slug: article.slug } }"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
@@ -11,14 +11,16 @@
       />
 
       <div class="flex flex-col">
-        <h2 class="text-xl font-bold capitalize">{{ article.title }}</h2>
+        <h2 class="text-xl mt-2 font-bold capitalize">{{ article.title }}</h2>
         <p class="text-gray-800 text-normal">
           {{ article.description }}
         </p>
         <span class="text-sm text-gray-500 py-4"
           >{{ formatDate(article.createdAt) }} | {{ article.author.name }} |
-          {{ article.tags }}</span
-        >
+          <span>
+            {{ article.tags.join(',') }}
+          </span>
+        </span>
       </div>
     </NuxtLink>
   </div>
