@@ -52,7 +52,7 @@ export default {
         display: 'swap',
         overwriting: true,
         families: {
-          'Ibm Plex Sans': {
+          'IBM Plex Sans': {
             wght: [300, 800]
           }
         }

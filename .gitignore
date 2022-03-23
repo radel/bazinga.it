@@ -90,3 +90,6 @@ sw.*
 *.swp
 
 .vscode
+
+assets/fonts
+assets/css
