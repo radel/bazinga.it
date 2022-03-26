@@ -2,18 +2,19 @@
   <article class="flex flex-wrap w-full">
     <div class="w-full">
       <div class="mx-auto max-w-4xl py-4">
-        <div class="flex uppercase text-sm">
-          <p class="mr-3">
+        <div class="flex flex-wrap uppercase text-sm">
+          <div class="inline-block mr-4">
+            <author :author="article.author" />
+          </div>
+          <p class="mr-3 py-4 text-gray-800">
             {{ formatDate(article.createdAt) }}
           </p>
-          <span class="mr-3">•</span>
-          <p>{{ article.author.name }}</p>
         </div>
         <h1 class="text-6xl font-bold text-shadow">{{ article.title }}</h1>
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
-              class="truncate uppercase tracking-wider font-medium text-ss px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+              class="truncate uppercase tracking-wider text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
             >
               {{ tags[tag].name }}
             </span>
@@ -59,7 +60,6 @@
           Post last updated: {{ formatDate(article.updatedAt) }}
         </p>
         <!-- content author component -->
-        <author :author="article.author" />
         <!-- prevNext component -->
         <PrevNext :prev="prev" :next="next" class="mt-8" />
       </div>

@@ -2,16 +2,15 @@
   <div class="w-full py-4">
     <NuxtLink
       :to="`/blog/author/${author.name}`"
-      class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
+      class="flex transition-shadow duration-150 ease-in-out hover:shadow-md xxlmax:flex-col"
     >
       <img
         v-if="author.img"
-        class="h-16 w-16 rounded-full object-cover"
+        class="h-6 w-6 rounded-full object-cover"
         :src="author.img"
       />
-      <div class="flex flex-col m-2 ml-4">
-        <p class="text-xl font-bold">{{ author.name }}</p>
-        <p>{{ author.bio }}</p>
+      <div class="flex flex-col ml-4">
+        <p class="text-normal font-bold">{{ author.name }}</p>
       </div>
     </NuxtLink>
   </div>

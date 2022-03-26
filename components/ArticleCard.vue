@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4">
+  <div class="mt-4 w-full">
     <NuxtLink
       :to="{ name: 'blog-slug', params: { slug: article.slug } }"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
