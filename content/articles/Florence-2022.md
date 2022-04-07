@@ -10,7 +10,13 @@ author:
   img: https://www.marcobonomo.dev/static/images/marco.png
 tags:
   - travel
+  - Kodachrome II
 ---
+
+Florence is a city of unique beauty, everywhere you go you can view its most iconic buildings from a different point of view. I can't be tired of Santa Maria del Fiore Dome greeting my from the streets.
+
+Don't forget to have a walk to Piazzale Michelangelo and Giardino di Boboli, one of the most beautiful views of Florence.
+The first two days were a little bit cloudy and I was not sure which film to shoot, but on Sunday, just before leaving, it was sunny and Kodachrome II really made sense.
 
 <image-gallery :items="[
     '/images/florence-2022/florence_2022_01.JPG',
