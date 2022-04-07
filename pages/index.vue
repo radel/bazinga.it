@@ -3,7 +3,9 @@
     <div class="max-w-4xl mx-auto">
       <div class="py-4 px-2 text-3xl">
         Hi! I'm Marco: web developer, amateur photographer, mountain wanderer,
-        cooking lover, tinkerer. I shoot film on digital with a Fuji camera.
+        cooking lover, tinkerer.
+        <br />
+        I shoot film <span class="italic">on</span> digital with a Fuji camera.
       </div>
       <ul class="flex flex-wrap">
         <li
