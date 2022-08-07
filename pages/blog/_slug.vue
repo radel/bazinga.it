@@ -31,7 +31,7 @@
           </span>
         </div>
       </div>
-      <img
+      <nuxt-img
         :src="article.img"
         :alt="article.alt"
         class="max-w-6xl rounded-md mx-auto shadow-sm object-cover"

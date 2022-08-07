@@ -4,7 +4,7 @@
       :to="{ name: 'blog-slug', params: { slug: article.slug } }"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
     >
-      <img
+      <nuxt-img
         v-if="article.img"
         class="h-64 w-full rounded-md object-cover"
         :src="article.img"
