@@ -6,7 +6,7 @@
     >
       <img
         v-if="article.img"
-        class="h-64 w-full object-cover"
+        class="h-64 w-full rounded-md object-cover"
         :src="article.img"
       />
 

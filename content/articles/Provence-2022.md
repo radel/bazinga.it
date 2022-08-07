@@ -1,6 +1,6 @@
 ---
 title: Provence
-description: Dreaming in Provence 
+description: A lavender dream
 img: '/images/provence-2022/provence-49.JPG'
 alt: Provence
 createdAt: 2022-07-23

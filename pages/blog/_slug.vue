@@ -1,7 +1,9 @@
 <template>
   <article class="flex flex-wrap w-full">
     <div class="w-full">
-      <div class="mx-auto max-w-4xl py-4">
+      <div
+        class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
+      >
         <div class="flex flex-wrap uppercase text-sm">
           <div class="inline-block mr-4">
             <author :author="article.author" />
@@ -10,22 +12,29 @@
             {{ formatDate(article.createdAt) }}
           </p>
         </div>
-        <h1 class="text-6xl font-bold text-shadow">{{ article.title }}</h1>
-        <p class="text-2xl italic mb-8">{{ article.description }}</p>
-        <span v-for="(tag, id) in article.tags" :key="id">
-          <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
-            <span
-              class="truncate uppercase tracking-relaxed text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
-            >
-              {{ tags[tag].name }}
-            </span>
-          </NuxtLink>
-        </span>
+        <h1 class="text-6xl w-full font-extrabold text-center text-shadow">
+          {{ article.title }}
+        </h1>
+        <p class="w-full text-center text-2xl italic mb-4">
+          {{ article.description }}
+        </p>
+
+        <div class="w-full text-center">
+          <span v-for="(tag, id) in article.tags" :key="id">
+            <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
+              <span
+                class="truncate uppercase tracking-relaxed text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+              >
+                {{ tags[tag].name }}
+              </span>
+            </NuxtLink>
+          </span>
+        </div>
       </div>
       <img
         :src="article.img"
         :alt="article.alt"
-        class="h-128 w-full object-cover"
+        class="max-w-6xl rounded-md mx-auto shadow-sm object-cover"
       />
     </div>
     <div

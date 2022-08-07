@@ -1,7 +1,7 @@
 ---
 title: Florence
 description: A weekend in Florence
-img: '/images/florence-2022/florence_2022_24.JPG'
+img: '/images/florence-2022/florence-cover.JPG'
 alt: Florence
 createdAt: 2022-02-15
 author:
