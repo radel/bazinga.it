@@ -11,10 +11,11 @@
           </p>
         </div>
         <h1 class="text-6xl font-bold text-shadow">{{ article.title }}</h1>
+        <p class="text-2xl italic mb-8">{{ article.description }}</p>
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
-              class="truncate uppercase tracking-wider text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
+              class="truncate uppercase tracking-relaxed text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
             >
               {{ tags[tag].name }}
             </span>
@@ -30,8 +31,7 @@
     <div
       class="w-full flex flex-wrap overflow-y-scroll markdown-body post-right custom-scroll"
     >
-      <div class="max-w-4xl mx-auto py-8 text-lg">
-        <p>{{ article.description }}</p>
+      <div class="max-w-4xl mx-auto py-8">
         <!-- table of contents -->
         <nav class="pb-6">
           <ul>
@@ -55,7 +55,9 @@
           </ul>
         </nav>
         <!-- content from markdown -->
-        <nuxt-content :document="article" />
+        <div class="text-xl leading-8 not-italic">
+          <nuxt-content :document="article" />
+        </div>
         <p class="pb-4">
           Post last updated: {{ formatDate(article.updatedAt) }}
         </p>

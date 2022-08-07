@@ -8,15 +8,19 @@
       <nuxt-img
         v-if="item.landscape"
         :src="item.img"
-        sizes="sm:100vw md:50vw lg:900px"
+        loading="lazy"
+        format="webp"
         fit="cover"
+        sizes="sm:100vw md:50vw lg:900px"
         :title="item"
       />
       <nuxt-img
         v-else
         :src="item"
-        sizes="sm:100vw md:50vw lg:440px"
+        format="webp"
         fit="cover"
+        loading="lazy"
+        sizes="sm:100vw md:50vw lg:440px"
         :title="item"
       />
     </div>
