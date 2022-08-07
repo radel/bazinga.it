@@ -4,7 +4,7 @@
       :to="`/blog/author/${author.name}`"
       class="flex transition-shadow duration-150 ease-in-out hover:shadow-md xxlmax:flex-col"
     >
-      <nuxt-img
+      <img
         v-if="author.img"
         class="h-6 w-6 rounded-full object-cover"
         :src="author.img"
