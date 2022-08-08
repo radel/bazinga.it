@@ -4,6 +4,24 @@
       <div
         class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
       >
+        <div class="w-full text-center">
+          <span v-for="(tag, id) in article.tags" :key="id">
+            <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
+              <span
+                class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 dark:border-dark-border transition-colors duration-300 ease-linear"
+              >
+                {{ tags[tag].name }}
+              </span>
+            </NuxtLink>
+          </span>
+        </div>
+
+        <h1 class="text-6xl w-full font-extrabold text-center text-shadow">
+          {{ article.title }}
+        </h1>
+        <p class="w-full text-center text-2xl italic mb-4">
+          {{ article.description }}
+        </p>
         <div class="flex flex-wrap uppercase text-sm">
           <div class="inline-block mr-4">
             <author :author="article.author" />
@@ -11,24 +29,6 @@
           <p class="mr-3 py-4 text-gray-800">
             {{ formatDate(article.createdAt) }}
           </p>
-        </div>
-        <h1 class="text-6xl w-full font-extrabold text-center text-shadow">
-          {{ article.title }}
-        </h1>
-        <p class="w-full text-center text-2xl italic mb-4">
-          {{ article.description }}
-        </p>
-
-        <div class="w-full text-center">
-          <span v-for="(tag, id) in article.tags" :key="id">
-            <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
-              <span
-                class="truncate uppercase tracking-relaxed text-xs font-bold px-2 py-1 rounded-full mr-2 mb-2 border border-light-border dark:border-dark-border transition-colors duration-300 ease-linear"
-              >
-                {{ tags[tag].name }}
-              </span>
-            </NuxtLink>
-          </span>
         </div>
       </div>
       <nuxt-img
