@@ -1,1 +1,0 @@
-import{a as o,o as t,b as s,e as a,l as c,m as n}from"./entry.89fe2b13.mjs";const r={},l={class:"bg-blue-500 text-white p-4 mb-4"},_=n("default");function d(e,f){return t(),s("div",l,[a("p",null,[c(e.$slots,"info-box",{},()=>[_])])])}const m=o(r,[["render",d]]);export{m as default};

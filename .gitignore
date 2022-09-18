@@ -93,3 +93,4 @@ sw.*
 
 assets/fonts
 assets/css
+.output/
