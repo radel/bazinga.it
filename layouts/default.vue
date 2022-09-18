@@ -1,29 +1,19 @@
 <template>
-  <div>
-    <TheHeader />
-    <Nuxt />
-  </div>
+    <div class="">
+
+        <the-header />
+        
+        <div class="pt-32">
+            <slot />
+        </div>
+        
+        <footer class="flex justify-center border-gray-200 border-t py-4">
+            <p class="mt-4">© Marco Bonomo - {{ new Date().getFullYear() }}</p>
+        </footer>
+    </div>
 </template>
+<script setup>
+    const colorMode = useColorMode() 
 
-<style>
-html {
-  @apply bg-gray-100;
+</script>
 
-  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-</style>

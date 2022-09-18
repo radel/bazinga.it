@@ -6,7 +6,9 @@
  */
 module.exports = {
   theme: {
+    darkMode: 'class',
     fontFamily: {
+      sans: ['Ibm Plex Sans'],
       display: ['Ibm Plex Sans', 'sans-serif'],
       body: ['Ibm Plex Sans', 'sans-serif']
     },

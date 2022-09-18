@@ -1,7 +1,6 @@
 <template>
   <div class="mt-4 w-full">
-    <NuxtLink
-      :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+    <NuxtLink :to="`${article._path}`"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
     >
       <nuxt-img
@@ -12,7 +11,7 @@
 
       <div class="flex flex-col">
         <h2 class="text-xl mt-2 font-bold capitalize">{{ article.title }}</h2>
-        <p class="text-gray-800 text-normal">
+        <p class="text-gray-800 dark:text-gray-300 text-normal">
           {{ article.description }}
         </p>
         <span class="text-sm text-gray-500 py-4"

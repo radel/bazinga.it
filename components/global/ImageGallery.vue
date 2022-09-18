@@ -1,11 +1,11 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <div
-      v-for="(item, index) in items"
+      <div
+      v-for="( item, index) in items"
       :key="index"
       :class="{ 'col-span-2': item.landscape }"
     >
-      <nuxt-img
+       <nuxt-img
         v-if="item.landscape"
         :src="item.img"
         loading="lazy"
@@ -22,7 +22,7 @@
         loading="lazy"
         sizes="sm:100vw md:50vw lg:440px"
         :title="item"
-      />
+      /> 
     </div>
   </div>
 </template>

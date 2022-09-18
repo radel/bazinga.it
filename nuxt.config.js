@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from 'nuxt'
+
+export default defineNuxtConfig({
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -34,18 +36,22 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+
+  image: {
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
+  },
+  /*
+   ** Nuxt.js modules
+   */
+  modules: [
+    // Doc: https://github.com/nuxt/content
+    '@nuxt/content',
+    '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image',
+    '@nuxt/image-edge',
     [
       '@nuxtjs/google-fonts',
       {
@@ -60,28 +66,17 @@ export default {
       }
     ]
   ],
-
-  image: {
-    provider: 'static',
-    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
-  },
-  /*
-   ** Nuxt.js modules
-   */
-  modules: [
-    // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
-  ],
+  colorMode: {    classSuffix: ''  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
    */
   content: {
-    markdown: {
+    /* markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
-    },
+    }, */
     nestedProperties: ['author.name']
   },
   /*
@@ -89,4 +84,4 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {}
-}
+})

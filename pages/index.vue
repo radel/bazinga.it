@@ -19,40 +19,18 @@
         </li>
       </ul>
     </div>
-    <footer class="flex justify-center border-gray-500 border-t-2">
-      <p class="mt-4">© Marco Bonomo - {{ new Date().getFullYear() }}</p>
-    </footer>
+    
   </div>
 </template>
 
-<script>
-export default {
-  async asyncData({ $content, params }) {
-    const articles = await $content('articles')
-      .only([
-        'title',
-        'description',
-        'img',
-        'slug',
+<script setup>
+        const { data: articles } = await useAsyncData('articles', () => queryContent('/blog').only([
+            'title',
+            'description',
+            'img',
+        '_path',
         'author',
         'createdAt',
         'tags'
-      ])
-      .sortBy('createdAt', 'desc')
-      .fetch()
-    const tags = await $content('tags')
-      .only(['name', 'description', 'img', 'slug'])
-      .sortBy('createdAt', 'asc')
-      .fetch()
-    return {
-      articles,
-      tags
-    }
-  },
-  head() {
-    return {
-      title: 'Bazinga!'
-    }
-  }
-}
+    ]).sort({'createdAt': -1}).find());
 </script>
