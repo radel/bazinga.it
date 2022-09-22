@@ -1,7 +1,6 @@
 <template>
   <div class="w-full py-4">
-    <NuxtLink
-      :to="`/blog/author/${author.name}`"
+    <span
       class="flex transition-shadow duration-150 ease-in-out hover:shadow-md xxlmax:flex-col"
     >
       <img
@@ -12,7 +11,7 @@
       <div class="flex flex-col ml-4">
         <p class="text-normal font-bold">{{ author.name }}</p>
       </div>
-    </NuxtLink>
+    </span>
   </div>
 </template>
 

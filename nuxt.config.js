@@ -6,6 +6,9 @@ export default defineNuxtConfig({
    ** See https://nuxtjs.org/api/configuration-target
    */
   target: 'static',
+  image: {
+    provider: 'twicpics',
+  },
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -40,9 +43,6 @@ export default defineNuxtConfig({
    ** Nuxt.js dev-modules
    */
 
-  image: {
-    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
-  },
   /*
    ** Nuxt.js modules
    */

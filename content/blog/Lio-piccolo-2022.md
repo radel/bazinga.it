@@ -31,6 +31,4 @@ items:
 - "/images/lio-piccolo-2022/lio-piccolo-13.JPG"
 ---
 ::
-<image-gallery :items="
-" />
 

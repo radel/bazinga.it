@@ -5,8 +5,8 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
+  darkMode: 'class',
   theme: {
-    darkMode: 'class',
     fontFamily: {
       sans: ['Ibm Plex Sans'],
       display: ['Ibm Plex Sans', 'sans-serif'],

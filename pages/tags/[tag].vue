@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-4xl px-2">
-    <div class="flex flex-wrap w-full mb-8">
+    <div class="flex flex-wrap w-full mb-8" v-if="tag">
       <h1 class="w-full text-4xl font-bold uppercase mb-4">
         {{ tag.name }}
       </h1>
