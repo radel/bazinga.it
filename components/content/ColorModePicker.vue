@@ -8,9 +8,7 @@
 <script setup>
 const colorMode = useColorMode();
 const setColorMode = (mode) => {
-    console.log(colorMode)
     colorMode.preference = mode;
-    console.log(colorMode.preference)
 
 }
 </script>
