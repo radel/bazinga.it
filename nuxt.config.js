@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   target: 'static',
   image: {
     provider: 'twicpics',
+    baseURL: 'https://bazinga.twic.pics/'
   },
   /*
    ** Headers of the page
