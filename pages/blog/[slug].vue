@@ -38,7 +38,7 @@
       />
     </div>
     <div
-      class="w-full flex flex-wrap overflow-y-scroll markdown-body post-right custom-scroll"
+      class="w-full flex flex-wrap markdown-body post-right"
     >
       <div class="max-w-4xl mx-auto py-8">
         <!-- table of contents -->
