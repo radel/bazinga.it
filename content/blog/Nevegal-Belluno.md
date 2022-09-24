@@ -24,10 +24,10 @@ items:
   landscape: true
 - "/images/nevegal-2022/nevegal-08.JPG"
 - "/images/nevegal-2022/nevegal-09.JPG"
+- "/images/nevegal-2022/nevegal-10.JPG"
 - "/images/nevegal-2022/nevegal-11.JPG"
 - "/images/nevegal-2022/nevegal-12.JPG"
-- "/images/nevegal-2022/nevegal-13.JPG"
-- "/images/nevegal-2022/nevegal-16.JPG"
+- "/images/nevegal-2022/nevegal-14.JPG"
 - img: "/images/nevegal-2022/nevegal-15.JPG"
   landscape: true
 - img: "/images/nevegal-2022/nevegal-15.JPG"
