@@ -2,7 +2,7 @@
 title: Sunset in Nevegal, Belluno
 description: Hiking at sunset on the hills nearby Belluno
 img: '/images/nevegal-2022/nevegal-07.JPG'
-alt: london
+alt: Nevegal, Belluno
 createdAt: 2022-09-20
 author:
   name: Marco
@@ -20,8 +20,6 @@ items:
 - "/images/nevegal-2022/nevegal-02.JPG"
 - "/images/nevegal-2022/nevegal-03.JPG"
 - "/images/nevegal-2022/nevegal-04.JPG"
-- "/images/nevegal-2022/nevegal-05.JPG"
-- "/images/nevegal-2022/nevegal-06.JPG"
 - img: "/images/nevegal-2022/nevegal-07.JPG"
   landscape: true
 - "/images/nevegal-2022/nevegal-08.JPG"

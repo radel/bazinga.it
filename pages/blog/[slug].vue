@@ -26,7 +26,7 @@
           <div class="inline-block mr-4">
             <author :author="article.author" />
           </div>
-          <p class="mr-3 py-4 text-gray-800">
+          <p class="mr-3 py-4">
             {{ formatDate(article.createdAt) }}
           </p>
         </div>
