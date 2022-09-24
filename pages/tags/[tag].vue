@@ -8,7 +8,7 @@
     </div>
     <div class="w-full">
       <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <li v-for="article in articles" :key="article._path" class="">
+        <li v-for="article in tagArticles" :key="article._path" class="">
           <article-card :article="article" />
         </li>
       </ul>
@@ -26,13 +26,13 @@
     .where({_path: path})
     .findOne())
     
-    const { data: articles } = await useAsyncData(`articles-${params.tag}`, () => {  return queryContent('/blog')
+    const { data: tagArticles } = await useAsyncData(`articles-${params.tag}`, () => {  return queryContent('/blog')
     .where({ tags: { $contains: tag.name }})
     .sort({'createdAt': -1})
     .find()})
 
     const formatDate = (date) => {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
 </script>
