@@ -4,11 +4,11 @@
       <div
         class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
       >
-        <div class="w-full text-center" v-if="article.tags">
+        <div class="w-full text-center mb-8" v-if="article.tags">
         <span v-for="(tag, id) in article.tags" :key="id">
             <NuxtLink :to="`${tags[tag]._path}`">
               <span
-                class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 dark:border-dark-border transition-colors duration-300 ease-linear"
+                class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-slate-600 transition-colors duration-300 ease-linear"
               >
                 {{ tag }}
               </span>
@@ -16,10 +16,10 @@
           </span>
         </div>
 
-        <h1 class="text-6xl w-full font-extrabold text-center text-shadow">
+        <h1 class="text-6xl w-full font-extrabold text-center text-shadow font-body">
           {{ article.title }}
         </h1>
-        <p class="w-full text-center text-2xl italic mb-4">
+        <p class="w-full text-center text-2xl italic mb-4 py-4 font-body">
           {{ article.description }}
         </p>
         <div class="flex flex-wrap uppercase text-sm">
@@ -64,7 +64,7 @@
           </ul>
         </nav>
         <!-- content from markdown -->
-        <div class="text-xl leading-8 not-italic">
+        <div class="text-xl leading-8 not-italic content font-body">
           <ContentDoc />
         </div>
         <!-- content author component -->
@@ -93,14 +93,14 @@
     }
 </script>
 <style>
-.nuxt-content p {
-  margin-bottom: 20px;
+.content p {
+  @apply pb-5;
 }
-.nuxt-content h2 {
+.content h2 {
   font-weight: bold;
   font-size: 28px;
 }
-.nuxt-content h3 {
+.content h3 {
   font-weight: bold;
   font-size: 22px;
 }

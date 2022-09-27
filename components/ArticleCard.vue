@@ -5,16 +5,16 @@
     >
       <nuxt-img
         v-if="article.img"
-        class="h-64 w-full rounded-md object-cover"
+        class="h-64 w-full rounded-md object-cover shadow-lg border-stone-100 dark:border-slate-700 border"
         :src="article.img"
       />
 
-      <div class="flex flex-col">
+      <div class="flex flex-col py-2 px-4">
         <h2 class="text-xl mt-2 font-bold capitalize">{{ article.title }}</h2>
         <p class="text-gray-800 dark:text-gray-300 text-normal">
           {{ article.description }}
         </p>
-        <span class="text-sm text-gray-500 py-4"
+        <span class="text-sm text-stone-600 dark:text-slate-400 py-4"
           >{{ formatDate(article.createdAt) }} | {{ article.author.name }} |
           <span>
             {{ article.tags.join(',') }}

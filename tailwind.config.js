@@ -10,13 +10,7 @@ module.exports = {
     fontFamily: {
       sans: ['Ibm Plex Sans'],
       display: ['Ibm Plex Sans', 'sans-serif'],
-      body: ['Ibm Plex Sans', 'sans-serif']
-    },
-    borderWidth: {
-      default: '1px',
-      0: '0',
-      2: '2px',
-      4: '4px'
+      body: ['Libre Franklin', 'sans-serif']
     },
     extend: {
       colors: {

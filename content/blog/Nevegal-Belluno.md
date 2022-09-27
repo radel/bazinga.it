@@ -30,8 +30,6 @@ items:
 - "/images/nevegal-2022/nevegal-14.JPG"
 - img: "/images/nevegal-2022/nevegal-15.JPG"
   landscape: true
-- img: "/images/nevegal-2022/nevegal-15.JPG"
-  landscape: true
 - img: "/images/nevegal-2022/nevegal-17.JPG"
   landscape: true
 - img: "/images/nevegal-2022/nevegal-18.JPG"

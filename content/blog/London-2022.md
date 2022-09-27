@@ -3,7 +3,7 @@ title: London
 description: I'm still in love with London
 img: '/images/london-2022/london-2022-11.JPG'
 alt: london
-createdAt: 2022-09-01S
+createdAt: 2022-09-01
 author:
   name: Marco
   bio: Marco Bonomo
@@ -12,9 +12,12 @@ tags:
   - travel
 ---
 
-We love London. Every year we make sure to book a little trip to London to see what's going on. This time it was East London for a The National gig in Victoria Park (yeah, we follow The National every time they come to Europe) but we had time to walk around the south bank, again and again.
+We love London. Every year we make sure to book a little trip to London to see what's going on. This time it was East London for a The National gig in Victoria Park (yeah, we follow The National every time they come to Europe) but we had time to walk around the south bank, again and again.  
 
-After three years, the big ben tower was finally unwrapped. It was unreal, if you look at the pictures in Westminster they look like painted but they're not, it was really like that! 
+
+
+After three years, the big ben tower was finally unwrapped. It was unreal, if you look at the pictures in Westminster they look like painted but they're not, it was really like that!  
+
 
 ::image-gallery
 ---

@@ -64,6 +64,9 @@ export default defineNuxtConfig({
         families: {
           'IBM Plex Sans': {
             wght: [300, 800]
+          },
+           'Libre Franklin': {
+            wght: [300, 700]
           }
         }
       }
