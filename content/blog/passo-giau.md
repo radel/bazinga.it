@@ -1,5 +1,5 @@
 ---
-title: Golden hour in Passo Giau, Belluno
+title: Passo Giau, Belluno
 description: Sunset in the most beautiful place in the world
 img: '/images/passo-giau-2022/passo-giau-2022-12.JPG'
 alt: Passo Giau, Belluno
