@@ -55,6 +55,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
+    'vue-plausible',
     [
       '@nuxtjs/google-fonts',
       {
@@ -84,6 +85,10 @@ export default defineNuxtConfig({
       }
     }, */
     nestedProperties: ['author.name']
+  },
+
+  plausible: { // Use as fallback if no runtime config is available at runtime
+    domain: 'bazinga.it'
   },
   /*
    ** Build configuration
