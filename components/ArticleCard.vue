@@ -6,6 +6,10 @@
       <nuxt-img
         v-if="article.img"
         class="h-64 w-full rounded-md object-cover shadow-lg border-stone-100 dark:border-slate-700 border"
+        loading="lazy"
+        format="webp"
+        fit="cover"
+        sizes="sm:100vw md:50vw lg:900px"
         :src="article.img"
       />
 
