@@ -74,13 +74,13 @@
 </template>
 <script setup>
     const { path} = useRoute()
-    const { data: article } = await useAsyncData(`content-${path}`, () => {  return queryContent().where({ _path: path }).findOne()})
+    const { data: article } = await useAsyncData(`content-${path}`, () => {  return queryContent().where({ _path: path }).findOne()});
 
     const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })
-    .find())
+    .find());
     
-    const tags = Object.assign({}, ...tagsList.value.map((s) => ({ [s.name]: s })))  
+    const tags = Object.assign({}, ...tagsList.value.map((s) => ({ [s.name]: s })));
     
 
     /*  
@@ -88,7 +88,7 @@
     
    
     const formatDate = (date) => {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
       return new Date(date).toLocaleDateString('en', options)
     }
 </script>

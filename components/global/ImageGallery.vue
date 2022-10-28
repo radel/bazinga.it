@@ -9,7 +9,6 @@
        <nuxt-img
         v-if="item.landscape"
         :src="item.img"
-        loading="lazy"
         format="webp"
         @click="showModal(item.img)"
         fit="cover"
@@ -23,7 +22,6 @@
         @click="showModal(item)"
         format="webp"
         fit="cover"
-        loading="lazy"
         class="rounded shadow cursor-pointer"
         sizes="sm:100vw md:50vw lg:440px"
         :title="item"
