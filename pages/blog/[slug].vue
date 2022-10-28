@@ -9,8 +9,7 @@
                                 {{ tag }}
                             </span>
                     </span>
-                </div> -->
-
+                </div>
                 <h1 class="text-6xl w-full font-extrabold text-center text-shadow font-body">
                     {{ article.title }}
                 </h1>
