@@ -7,7 +7,7 @@ createdAt: 2019-12-8
 author:
   name: Marco
   bio: Marco Bonomo
-  img: https://www.marcobonomo.dev/static/images/marco.png
+  img: images/marco.png
 tags:
   - travel
 ---
