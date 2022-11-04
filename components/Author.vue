@@ -3,8 +3,9 @@
     <span
       class="flex transition-shadow duration-150 ease-in-out hover:shadow-md xxlmax:flex-col"
     >
-      <img
-        v-if="author.img"
+      <nuxt-img
+        format="webp"
+        fit="cover"
         class="h-6 w-6 rounded-full object-cover"
         :src="author.img"
       />
