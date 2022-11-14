@@ -5,6 +5,9 @@ export default defineNuxtConfig({
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
+  generate: {
+    fallback: true
+  },
   target: 'static',
   image: {
     provider: 'twicpics',
