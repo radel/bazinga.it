@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full border-b-slate-300 dark:border-b-slate-600 border-b py-4 mb-4 fixed bg-stone-200/80 dark:bg-slate-800/80 text-gray-800 dark:text-slate-300 backdrop-blur-sm">
+  <header class="w-full border-b-slate-300 dark:border-b-slate-600 border-b py-4 fixed bg-stone-200/80 dark:bg-slate-800/80 text-gray-800 dark:text-slate-300 backdrop-blur-sm z-10">
     <div class="max-w-4xl mx-auto flex justify-between px-4">
         <div>
             <NuxtLink to="/">

@@ -1,6 +1,7 @@
 <template>
-    <article class="flex flex-wrap w-full">
+    <article class="flex flex-wrap w-full pt-24">
         <div class="w-full">
+           
             <div class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center">
                 <div class="w-full text-center mb-8" v-if="article.tags">
                     <span v-for="(tag, id) in article.tags" :key="id">
@@ -28,8 +29,10 @@
                     </p>
                 </div>
             </div>
-            <nuxt-img :src="article.img" :alt="article.alt"
-                class="max-w-6xl rounded-md mx-auto shadow-sm object-cover" />
+                <div class="max-w-6xl rounded-lg mx-auto shadow-lg relative">
+                    <nuxt-img :src="article.img" :alt="article.alt"
+                    class="object-cover w-full" />
+                </div>
         </div>
         <div class="w-full flex flex-wrap markdown-body post-right">
             <div class="max-w-4xl mx-auto py-8">
@@ -59,9 +62,9 @@
 const { path } = useRoute()
 const { data: article } = await useAsyncData(`content-${path}`, () => { return queryContent().where({ _path: path }).findOne() });
 
-const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
+/* const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })
-    .find());
+    .find()); */
 
 useHead({ 
     title: article.title, 

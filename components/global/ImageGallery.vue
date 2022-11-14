@@ -1,10 +1,10 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal>
+    <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
       <div
       v-for="( item, index) in items"
       :key="index"
-      :class="{ 'col-span-2': item.landscape }"
+      :class="{ 'md:col-span-2': item.landscape }"
     >
        <nuxt-img
         v-if="item.landscape"
@@ -12,7 +12,7 @@
         format="webp"
         @click="showModal(item.img)"
         fit="cover"
-        class="rounded shadow cursor-pointer"
+        class="w-full rounded shadow cursor-pointer"
         sizes="sm:100vw md:50vw lg:900px"
         :title="item"
       />
@@ -22,7 +22,7 @@
         @click="showModal(item)"
         format="webp"
         fit="cover"
-        class="rounded shadow cursor-pointer"
+        class="w-full rounded shadow cursor-pointer"
         sizes="sm:100vw md:50vw lg:440px"
         :title="item"
       /> 

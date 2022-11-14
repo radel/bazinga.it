@@ -3,7 +3,7 @@
 
         <the-header />
         
-        <div class="pt-32">
+        <div>
             <slot />
         </div>
         
