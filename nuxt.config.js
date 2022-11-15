@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   generate: {
     fallback: true
   },
+  documentDriven: {
+    page: false
+  },
   target: 'static',
   image: {
     provider: 'twicpics',
