@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
-
 export default defineNuxtConfig({
   /*
    ** Nuxt target
@@ -19,7 +17,7 @@ export default defineNuxtConfig({
     }
   },
   /*
-   ** Headers of the page
+   ** Headers ofimport { defineNuxtConfig } from 'nuxt' import { defineNuxtConfig } from 'nuxt'the page
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
@@ -61,7 +59,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
-    'vue-plausible',
+    // 'vue-plausible',
     [
       '@nuxtjs/google-fonts',
       {
