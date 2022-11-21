@@ -9,8 +9,11 @@
         loading="lazy"
         format="webp"
         fit="cover"
+        width="424px"                     
+        height="256px"
         sizes="sm:100vw md:50vw lg:900px"
         :src="article.img"
+        :alt="article.title"
       />
 
       <div class="flex flex-col py-2 px-4">

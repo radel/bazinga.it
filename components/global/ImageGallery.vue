@@ -12,15 +12,21 @@
         format="webp"
         @click="showModal(item.img)"
         fit="cover"
+        width="880px"
+        height="587px"
+        :alt="item.img"
         class="w-full rounded shadow cursor-pointer"
         sizes="sm:100vw md:50vw lg:900px"
-        :title="item"
+        :title="item.img"
       />
       <nuxt-img
         v-else
         :src="item"
         @click="showModal(item)"
         format="webp"
+        :alt="item"
+         width="432px"
+        height="647px"
         fit="cover"
         class="w-full rounded shadow cursor-pointer"
         sizes="sm:100vw md:50vw lg:440px"

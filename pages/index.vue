@@ -20,6 +20,13 @@
 </template>
 
 <script setup>
+useHead({ 
+    title: "Bazinga - Marco Bonomo blog", 
+    meta: [{ 
+        name: 'description', 
+        content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer." 
+    }]
+ });
 const { data: articles } = await useAsyncData('articles', () => queryContent('/blog').only([
     'title',
     'description',

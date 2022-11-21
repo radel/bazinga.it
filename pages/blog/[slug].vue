@@ -30,8 +30,11 @@
                 </div>
             </div>
                 <div class="max-w-6xl rounded-lg mx-auto shadow-lg relative">
-                    <nuxt-img :src="article.img" :alt="article.alt"
-                    class="object-cover w-full" />
+                    <nuxt-img :src="article.img" 
+                    width="1067px"
+                    height="713px"
+                    :alt="article.alt"
+                    class="object-cover rounded-lg w-full" />
                 </div>
         </div>
         <div class="w-full flex flex-wrap markdown-body post-right">

@@ -7,6 +7,7 @@
         format="webp"
         fit="cover"
         class="h-6 w-6 rounded-full object-cover"
+        :alt="author.name"
         :src="author.img"
       />
       <div class="flex flex-col ml-4">

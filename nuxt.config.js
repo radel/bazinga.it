@@ -21,6 +21,9 @@ export default defineNuxtConfig({
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     title: 'Bazinga!',
     meta: [
       { charset: 'utf-8' },
