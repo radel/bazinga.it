@@ -9,11 +9,16 @@
                 <br />
                 I shoot film <span class="italic">on</span> digital with a Fuji camera.
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div v-for="article of articles" :key="article.slug" class="">
-                    <article-card :article="article" />
+            <PostSection title="Photos" link="/photos" label="all travel">
+                <div v-for="photo of photos" :key="article.slug" class="">
+                    <photo-card :article="photo" />
                 </div>
-            </div>
+            </PostSection>
+            <PostSection v-if="posts.length" title="Blog" link="/blog" label="all posts">
+                <div v-for="post of posts" :key="post.slug" class="col-span-3">
+                    <article-card :article="post" />
+                </div>
+            </PostSection>
         </div>
 
     </div>
@@ -27,7 +32,7 @@ useHead({
         content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer." 
     }]
  });
-const { data: articles } = await useAsyncData('articles', () => queryContent('/blog').only([
+const { data: photos } = await useAsyncData('photos', () => queryContent('/photos').only([
     'title',
     'description',
     'img',
@@ -35,5 +40,16 @@ const { data: articles } = await useAsyncData('articles', () => queryContent('/b
     'author',
     'createdAt',
     'tags'
-]).sort({ 'createdAt': -1 }).find());
+]).sort({ 'createdAt': -1 }).limit(3).find());
+
+const { data: posts } = await useAsyncData('posts', () => queryContent('/blog').only([
+    'title',
+    'description',
+    'img',
+    'status',
+    '_path',
+    'author',
+    'createdAt',
+    'tags'
+]).where({status: {$ne: 'draft'}}).sort({ 'createdAt': -1 }).limit(3).find());
 </script>

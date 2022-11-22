@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  extends: '@nuxt-themes/typography',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target

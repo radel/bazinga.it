@@ -29,6 +29,13 @@
                     </p>
                 </div>
             </div>
+                <div class="max-w-6xl rounded-lg mx-auto shadow-lg relative">
+                    <nuxt-img :src="article.img" 
+                    width="1067px"
+                    height="713px"
+                    :alt="article.alt"
+                    class="object-cover rounded-lg w-full" />
+                </div>
         </div>
         <div class="w-full flex flex-wrap markdown-body post-right">
             <div class="max-w-4xl mx-auto py-8">
