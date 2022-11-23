@@ -9,7 +9,7 @@
                 <br />
                 I shoot film <span class="italic">on</span> digital with a Fuji camera.
             </div>
-            <PostSection title="Photos" link="/photos" label="all travel">
+            <PostSection title="Photos" link="/photos" label="all travels">
                     <photo-card :article="photo" v-for="photo of photos" :key="photo.slug" />
             </PostSection>
             <PostSection v-if="posts.length" title="Blog" link="/blog" label="all posts">
