@@ -12,10 +12,10 @@ export default defineNuxtConfig({
   },
   target: 'static',
   image: {
-    // provider: 'twicpics',
-    // twicpics: {
-    //   baseURL: 'https://bazinga.twic.pics/'
-    // }
+    provider: 'twicpics',
+    twicpics: {
+      baseURL: 'https://bazinga.twic.pics/'
+    }
   },
   /*
    ** Headers ofimport { defineNuxtConfig } from 'nuxt' import { defineNuxtConfig } from 'nuxt'the page
