@@ -4,7 +4,7 @@ description: My Fuji custom styles 2022
 img: 
 alt: fuji custom style
 createdAt: 2022-11-22
-status: draft
+status: published
 author:
   name: Marco
   bio: Marco Bonomo
