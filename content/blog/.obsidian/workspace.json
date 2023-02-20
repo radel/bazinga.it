@@ -11,21 +11,19 @@
             "id": "3f91203754b3fab9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "frankfurt.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "9a07b86f35dc0e72",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "custom-styles.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef6b83df9e4add4d",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frankfurt.md",
+                "file": "custom-styles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frankfurt.md",
+                "file": "custom-styles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frankfurt.md"
+                "file": "custom-styles.md"
               }
             }
           }
@@ -147,7 +146,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a07b86f35dc0e72",
+  "active": "267b2d0321081281",
   "lastOpenFiles": [
     "prague.md",
     "Provence-2022.md",

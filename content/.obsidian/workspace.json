@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "f644623410c3a015",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2971d1833016247",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74af3d7cbbd715e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "photos/London-2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "04810b0eedad2781",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8aa4f08f3c88d01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb7f72e7e8a3626f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95d4f9cf45586c31",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b6b5f5ced005215",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "db08a3517cc104c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e419ea1b000880bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4d0d2f036c50ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "photos/London-2022.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "082984816d43df17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "photos/London-2022.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed111f4ea2bef0de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cfaecfb5937d6190",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "photos/London-2022.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "74af3d7cbbd715e6",
+  "lastOpenFiles": []
+}

@@ -1,6 +1,6 @@
 <template>
     <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
+  <div class="grid grid-cols-2 md:grid-cols-2 gap-4 p-2">
       <div
       v-for="( item, index) in items"
       :key="index"

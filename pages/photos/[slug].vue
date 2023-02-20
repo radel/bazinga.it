@@ -34,7 +34,7 @@
                     width="1067px"
                     height="713px"
                     :alt="article.alt"
-                    class="object-cover rounded-lg w-full" />
+                    class="object-cover md:rounded-lg w-full" />
                 </div>
         </div>
         <div class="w-full flex flex-wrap markdown-body post-right">

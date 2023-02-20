@@ -13,28 +13,24 @@ tags:
 ---
 
 
-::image-gallery
----
-items: 
-- "/images/nevegal-2022/nevegal-01.JPG"
-- "/images/nevegal-2022/nevegal-02.JPG"
-- "/images/nevegal-2022/nevegal-03.JPG"
-- "/images/nevegal-2022/nevegal-04.JPG"
-- img: "/images/nevegal-2022/nevegal-07.JPG"
-  landscape: true
-- "/images/nevegal-2022/nevegal-08.JPG"
-- "/images/nevegal-2022/nevegal-09.JPG"
-- "/images/nevegal-2022/nevegal-10.JPG"
-- "/images/nevegal-2022/nevegal-11.JPG"
-- "/images/nevegal-2022/nevegal-12.JPG"
-- "/images/nevegal-2022/nevegal-14.JPG"
-- img: "/images/nevegal-2022/nevegal-15.JPG"
-  landscape: true
-- img: "/images/nevegal-2022/nevegal-17.JPG"
-  landscape: true
-- img: "/images/nevegal-2022/nevegal-18.JPG"
-  landscape: true
+::grid
+![nevegal](/images/nevegal-2022/nevegal-01.JPG)
+![nevegal](/images/nevegal-2022/nevegal-02.JPG)
+![nevegal](/images/nevegal-2022/nevegal-03.JPG)
 
+![nevegal](/images/nevegal-2022/nevegal-04.JPG)
+![nevegal](/images/nevegal-2022/nevegal-07.JPG)
+![nevegal](/images/nevegal-2022/nevegal-08.JPG)
 
----
+![nevegal](/images/nevegal-2022/nevegal-09.JPG)
+![nevegal](/images/nevegal-2022/nevegal-10.JPG)
+
+![nevegal](/images/nevegal-2022/nevegal-11.JPG)
+![nevegal](/images/nevegal-2022/nevegal-12.JPG)
+![nevegal](/images/nevegal-2022/nevegal-14.JPG)
+
+![nevegal](/images/nevegal-2022/nevegal-15.JPG)
+
+![nevegal](/images/nevegal-2022/nevegal-17.JPG)
+![nevegal](/images/nevegal-2022/nevegal-18.JPG)
 ::

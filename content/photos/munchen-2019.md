@@ -11,15 +11,13 @@ author:
 tags:
   - travel
 ---
-::image-gallery
----
-items:
-- "/images/munchen/munchen_1.jpg"
-- "/images/munchen/munchen_4.jpg"
-- "/images/munchen/munchen_3.jpg"
-- "/images/munchen/munchen_7.jpg"
-- "/images/munchen/munchen_2.jpg"
-- "/images/munchen/munchen_5.jpg"
----
+::grid
+![munchen](/images/munchen/munchen_1.jpg)
+![munchen](/images/munchen/munchen_4.jpg)
+![munchen](/images/munchen/munchen_3.jpg)
+
+![munchen](/images/munchen/munchen_7.jpg)
+![munchen](/images/munchen/munchen_2.jpg)
+![munchen](/images/munchen/munchen_5.jpg)
 ::
 
