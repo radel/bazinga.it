@@ -41,10 +41,10 @@ export default {
 .image-grid p img {
     max-width: 100%;
     border-radius: 8px;
+    margin: 0.5rem;
     
     @media screen(md) {
         padding: 0;
-        margin: 0.5rem 0;
         width: 100%;
         max-width: 100%;
         object-fit: cover;

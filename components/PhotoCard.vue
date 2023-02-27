@@ -5,8 +5,7 @@
     >
       <nuxt-img
         v-if="article.img"
-        class="h-48 md:h-96 w-full rounded-md object-cover shadow-lg border-zinc-100 dark:border-zinc-700 border"
-        :class="{'h-64': fullwidth}"
+        class="h-96 w-full rounded-md object-cover shadow-lg border-zinc-100 dark:border-zinc-700 border"
         loading="lazy"
         format="webp"
         fit="cover"
@@ -17,7 +16,7 @@
         :alt="article.title"
       />
 
-      <div class="flex flex-col py-2 px-4" :class="{'w-full p-4 absolute bottom-0 left-0 bg-black/50': fullwidth}">
+      <div class="flex flex-col py-2 px-4">
         <h2 class="text-xl mt-2 font-bold capitalize">{{ article.title }}</h2>
         <p class="text-gray-800 dark:text-gray-300 text-normal">
           {{ article.description }}

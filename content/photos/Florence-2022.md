@@ -61,3 +61,18 @@ The first two days were a little bit cloudy and I was not sure which film to sho
 ![florence](/images/florence-2022/florence_2022_31.JPG)
 ::
 
+<recipe name="Kodachrome II" :values='{
+  "SourceFile": "DSCF1846.JPG",
+  "FilmMode": "Classic Chrome",
+  "DynamicRangeSetting": "Manual",
+  "GrainEffect": "Weak",
+  "WhiteBalance": "Auto",
+  "WhiteBalanceFineTune": "Red +60, Blue -80",
+  "HighlightTone": "+1 (medium hard)",
+  "ShadowTone": "+2 (hard)",
+  "Saturation": "-1 (medium low)",
+  "Sharpness": "Hard",
+  "NoiseReduction": "-3 (very weak)"
+}'
+/>
+

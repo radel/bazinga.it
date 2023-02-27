@@ -117,3 +117,18 @@ tags:
 ![val d'orcia](/images/val-d-orcia-2023/val-d-orcia-75.JPG)
 ![val d'orcia](/images/val-d-orcia-2023/val-d-orcia-76.JPG)
 ::
+
+<recipe name="Provia Custom" :values='{
+    "name":"Provia Custom", 
+    "SourceFile": "DSCF3834.JPG",
+    "FilmMode": "Classic Chrome",
+    "DynamicRangeSetting": "Auto",  
+    "GrainEffect": "Weak",
+    "WhiteBalance": "Auto",
+    "WhiteBalanceFineTune": "Red +40, Blue -80",
+    "HighlightTone": "-1 (medium soft)",
+    "ShadowTone": "-1 (medium soft)",
+    "Saturation": "+2 (high)",
+    "Sharpness": "Soft",
+    "NoiseReduction": "-4 (weakest)"}' 
+/>

@@ -95,9 +95,6 @@ export default defineNuxtConfig({
     nestedProperties: ['author.name']
   },
 
-  plausible: { // Use as fallback if no runtime config is available at runtime
-    domain: 'bazinga.it'
-  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
