@@ -63,6 +63,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
+    'nuxt-simple-sitemap',
     // 'vue-plausible',
     [
       '@nuxtjs/google-fonts',
@@ -94,6 +95,8 @@ export default defineNuxtConfig({
     }, */
     nestedProperties: ['author.name']
   },
+
+  sitemap: {    hostname: 'https://bazinga.it',  },
 
   /*
    ** Build configuration
