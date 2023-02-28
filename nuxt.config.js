@@ -11,12 +11,6 @@ export default defineNuxtConfig({
     page: false
   },
   target: 'static',
-  image: {
-    provider: 'twicpics',
-    twicpics: {
-      baseURL: 'https://bazinga.twic.pics/'
-    }
-  },
   /*
    ** Headers ofimport { defineNuxtConfig } from 'nuxt' import { defineNuxtConfig } from 'nuxt'the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -53,6 +47,10 @@ export default defineNuxtConfig({
   /*
    ** Nuxt.js dev-modules
    */
+  image: {    
+    domains: ['bazinga.it'], 
+    dir: 'static'
+  },
 
   /*
    ** Nuxt.js modules
