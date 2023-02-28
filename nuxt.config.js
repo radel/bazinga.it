@@ -48,7 +48,7 @@ export default defineNuxtConfig({
    ** Nuxt.js dev-modules
    */
   image: {    
-    provides: 'ipx',
+    provider: 'ipx',
     domains: ['bazinga.it'], 
     dir: 'static'
   },
