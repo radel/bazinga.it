@@ -46,7 +46,7 @@
                     </ul>
                 </nav>
                 <!-- content from markdown -->
-                <div class="text-xl leading-8 not-italic content font-body px-8">
+                <div class="text-xl leading-8 not-italic content font-body px-8 ">
                     <ContentDoc />
                 </div>
                 <!-- content author component -->
