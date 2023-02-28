@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   documentDriven: {
     page: false
   },
+
   target: 'static',
   /*
    ** Headers ofimport { defineNuxtConfig } from 'nuxt' import { defineNuxtConfig } from 'nuxt'the page
