@@ -66,7 +66,7 @@ Here are my favorites from 2022.
 
 
 [![london](/images/london-2022/london-2022-03.JPG)](/photos/london-2022)
-<recipe name="Reggie's Provia" :values='{
+<recipe name="Reggie's Portra" :values='{
   "SourceFile": "DSCF8972.JPG",
   "FilmMode": "Classic Chrome",
   "DynamicRangeSetting": "Auto",

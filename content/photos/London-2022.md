@@ -68,7 +68,7 @@ After three years, the big ben tower was finally unwrapped. It was unreal, if yo
 ![london](/images/london-2022/london-2022-44.JPG)
 ::
 
-<recipe name="Reggie's Provia" :values='{
+<recipe name="Reggie's Portra" :values='{
   "SourceFile": "DSCF8972.JPG",
   "FilmMode": "Classic Chrome",
   "DynamicRangeSetting": "Auto",
