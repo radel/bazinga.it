@@ -30,7 +30,13 @@ export default defineNuxtConfig({
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+       {
+         src: "https://substackapi.com/widget.js"
+       }
+    ],
+
   },
   /*
    ** Global CSS
@@ -40,7 +46,9 @@ export default defineNuxtConfig({
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [
+    // { src: '~/plugins/substack.js', mode: 'client' }
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
