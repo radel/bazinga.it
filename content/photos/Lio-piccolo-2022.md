@@ -1,6 +1,6 @@
 ---
 title: Lio Piccolo
-description: Cycling in the Venice Lagoon
+description: In bicicletta nella laguna di Venezia
 img: '/images/lio-piccolo-2022/lio-piccolo-4.JPG'
 alt: Lio Piccolo
 createdAt: 2022-06-03
@@ -13,7 +13,8 @@ tags:
   - Kodachrome II
 ---
 
-On Italy's National Day we rent a Bike in Cavallino and cycled around the Venice Lagoon. We're not so fond of bikes but it was really fun. 
+Per la festa della Repubblica ho fatto un giro in bicicletta a Lio Piccolo, un posto fuori dal tempo nella laguna di Venezia. Ho approfittato delle pause per scattare qualche fotografia e il feeling di questi scatti mi piace tanto.
+
 ::grid
 ![lio piccolo](/images/lio-piccolo-2022/lio-piccolo-1.JPG)
 ![lio piccolo](/images/lio-piccolo-2022/lio-piccolo-2.JPG)

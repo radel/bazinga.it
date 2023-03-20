@@ -1,6 +1,6 @@
 ---
 title: Val D'Orcia
-description: A few days in Tuscany
+description: Qualche giorno in Toscana 
 img: /images/val-d-orcia-2023/val-d-orcia-54.JPG
 alt: Val D'Orcia
 createdAt: 2023-01-10

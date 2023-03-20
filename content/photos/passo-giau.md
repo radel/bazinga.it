@@ -1,6 +1,6 @@
 ---
 title: Passo Giau, Belluno
-description: Sunset in the most beautiful place in the world
+description: Il tramonto nel posto più bello del mondo
 img: '/images/passo-giau-2022/passo-giau-2022-12.JPG'
 alt: Passo Giau, Belluno
 createdAt: 2022-10-03

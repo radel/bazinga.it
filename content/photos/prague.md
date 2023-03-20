@@ -1,6 +1,6 @@
 ---
-title: Prague
-description: A weekend in Prague, before covid hit us
+title: Praga
+description: A Praga, prima che il covid ci tenesse a casa
 img: '/images/prague/prague-03.JPG'
 alt: Prague
 createdAt: 2020-01-29

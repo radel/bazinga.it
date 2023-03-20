@@ -1,6 +1,6 @@
 ---
-title: Munchen
-description: Christmas time in Munchen
+title: Monaco di Baviera
+description: Natale a Monaco
 img: /images/munchen/munchen_1.jpg
 alt: munchen
 createdAt: 2019-12-8 

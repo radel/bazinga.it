@@ -1,6 +1,6 @@
 ---
-title: Provence
-description: A lavender dream
+title: Provenza
+description: Un sogno colorato d'oro e Lavanda
 img: '/images/provence-2022/provence-49.JPG'
 alt: Provence
 createdAt: 2022-07-23
@@ -13,9 +13,10 @@ tags:
   - Kodachrome II
 ---
 
-During the end of June we've been traveling to Provence, France, for a beautiful trip.  
-After landing in Marseilles, we rent a car and head to Arles. On the second day of our trip, we touched Avignone, Fontaine de Vaucluse and finally Gordes, where we visited the beautiful Senanque Abbey.   
-The third day was Valensole. I think you can smell the lavender from the pictures I was very lucky to take. What a dream! 
+Ero già passato per la Provenza in alcuni viaggi con i miei genitori, ma non ero pronto al Viaggio (con la V maiuscola, davvero) che è stato vedere la Provenza durante la fioritura della lavanda.
+
+Sono stati 4 giorni da sogno, on the road per le strade della Provenza, tra il canto delle cicale, campi d'orati e tramonti colorati di rosso e viola. 
+Un esperienza fuori dal tempo, che ho amato in ogni istante.
 
 ::grid
 ![provence](/images/provence-2022/provence-1.JPG)

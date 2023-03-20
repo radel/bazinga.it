@@ -27,8 +27,8 @@
         <div>{{ values.NoiseReduction }}</div>
 
         <div class="col-span-2 p-2 text-xs bg-zinc-300/80 dark:bg-zinc-800/80 text-gray-800 dark:text-zinc-300">
-                these are exif metadata, they are not the same as camera settings. 
-                To find out the right white balance, please divide by 20 red and blue values
+                Questi sono metadati EXIF, non sono equivalenti alle impostazioni della fotocamera. 
+                Per trovare il giusto bilanciamento del bianco, dividi per 20 i valori di rosso e blu.
         </div>
     </div>
 </template>

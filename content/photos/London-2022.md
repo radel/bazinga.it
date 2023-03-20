@@ -1,6 +1,6 @@
 ---
-title: London
-description: I'm still in love with London
+title: Londra
+description: Sono ancora innamorato di questa città
 img: /images/london-2022/london-2022-11.JPG
 alt: london
 createdAt: 2022-09-01
@@ -12,10 +12,11 @@ tags:
   - travel
 ---
 
-We love London. Every year we make sure to book a little trip to London to see what's going on. This time it was East London for a The National gig in Victoria Park (yeah, we follow The National every time they come to Europe) but we had time to walk around the south bank, again and again.  
+Io e Vale siamo innamorati di Londra. Ci andiamo spesso (quasi ogni anno, covid a parte) per vedere cosa è cambiato, cosa è rimasto uguale, e per scoprire qualche angolo che non conosciamo.
 
-After three years, the big ben tower was finally unwrapped. It was unreal, if you look at the pictures in Westminster they look like painted but they're not, it was really like that!  
+Questa volta abbiamo preso come base East London e abbiamo girovagato per Shoreditch e i suoi mercati. La prima sera siamo stati verso Victoria Park per vedere i The National come headliner al festival All Points East. È stato un concerto fantastico, anche il ritorno mi è piaciuto, un fiume di gente che si spostava a piedi verso le fermate del tube.
 
+Ho finalmente rivisto il Big Ben spacchettato ed è stato come un sogno, in qualche foto si nota, *sembra finto*.
 
 ::grid
 ![london](/images/london-2022/london-2022-01.JPG)

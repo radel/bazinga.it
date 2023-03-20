@@ -53,7 +53,7 @@
                     </ul>
                 </nav>
                 <!-- content from markdown -->
-                <div class="text-xl leading-8 not-italic content font-body">
+                <div class="text-3xl leading-12 not-italic content font-body">
                     <ContentDoc />
                 </div>
                 <!-- content author component -->
@@ -86,10 +86,16 @@ useHead({
 
 const formatDate = (date) => {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(date).toLocaleDateString('en', options)
+    return new Date(date).toLocaleDateString('it', options)
 }
 </script>
 <style>
+:root {
+    --prose-p-fontSize: 1.4rem;
+    --prose-p-margin: 1rem;
+    --prose-p-lineHeight: 1.5;
+}
+
 .content p {
     @apply pb-5;
 }

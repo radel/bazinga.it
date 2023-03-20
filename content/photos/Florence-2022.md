@@ -1,6 +1,6 @@
 ---
-title: Florence
-description: A weekend in Florence
+title: Firenze
+description: Un weekend a Firenze
 img: '/images/florence-2022/florence-cover.JPG'
 alt: Florence
 createdAt: 2022-02-15
@@ -13,10 +13,11 @@ tags:
   - Kodachrome II
 ---
 
-Florence is a city of unique beauty, everywhere you go you can view its most iconic buildings from a different point of view. I can't be tired of Santa Maria del Fiore Dome greeting my from the streets.
+Firenze è una città unica, di una bellezza tanto famosa quanto inaspettata. In ogni piccola via del centro vedi far capolino la cupola di Santa Maria del Fiore, o la torre di Arnolfo.
 
-Don't forget to have a walk to Piazzale Michelangelo and Giardino di Boboli, one of the most beautiful views of Florence.
-The first two days were a little bit cloudy and I was not sure which film to shoot, but on Sunday, just before leaving, it was sunny and Kodachrome II really made sense.
+Abbiamo passato lì un weekend fantastico, in un caldo (fin troppo) febbraio. Era la prima volta che visitavo il Giardino di Boboli, ma quello che mi ha veramente colpito è stato quello di villa Bardini, un gioiello a due passi dal centro con una vista eccezionale su firenze.
+
+C'era già la mimosa in fiore e ci ho giocato con qualche fotografia, ma quando sono arrivato a Piazzale Michelangelo Firenze si è proprio messa in posa!
 
 ::grid
 ![florence](/images/florence-2022/florence_2022_01.JPG)
