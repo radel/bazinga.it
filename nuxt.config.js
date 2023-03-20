@@ -18,7 +18,7 @@ export default defineNuxtConfig({
    */
   head: {
     htmlAttrs: {
-      lang: 'en'
+      lang: 'it'
     },
     title: 'Bazinga!',
     meta: [
