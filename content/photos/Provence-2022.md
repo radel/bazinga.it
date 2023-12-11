@@ -15,7 +15,7 @@ tags:
 
 Ero già passato per la Provenza in alcuni viaggi con i miei genitori, ma non ero pronto al Viaggio (con la V maiuscola, davvero) che è stato vedere la Provenza durante la fioritura della lavanda.
 
-Sono stati 4 giorni da sogno, on the road per le strade della Provenza, tra il canto delle cicale, campi d'orati e tramonti colorati di rosso e viola. 
+Sono stati 4 giorni da sogno, on the road per le strade della Provenza, tra il canto delle cicale, campi dorati e tramonti colorati di rosso e viola. 
 Un esperienza fuori dal tempo, che ho amato in ogni istante.
 
 ::grid
