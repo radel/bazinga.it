@@ -56,6 +56,12 @@
                 <div class="text-3xl leading-12 not-italic content font-body">
                     <ContentDoc />
                 </div>
+                <clientOnly>
+                <SubstackSubscribe>
+                    <h4 class="font-bold text-xl w-full">Restiamo amici!</h4>
+                            <p>Puoi iscriverti alla mia newsletter e ricevere spunti su codice, cucina e fotografia</p>
+                </SubstackSubscribe> 
+                </clientOnly> 
                 <!-- content author component -->
             </div>
         </div>
