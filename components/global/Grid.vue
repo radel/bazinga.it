@@ -1,7 +1,18 @@
 <template>
     <!-- <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal> -->
     <div class="w-full image-grid">
-        <ContentSlot :use="$slots.default" />
+        <div class="image-grid-item" v-for="(item, index) of $slots.default()" :key="index">
+            <div class="grid gap-4" :class="{
+                'grid-cols-1': getItemLength(item) == 1,
+                'grid-cols-2': getItemLength(item) == 2,
+                'grid-cols-3': getItemLength(item) == 3,
+                'grid-cols-4': getItemLength(item) == 4,
+                'grid-cols-5': getItemLength(item) == 5,
+                'grid-cols-6': getItemLength(item) == 6,
+            }">
+                <ContentSlot :use="() => item" unwrap="p"/>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -13,40 +24,48 @@ export default {
     {
         const {flatUnwrap} = useUnwrap()
 
+        const getItemLength = (item) => {
+            return item.children.default().length;
+        }
+
         return {
-            slots
+            slots,
+            getItemLength,
+            flatUnwrap
         }
     }
 }
 </script>
 
 <style>
-.image-grid p {
+.image-grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.image-grid .image-grid-item {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0rem !important;
-  justify-content: space-between;
-  padding: 0;
+  width: 100%;
   gap: 1rem;
+  margin: 0.5rem 0;
   
-  @media screen(md) {
+  @media screen (md) {
         padding: 0;
-        margin: 0rem !important;
-        display: flex;
-        flex-wrap: nowrap;
     }
 }
 
 
-.image-grid p img {
-    max-width: 100%;
+.image-grid .image-grid-item img {
     border-radius: 8px;
     margin: 0.5rem;
+    width: 100%;
     
-    @media screen(md) {
+    @media screen (md) {
         padding: 0;
-        width: 100%;
-        max-width: 100%;
         object-fit: cover;
     }
 }
