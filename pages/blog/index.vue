@@ -1,7 +1,8 @@
 <template>
-    <div class="pt-24 m-0">
+    <div class="pt-24 m-0 min-h-screen">
         <div class="max-w-4xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <h3 class="font-bold text-xl dark:text-zinc-400 py-2 border-b border-zinc-400 justify-center text-center dark:border-zinc-800 mb-8">Blog</h3>
+            <div class="grid grid-cols-1 gap-4">
                 <div v-for="article of articles" :key="article.slug" class="">
                     <article-card :article="article" />
                 </div>
@@ -23,7 +24,7 @@ const { data: articles } = await useAsyncData('articles', () => queryContent('/b
     'title',
     'description',
     'img',
-    '_path',
+    'slug',
     'author',
     'createdAt',
     'tags'

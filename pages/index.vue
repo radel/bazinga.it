@@ -10,17 +10,17 @@
                     cuoco casalingo, aspirante agricoltore. 
                 </div>
             </div>
-            <PostSection v-if="posts.length" title="Blog" link="/blog" label="all posts">
-                <div v-for="post of posts" :key="post.slug" class="col-span-3">
-                    <article-card :article="post" />
-                </div>
-            </PostSection>
             <clientOnly>
                 <SubstackSubscribe>
                 </SubstackSubscribe> 
             </clientOnly> 
-            <PostSection title="Fotografia" link="/photos" label="viaggi e fotografie">
-                    <photo-card :article="photo" v-for="photo of photos" :key="photo.slug" />
+            <PostSection title="Fotografia" link="/photos" :label="`altri viaggi e fotografie`">
+                <photo-card :article="photo" v-for="photo of photos" :key="photo.slug" />
+            </PostSection>
+            <PostSection v-if="posts.length" title="Blog" link="/blog" label="tutti i post">
+                <div v-for="post of posts" :key="post.slug" class="col-span-3">
+                    <article-card :article="post" />
+                </div>
             </PostSection>
            
         </div>
@@ -52,7 +52,7 @@ const { data: posts } = await useAsyncData('posts', () => queryContent('/blog').
     'description',
     'img',
     'status',
-    '_path',
+    'slug',
     'author',
     'createdAt',
     'tags'

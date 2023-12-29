@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photos/London-2022.md",
+                "file": "blog/O Holy Night.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc9aa0ddf363434e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/O Holy Night.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/London-2022.md",
+                "file": "blog/O Holy Night.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/London-2022.md",
+                "file": "blog/O Holy Night.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/London-2022.md"
+                "file": "blog/O Holy Night.md"
               }
             }
           }
@@ -154,6 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74af3d7cbbd715e6",
-  "lastOpenFiles": []
+  "active": "cc9aa0ddf363434e",
+  "lastOpenFiles": [
+    "blog/Le mie ricette Fujifilm preferite.md",
+    "blog/O Holy Night.md",
+    "photos/London-2022.md",
+    "Untitled.md",
+    "photos/Nevegal-Belluno.md",
+    "photos/Florence-2022.md",
+    "templates/post-template.md",
+    "templates",
+    "tags/photography.md",
+    "photos/munchen-2019.md"
+  ]
 }

@@ -1,7 +1,6 @@
 <template>
     <article class="flex flex-wrap w-full pt-24">
         <div class="w-full">
-           
             <div class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center">
                 <div class="w-full text-center mb-8" v-if="article.tags">
                     <span v-for="(tag, id) in article.tags" :key="id">
@@ -47,7 +46,7 @@
                 </nav>
                 <!-- content from markdown -->
                 <div class="text-xl leading-8 not-italic content font-body px-8 ">
-                    <ContentDoc />
+                    <ContentDoc :path="article._path"/>
                 </div>
                 <!-- content author component -->
             </div>
@@ -55,8 +54,9 @@
     </article>
 </template>
 <script setup>
-const { path } = useRoute()
-const { data: article } = await useAsyncData(`content-${path}`, () => { return queryContent().where({ _path: path }).findOne() });
+const { params } = useRoute()
+const {slug} = params
+const { data: article } = await useAsyncData(`content-${slug}`, () => { return queryContent().where({ slug: slug }).findOne() });
 
 /* const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })

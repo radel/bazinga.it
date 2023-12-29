@@ -1,10 +1,11 @@
 ---
-title: Le mie ricette Fujifilm preferite per colori incredibili 
-description: Le mie ricette Fujifilm preferite per colori incredibili 
-img: '/images/provence-2022/provence-23.JPG'
+title: Le mie ricette Fujifilm preferite per colori incredibili
+description: Le mie ricette Fujifilm preferite per colori incredibili
+img: /images/provence-2022/provence-23.JPG
 alt: fuji custom style
 createdAt: 2023-02-27
 status: published
+slug: fuji-custom-film-simulation-recipes
 author:
   name: Marco
   bio: Marco Bonomo
