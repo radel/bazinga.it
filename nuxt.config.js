@@ -79,11 +79,8 @@ export default defineNuxtConfig({
         overwriting: true,
         families: {
           'IBM Plex Sans': {
-            wght: [300, 800]
+            wght: [300, 400, 800]
           },
-           'Libre Franklin': {
-            wght: [300, 700]
-          }
         }
       }
     ]

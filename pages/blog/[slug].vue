@@ -48,6 +48,10 @@
                 <div class="text-xl leading-8 not-italic content font-body px-8 ">
                     <ContentDoc :path="article._path"/>
                 </div>
+                <clientOnly>
+                    <SubstackSubscribe>
+                    </SubstackSubscribe> 
+                </clientOnly> 
                 <!-- content author component -->
             </div>
         </div>

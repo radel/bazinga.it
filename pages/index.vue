@@ -10,14 +10,16 @@
                     cuoco casalingo, aspirante agricoltore. 
                 </div>
             </div>
-            <clientOnly>
-                <SubstackSubscribe>
-                </SubstackSubscribe> 
-            </clientOnly> 
-            <PostSection title="Fotografia" link="/photos" :label="`altri viaggi e fotografie`">
+             <DefaultSection>
+                 <clientOnly>
+                     <SubstackSubscribe>
+                    </SubstackSubscribe> 
+                </clientOnly> 
+            </DefaultSection>
+            <PostSection title="Viaggi e fotografia" link="/photos">
                 <photo-card :article="photo" v-for="photo of photos" :key="photo.slug" />
             </PostSection>
-            <PostSection v-if="posts.length" title="Blog" link="/blog" label="tutti i post">
+            <PostSection v-if="posts.length" title="Blog" link="/blog">
                 <div v-for="post of posts" :key="post.slug" class="col-span-3">
                     <article-card :article="post" />
                 </div>

@@ -8,9 +8,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: ['Ibm Plex Sans'],
-      display: ['Ibm Plex Sans', 'sans-serif'],
-      body: ['Libre Franklin', 'sans-serif']
+      sans: ['IBM Plex Sans'],
+      display: ['IBM Plex Sans', 'sans-serif'],
+      body: ['IBM Plex Sans', 'sans-serif']
     },
     extend: {
       colors: {
