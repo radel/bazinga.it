@@ -1,13 +1,13 @@
 <template>
-  <div class="mx-auto max-w-4xl px-2">
+  <div class="mx-auto max-w-4xl min-h-screen pt-32 px-4">
     <div class="flex flex-wrap w-full mb-8" v-if="tag">
-      <h1 class="w-full text-4xl font-bold uppercase mb-4">
+      <h1 class="w-full text-2xl mb-4">
         {{ tag.name }}
       </h1>
       <p class="mb-4">{{ tag.description }}</p>
     </div>
     <div class="w-full">
-      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <ul class="grid grid-cols-1 gap-4">
         <li v-for="article in tagArticles" :key="article._path" class="">
           <article-card :article="article" />
         </li>

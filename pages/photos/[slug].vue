@@ -1,118 +1,133 @@
 <template>
-    <article class="flex flex-wrap w-full pt-24">
-        <div class="w-full">
-           
-            <div class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center">
-                <div class="w-full text-center mb-8" v-if="article.tags">
-                    <span v-for="(tag, id) in article.tags" :key="id">
-                        <!-- <NuxtLink :to="`${tags[tag]._path}`"> -->
-                            <span
-                                class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-zinc-600 transition-colors duration-300 ease-linear">
-                                {{ tag }}
-                            </span>
-                        <!-- </NuxtLink> -->
-                    </span>
-                </div>
+  <article class="flex flex-wrap w-full pt-24">
+    <div class="w-full">
+      <div
+        class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
+      >
+        <div class="w-full text-center mb-8" v-if="article.tags">
+          <span v-for="(tag, id) in article.tags" :key="id">
+            <!-- <NuxtLink :to="`${tags[tag]._path}`"> -->
+            <span
+              class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-zinc-600 transition-colors duration-300 ease-linear"
+            >
+              {{ tag }}
+            </span>
+            <!-- </NuxtLink> -->
+          </span>
+        </div>
 
-                <h1 class="text-6xl w-full font-extrabold text-center text-shadow font-body">
-                    {{ article.title }}
-                </h1>
-                <p class="w-full text-center text-2xl italic mb-4 py-4 font-body">
-                    {{ article.description }}
-                </p>
-                <div class="flex flex-wrap uppercase text-sm">
-                    <div class="inline-block mr-4">
-                        <author :author="article.author" />
-                    </div>
-                    <p class="mr-3 py-4">
-                        {{ formatDate(article.createdAt) }}
-                    </p>
-                </div>
-            </div>
-                <div class="max-w-6xl rounded-lg mx-auto shadow-lg relative">
-                    <nuxt-img :src="article.img" 
-                    width="1067px"
-                    height="713px"
-                    :alt="article.alt"
-                    class="object-cover md:rounded-lg w-full" />
-                </div>
+        <h1
+          class="text-6xl w-full font-extrabold text-center text-shadow font-body"
+        >
+          {{ article.title }}
+        </h1>
+        <p class="w-full text-center text-2xl italic mb-4 py-4 font-body">
+          {{ article.description }}
+        </p>
+        <div class="flex flex-wrap uppercase text-sm">
+          <div class="inline-block mr-4">
+            <author :author="article.author" />
+          </div>
+          <p class="mr-3 py-4">
+            {{ formatDate(article.createdAt) }}
+          </p>
         </div>
-        <div class="w-full flex flex-wrap markdown-body post-right">
-            <div class="max-w-4xl mx-auto py-8">
-                <!-- table of contents -->
-                <nav class="pb-6">
-                    <ul>
-                        <li v-for="link of article.toc" :key="link.id" :class="{
-                            'font-semibold': link.depth === 2
-                        }">
-                            <nuxtLink :to="`#${link.id}`" class="hover:underline" :class="{
-                                'py-2': link.depth === 2,
-                                'ml-2 pb-2': link.depth === 3
-                            }">{{ link.text }}</nuxtLink>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- content from markdown -->
-                <div class="text-3xl leading-12 not-italic content font-body">
-                    <ContentDoc />
-                </div>
-                <clientOnly>
-                <SubstackSubscribe>
-                    <h4 class="font-bold text-xl w-full">Restiamo amici!</h4>
-                            <p>Puoi iscriverti alla mia newsletter e ricevere spunti su codice, cucina e fotografia</p>
-                </SubstackSubscribe> 
-                </clientOnly> 
-                <!-- content author component -->
-            </div>
+      </div>
+      <div class="max-w-6xl rounded-lg mx-auto shadow-lg relative">
+        <nuxt-img
+          :src="article.img"
+          width="1067px"
+          height="713px"
+          :alt="article.alt"
+          class="object-cover md:rounded-lg w-full"
+        />
+      </div>
+    </div>
+    <div class="w-full flex flex-wrap markdown-body post-right">
+      <div class="max-w-4xl mx-auto py-8">
+        <!-- table of contents -->
+        <nav class="pb-6">
+          <ul>
+            <li
+              v-for="link of article.toc"
+              :key="link.id"
+              :class="{
+                'font-semibold': link.depth === 2
+              }"
+            >
+              <nuxtLink
+                :to="`#${link.id}`"
+                class="hover:underline"
+                :class="{
+                  'py-2': link.depth === 2,
+                  'ml-2 pb-2': link.depth === 3
+                }"
+                >{{ link.text }}</nuxtLink
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- content from markdown -->
+        <div class="text-3xl leading-12 not-italic content font-body">
+          <ContentDoc />
         </div>
-    </article>
+        <DefaultSection>
+          <clientOnly>
+            <SubstackSubscribe> </SubstackSubscribe>
+          </clientOnly>
+        </DefaultSection>
+      </div>
+    </div>
+  </article>
 </template>
 <script setup>
 const { path } = useRoute()
-const { data: article } = await useAsyncData(`content-${path}`, () => { return queryContent().where({ _path: path }).findOne() });
+const { data: article } = await useAsyncData(`content-${path}`, () => {
+  return queryContent().where({ _path: path }).findOne()
+})
 
 /* const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })
     .find()); */
 
-useHead({ 
-    title: article.title, 
-    meta: [{ 
-        name: 'description', 
-        content: article.description 
-    }]
- });
+useHead({
+  title: article.title,
+  meta: [
+    {
+      name: 'description',
+      content: article.description
+    }
+  ]
+})
 
 // const tags = Object.assign({}, ...tagsList.value.map((s) => ({ [s.name]: s })));
 
-
-/*  
-*/
-
+/*
+ */
 
 const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(date).toLocaleDateString('it', options)
+  const options = { year: 'numeric', month: 'long', day: 'numeric' }
+  return new Date(date).toLocaleDateString('it', options)
 }
 </script>
 <style>
 :root {
-    --prose-p-fontSize: 1.4rem;
-    --prose-p-margin: 1rem;
-    --prose-p-lineHeight: 1.5;
+  --prose-p-fontSize: 1.4rem;
+  --prose-p-margin: 1rem;
+  --prose-p-lineHeight: 1.5;
 }
 
 .content p {
-    @apply pb-5;
+  @apply pb-5;
 }
 
 .content h2 {
-    font-weight: bold;
-    font-size: 28px;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .content h3 {
-    font-weight: bold;
-    font-size: 22px;
+  font-weight: bold;
+  font-size: 22px;
 }
 </style>

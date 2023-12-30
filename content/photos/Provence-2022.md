@@ -1,7 +1,7 @@
 ---
 title: Provenza
 description: Un sogno colorato d'oro e Lavanda
-img: '/images/provence-2022/provence-49.JPG'
+img: /images/provence-2022/provence-49.JPG
 alt: Provence
 createdAt: 2022-07-23
 author:
@@ -10,7 +10,6 @@ author:
   img: images/marco.png
 tags:
   - travel
-  - Kodachrome II
 ---
 
 Ero già passato per la Provenza in alcuni viaggi con i miei genitori, ma non ero pronto al Viaggio (con la V maiuscola, davvero) che è stato vedere la Provenza durante la fioritura della lavanda.

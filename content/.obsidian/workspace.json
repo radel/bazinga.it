@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/val-d-orcia.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/val-d-orcia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/val-d-orcia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/O Holy Night.md"
+                "file": "photos/val-d-orcia.md"
               }
             }
           }
@@ -169,15 +169,34 @@
   },
   "active": "cc9aa0ddf363434e",
   "lastOpenFiles": [
+    "photos/Rome-2022.md",
+    "photos/Provence-2022.md",
+    "photos/prague.md",
+    "photos/passo-giau.md",
+    "photos/Nevegal-Belluno.md",
+    "photos/munchen-2019.md",
+    "photos/London-2022.md",
+    "photos/Lio-piccolo-2022.md",
+    "photos/frankfurt.md",
+    "photos/Florence-2022.md",
+    "recipes/Kodachome-II 1.md",
+    "tags/music.md",
     "blog/Le mie ricette Fujifilm preferite.md",
     "blog/O Holy Night.md",
-    "photos/London-2022.md",
+    "tags/travel.md",
+    "templates/tag-template.md",
+    "recipes/travel.md",
+    "recipes/portra-400.md",
+    "recipes/photography.md",
+    "recipes/Kodachome-II.md",
+    "recipes",
+    "tags copy/travel.md",
+    "tags copy/portra-400.md",
+    "tags copy/photography.md",
+    "tags copy/Kodachome-II.md",
+    "tags copy",
     "Untitled.md",
-    "photos/Nevegal-Belluno.md",
-    "photos/Florence-2022.md",
     "templates/post-template.md",
-    "templates",
-    "tags/photography.md",
-    "photos/munchen-2019.md"
+    "templates"
   ]
 }

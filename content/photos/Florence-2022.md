@@ -1,7 +1,7 @@
 ---
 title: Firenze
 description: Un weekend a Firenze
-img: '/images/florence-2022/florence-cover.JPG'
+img: /images/florence-2022/florence-cover.JPG
 alt: Florence
 createdAt: 2022-02-15
 author:
@@ -10,7 +10,6 @@ author:
   img: images/marco.png
 tags:
   - travel
-  - Kodachrome II
 ---
 
 Firenze è una città unica, di una bellezza tanto famosa quanto inaspettata. In ogni piccola via del centro vedi far capolino la cupola di Santa Maria del Fiore, o la torre di Arnolfo.

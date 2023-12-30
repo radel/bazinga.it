@@ -10,7 +10,8 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: 
+tags:
+  - music
 ---
 
 In questi giorni capita di riguardare "Mamma ho perso l'aereo" e di sentire, tra le tante canzoni di Natale, "O Holy Night": canzone scritta verso la metà del 1800 in Francia e con una storia interessante e controversa.
