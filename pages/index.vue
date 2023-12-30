@@ -70,6 +70,7 @@ const { data: posts } = await useAsyncData('posts', () =>
       'description',
       'img',
       'status',
+      '_path',
       'slug',
       'author',
       'createdAt',

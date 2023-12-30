@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/val-d-orcia.md",
+                "file": "blog/O Holy Night.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/val-d-orcia.md",
+                "file": "blog/O Holy Night.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/val-d-orcia.md"
+                "file": "blog/O Holy Night.md"
               }
             }
           }
@@ -167,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc9aa0ddf363434e",
+  "active": "74af3d7cbbd715e6",
   "lastOpenFiles": [
+    "photos/val-d-orcia.md",
     "photos/Rome-2022.md",
     "photos/Provence-2022.md",
     "photos/prague.md",
@@ -196,7 +196,6 @@
     "tags copy/Kodachome-II.md",
     "tags copy",
     "Untitled.md",
-    "templates/post-template.md",
     "templates"
   ]
 }

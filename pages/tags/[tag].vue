@@ -26,13 +26,15 @@
     .where({_path: path})
     .findOne())
     
-    const { data: tagArticles } = await useAsyncData(`articles-${params.tag}`, () => {  return queryContent('/blog')
-    .where({ tags: { $contains: tag.name }})
+    const { data: tagArticles } = await useAsyncData(`articles-${params.tag}`, () => {  return queryContent().where({ 'tags': { $contains: tag.value.name } })
     .sort({'createdAt': -1})
     .find()})
 
     const formatDate = (date) => {
-      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        let current_date = new Date(date);
+        let month = current_date.getMonth() + 1;
+        let prepend = month < 10 ? 0 : "";
+        return `${current_date.getFullYear()} · ${prepend}${month}`;
     }
 </script>

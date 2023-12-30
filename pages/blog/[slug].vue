@@ -74,6 +74,14 @@ useHead({
     }]
  });
 
+ const formatDate = (date) => {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' }
+    let current_date = new Date(date);
+    let month = current_date.getMonth() + 1;
+    let prepend = month < 10 ? 0 : "";
+    return `${current_date.getFullYear()} · ${prepend}${month}`;
+}
+
 // const tags = Object.assign({}, ...tagsList.value.map((s) => ({ [s.name]: s })));
 
 
@@ -81,10 +89,6 @@ useHead({
 */
 
 
-const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(date).toLocaleDateString('en', options)
-}
 </script>
 <style>
 .content p {

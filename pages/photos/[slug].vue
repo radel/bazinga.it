@@ -5,23 +5,23 @@
         class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
       >
         <div class="w-full text-center mb-8" v-if="article.tags">
-          <span v-for="(tag, id) in article.tags" :key="id">
-            <!-- <NuxtLink :to="`${tags[tag]._path}`"> -->
+          <span v-for="(tag, id) in tagsList" :key="id">
+            <NuxtLink :to="`${tag._path}`" v-if="article.tags.indexOf(tag.name) >= 0">
             <span
               class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-zinc-600 transition-colors duration-300 ease-linear"
             >
-              {{ tag }}
+              {{ tag.name }}
             </span>
-            <!-- </NuxtLink> -->
+            </NuxtLink>
           </span>
         </div>
 
         <h1
-          class="text-6xl w-full font-extrabold text-center text-shadow font-body"
+          class="text-4xl w-full font-extrabold text-center text-shadow font-body"
         >
           {{ article.title }}
         </h1>
-        <p class="w-full text-center text-2xl italic mb-4 py-4 font-body">
+        <p class="w-full text-center text-xl italic mb-4 py-4 font-body">
           {{ article.description }}
         </p>
         <div class="flex flex-wrap uppercase text-sm">
@@ -43,7 +43,7 @@
         />
       </div>
     </div>
-    <div class="w-full flex flex-wrap markdown-body post-right">
+    <div class="w-full flex flex-wrap">
       <div class="max-w-4xl mx-auto py-8">
         <!-- table of contents -->
         <nav class="pb-6">
@@ -86,9 +86,9 @@ const { data: article } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
 })
 
-/* const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
+ const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })
-    .find()); */
+    .find()); 
 
 useHead({
   title: article.title,
@@ -106,8 +106,11 @@ useHead({
  */
 
 const formatDate = (date) => {
-  const options = { year: 'numeric', month: 'long', day: 'numeric' }
-  return new Date(date).toLocaleDateString('it', options)
+    const options = { year: 'numeric', month: 'long', day: 'numeric' }
+    let current_date = new Date(date);
+    let month = current_date.getMonth() + 1;
+    let prepend = month < 10 ? 0 : "";
+    return `${current_date.getFullYear()} · ${prepend}${month}`;
 }
 </script>
 <style>

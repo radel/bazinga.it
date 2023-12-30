@@ -1,6 +1,6 @@
 <template>
     <!-- <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal> -->
-    <div class="w-full image-grid">
+    <div class="w-full image-grid px-4">
         <div class="image-grid-item" v-for="(item, index) of $slots.default()" :key="index">
             <div class="grid gap-4" :class="{
                 'grid-cols-1': getItemLength(item) == 1,
@@ -50,7 +50,6 @@ export default {
 .image-grid .image-grid-item {
   display: flex;
   width: 100%;
-  gap: 1rem;
   margin: 0.5rem 0;
   
   @media screen (md) {
@@ -61,7 +60,6 @@ export default {
 
 .image-grid .image-grid-item img {
     border-radius: 8px;
-    margin: 0.5rem;
     width: 100%;
     
     @media screen (md) {
