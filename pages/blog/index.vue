@@ -25,6 +25,7 @@ const { data: articles } = await useAsyncData('articles', () => queryContent('/b
     'description',
     'img',
     'slug',
+    '_path',
     'author',
     'createdAt',
     'tags'

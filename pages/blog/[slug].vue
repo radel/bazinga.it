@@ -3,15 +3,16 @@
         <div class="w-full">
             <div class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center">
                 <div class="w-full text-center mb-8" v-if="article.tags">
-                    <span v-for="(tag, id) in article.tags" :key="id">
-                        <!-- <NuxtLink :to="`${tags[tag]._path}`"> -->
-                            <span
-                                class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-zinc-600 transition-colors duration-300 ease-linear">
-                                {{ tag }}
-                            </span>
-                        <!-- </NuxtLink> -->
-                    </span>
-                </div>
+              <span v-for="(tag, id) in tagsList" :key="id">
+                <NuxtLink :to="`${tag._path}`" v-if="article.tags.indexOf(tag.name) >= 0">
+                <span
+                  class="truncate uppercase tracking-relaxed text-xs font-extrabold px-2 py-1 mr-2 mb-2 border rounded-full dark:border-zinc-600 transition-colors duration-300 ease-linear"
+                >
+                  {{ tag.name }}
+                </span>
+                </NuxtLink>
+              </span>
+            </div>
 
                 <h1 class="text-6xl w-full font-extrabold text-center text-shadow font-body">
                     {{ article.title }}
@@ -58,13 +59,12 @@
     </article>
 </template>
 <script setup>
-const { params } = useRoute()
-const {slug} = params
-const { data: article } = await useAsyncData(`content-${slug}`, () => { return queryContent().where({ slug: slug }).findOne() });
+const { path } = useRoute()
+const { data: article } = await useAsyncData(`content-${path}`, () => { return queryContent().where({ _path: path }).findOne() });
 
-/* const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
+    const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })
-    .find()); */
+    .find()); 
 
 useHead({ 
     title: article.title, 
@@ -82,11 +82,7 @@ useHead({
     return `${current_date.getFullYear()} · ${prepend}${month}`;
 }
 
-// const tags = Object.assign({}, ...tagsList.value.map((s) => ({ [s.name]: s })));
 
-
-/*  
-*/
 
 
 </script>

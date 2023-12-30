@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photos/Florence-2022.md",
+                "file": "blog/Le mie ricette Fujifilm preferite.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/Florence-2022.md",
+                "file": "blog/Le mie ricette Fujifilm preferite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/Florence-2022.md",
+                "file": "blog/Le mie ricette Fujifilm preferite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/Florence-2022.md"
+                "file": "blog/Le mie ricette Fujifilm preferite.md"
               }
             }
           }
@@ -168,6 +168,7 @@
   },
   "active": "74af3d7cbbd715e6",
   "lastOpenFiles": [
+    "photos/Florence-2022.md",
     "photos/frankfurt.md",
     "photos/Lio-piccolo-2022.md",
     "photos/London-2022.md",
@@ -180,7 +181,6 @@
     "photos/val-d-orcia.md",
     "blog/Le mie ricette Fujifilm preferite.md",
     "blog/O Holy Night.md",
-    "photos/Florence-2022.md",
     "recipes/Kodachome-II 1.md",
     "tags/music.md",
     "tags/travel.md",
