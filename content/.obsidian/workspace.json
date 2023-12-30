@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/Florence-2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/Florence-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/O Holy Night.md",
+                "file": "photos/Florence-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/O Holy Night.md"
+                "file": "photos/Florence-2022.md"
               }
             }
           }
@@ -168,21 +168,21 @@
   },
   "active": "74af3d7cbbd715e6",
   "lastOpenFiles": [
-    "photos/val-d-orcia.md",
-    "photos/Rome-2022.md",
-    "photos/Provence-2022.md",
-    "photos/prague.md",
-    "photos/passo-giau.md",
-    "photos/Nevegal-Belluno.md",
-    "photos/munchen-2019.md",
-    "photos/London-2022.md",
-    "photos/Lio-piccolo-2022.md",
     "photos/frankfurt.md",
+    "photos/Lio-piccolo-2022.md",
+    "photos/London-2022.md",
+    "photos/munchen-2019.md",
+    "photos/Nevegal-Belluno.md",
+    "photos/passo-giau.md",
+    "photos/prague.md",
+    "photos/Provence-2022.md",
+    "photos/Rome-2022.md",
+    "photos/val-d-orcia.md",
+    "blog/Le mie ricette Fujifilm preferite.md",
+    "blog/O Holy Night.md",
     "photos/Florence-2022.md",
     "recipes/Kodachome-II 1.md",
     "tags/music.md",
-    "blog/Le mie ricette Fujifilm preferite.md",
-    "blog/O Holy Night.md",
     "tags/travel.md",
     "templates/tag-template.md",
     "recipes/travel.md",

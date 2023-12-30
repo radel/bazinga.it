@@ -12,8 +12,6 @@ author:
   img: images/marco.png
 tags:
   - photography
-  - recipes
-  - fujifilm
 ---
 
 
