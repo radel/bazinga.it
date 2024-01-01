@@ -20,7 +20,7 @@ useHead({
         content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer." 
     }]
  });
-const { data: articles } = await useAsyncData('articles', () => queryContent('/blog').only([
+const { data: articles } = await useAsyncData('articles', () => queryContent().only([
     'title',
     'description',
     'img',
@@ -29,5 +29,8 @@ const { data: articles } = await useAsyncData('articles', () => queryContent('/b
     'author',
     'createdAt',
     'tags'
-]).sort({ 'createdAt': -1 }).find());
+])
+.where({ category: {$eq: 'blog'}})
+.where({ status: { $ne: 'draft' } })
+.sort({ 'createdAt': -1 }).find());
 </script>

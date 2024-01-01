@@ -12,8 +12,14 @@ author:
   img: images/marco.png
 tags:
   - photography
+category: blog
 ---
-
+const formatDate = (date) => {
+    let current_date = new Date(date);
+    let month = current_date.getMonth() + 1;
+    let prepend = month < 10 ? 0 : "";
+    return `${current_date.getFullYear()} · ${prepend}${month}` ;
+  }
 
 Il 2022 è stato l'anno in cui ho ritrovato la passione per la fotografia. Non se n'era mai andata, ma ero arrivato ad una specie di plateau: non crescevo, non miglioravo mai, le mie foto erano sempre molto simili. Avevo anche poca immaginazione, passavo ore al computer editando le mie fotografie, seguendo i consigli di molti bravi fotografi su youtube ma i risultati erano deludenti.
 

@@ -11,7 +11,7 @@
       <PostSection v-if="tags.length" title="topics">
         <div class="col-span-3">
             <span v-for="tag of tags" :key="tag">
-                <a :href="tag._path" >{{ tag.name }}</a> · 
+                <a :href="tag._path" class="text-xl">{{ tag.name }}</a> · 
             </span>
         </div>
       </PostSection>
@@ -48,34 +48,36 @@ useHead({
   ]
 })
 const { data: photos } = await useAsyncData('photos', () =>
-  queryContent('/photos')
+  queryContent()
     .only([
       'title',
       'description',
       'img',
-      '_path',
+      'slug',
       'author',
       'createdAt',
       'tags'
     ])
+    .where({ category: {$eq: 'photos'}})
+    .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
     .limit(3)
     .find()
 )
 
 const { data: posts } = await useAsyncData('posts', () =>
-  queryContent('/blog')
+  queryContent()
     .only([
       'title',
       'description',
       'img',
       'status',
-      '_path',
       'slug',
       'author',
       'createdAt',
       'tags'
     ])
+    .where({ category: {$eq: 'blog'}})
     .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
     .limit(3)

@@ -1,15 +1,18 @@
 ---
 title: Sunset in Nevegal, Belluno
-description: Una passeggiata al tramonto sulle creste del Nevegal 
-img: '/images/nevegal-2022/nevegal-07.JPG'
+description: Una passeggiata al tramonto sulle creste del Nevegal
+img: /images/nevegal-2022/nevegal-07.JPG
 alt: Nevegal, Belluno
-createdAt: 2022-09-20
+createdAt: 2022-09-29
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
 tags:
   - travel
+category: photos
+status: published
+slug: nevegal-belluno-sunset-2022
 ---
 
 

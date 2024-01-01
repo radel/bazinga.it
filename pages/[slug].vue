@@ -59,8 +59,9 @@
     </article>
 </template>
 <script setup>
-const { path } = useRoute()
-const { data: article } = await useAsyncData(`content-${path}`, () => { return queryContent().where({ _path: path }).findOne() });
+const { params } = useRoute()
+const {slug} = params; 
+const { data: article } = await useAsyncData(`content-${slug}`, () => { return queryContent().where({ slug: slug }).findOne() });
 
     const { data: tagsList } = await useAsyncData('tags', () => queryContent('/tags')
     .where({ name: { $contains: article.tags } })

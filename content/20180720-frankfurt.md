@@ -3,13 +3,16 @@ title: Francoforte
 description: Summer time in frankfurt
 img: /images/frankfurt/frankfurt7.jpg
 alt: frankfurt
-createdAt: 2019-07-21 
+createdAt: 2018-07-20
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
 tags:
   - travel
+category: photos
+status: published
+slug: frankfurt-2019
 ---
 
 ::image-gallery

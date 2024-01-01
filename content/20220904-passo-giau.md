@@ -1,15 +1,18 @@
 ---
 title: Passo Giau, Belluno
 description: Il tramonto nel posto più bello del mondo
-img: '/images/passo-giau-2022/passo-giau-2022-12.JPG'
+img: /images/passo-giau-2022/passo-giau-2022-12.JPG
 alt: Passo Giau, Belluno
-createdAt: 2022-10-03
+createdAt: 2022-09-04
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
 tags:
   - travel
+category: photos
+status: published
+slug: passo-giau-belluno-veneto-2022
 ---
 
 ::grid

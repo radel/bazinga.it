@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/Le mie ricette Fujifilm preferite.md",
+                "file": "20230830-Cotswolds.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,12 +23,8 @@
             "id": "cc9aa0ddf363434e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "photos/val-d-orcia.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/Le mie ricette Fujifilm preferite.md",
+                "file": "20230830-Cotswolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/Le mie ricette Fujifilm preferite.md",
+                "file": "20230830-Cotswolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/Le mie ricette Fujifilm preferite.md"
+                "file": "20230830-Cotswolds.md"
               }
             }
           }
@@ -166,8 +162,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74af3d7cbbd715e6",
+  "active": "fb7f72e7e8a3626f",
   "lastOpenFiles": [
+    "20230227-Le mie ricette Fujifilm preferite.md",
+    "20230830-Cotswolds.md",
+    "20220328-Rome-2022.md",
+    "20220703-Provence-2022.md",
+    "20200203-prague.md",
+    "20220904-passo-giau.md",
+    "20231223-O Holy Night.md",
+    "20220929-Nevegal-Belluno.md",
+    "20191210-munchen-2019.md",
+    "20220902-London-2022.md",
+    "20220610-Lio-piccolo-2022.md",
+    "20180720-frankfurt.md",
+    "20220220-Florence-2022.md",
+    "20230108-val-d-orcia.md",
+    "templates/post-template.md",
+    "templates/photos-template.md",
+    "templates/tag-template.md",
     "photos/Florence-2022.md",
     "photos/frankfurt.md",
     "photos/Lio-piccolo-2022.md",
@@ -177,25 +190,8 @@
     "photos/passo-giau.md",
     "photos/prague.md",
     "photos/Provence-2022.md",
-    "photos/Rome-2022.md",
-    "photos/val-d-orcia.md",
-    "blog/Le mie ricette Fujifilm preferite.md",
-    "blog/O Holy Night.md",
-    "recipes/Kodachome-II 1.md",
-    "tags/music.md",
-    "tags/travel.md",
-    "templates/tag-template.md",
-    "recipes/travel.md",
-    "recipes/portra-400.md",
-    "recipes/photography.md",
-    "recipes/Kodachome-II.md",
     "recipes",
-    "tags copy/travel.md",
-    "tags copy/portra-400.md",
-    "tags copy/photography.md",
-    "tags copy/Kodachome-II.md",
     "tags copy",
-    "Untitled.md",
     "templates"
   ]
 }

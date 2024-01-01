@@ -3,11 +3,13 @@ title:
 description: 
 img: 
 alt: 
-createdAt: ""
+createdAt: 
 status: published
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: []
+tags: 
+category: 
+slug:
 ---

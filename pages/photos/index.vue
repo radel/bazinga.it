@@ -19,13 +19,16 @@ useHead({
         content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer." 
     }]
  });
-const { data: articles } = await useAsyncData('articles', () => queryContent('/photos').only([
+const { data: articles } = await useAsyncData('articles', () => queryContent().only([
     'title',
     'description',
     'img',
-    '_path',
+    'slug',
     'author',
     'createdAt',
     'tags'
-]).sort({ 'createdAt': -1 }).find());
+])
+.where({ category: {$eq: 'photos'}})
+.where({ status: { $ne: 'draft' } })
+.sort({ 'createdAt': -1 }).find());
 </script>

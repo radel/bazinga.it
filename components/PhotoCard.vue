@@ -1,6 +1,9 @@
 <template>
-  <div class="mt-4 w-full hover:dark:bg-zinc-900/50 hover:bg-zinc-300/50 rounded-md relative" >
-    <NuxtLink :to="`${article._path}`"
+  <div
+    class="mt-4 w-full hover:dark:bg-zinc-900/50 hover:bg-zinc-300/50 rounded-md relative"
+  >
+    <NuxtLink
+      :to="`${article.slug}`"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
     >
       <nuxt-img
@@ -9,7 +12,7 @@
         loading="lazy"
         format="webp"
         fit="cover"
-        width="424px"                     
+        width="424px"
         height="256px"
         sizes="sm:100vw md:50vw lg:900px"
         :src="article.img"
@@ -40,14 +43,16 @@ export default {
       default: () => {}
     },
     fullwidth: {
-       type: Boolean,
-       default: false
+      type: Boolean,
+      default: false
     }
   },
   methods: {
     formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('it', options)
+      let current_date = new Date(date)
+      let month = current_date.getMonth() + 1
+      let prepend = month < 10 ? 0 : ''
+      return `${current_date.getFullYear()} · ${prepend}${month}`
     }
   }
 }

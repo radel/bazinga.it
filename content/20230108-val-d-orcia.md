@@ -1,15 +1,18 @@
 ---
 title: Val D'Orcia
-description: Qualche giorno in Toscana 
+description: Qualche giorno in Toscana
 img: /images/val-d-orcia-2023/val-d-orcia-54.JPG
 alt: Val D'Orcia
-createdAt: 2023-01-10
+createdAt: 2023-01-08
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
 tags:
   - travel
+category: photos
+status: published
+slug: val-d-orcia-2023
 ---
 
 ::grid
