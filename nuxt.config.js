@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: '@nuxt-themes/typography',
+//   extends: '@nuxt-themes/typography',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -57,7 +57,6 @@ export default defineNuxtConfig({
    ** Nuxt.js dev-modules
    */
   image: {    
-    domains: ['bazinga.it'], 
   },
 
   /*
@@ -68,9 +67,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge',
-    'nuxt-simple-sitemap',
-    // 'vue-plausible',
+    '@nuxt/image',
     [
       '@nuxtjs/google-fonts',
       {
