@@ -3,7 +3,7 @@
     class="mt-4 w-full hover:dark:bg-zinc-900/50 hover:bg-zinc-300/50 rounded-md relative"
   >
     <a
-      :href="`${article.slug}`"
+      :href="`/${article.slug}`"
       class="flex flex-wrap transition-shadow duration-150 ease-in-out"
     >
       <nuxt-img
