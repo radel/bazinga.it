@@ -27,14 +27,7 @@
     .findOne())
     
     const { data: tagArticles } = await useAsyncData(`articles-${params.tag}`, () => {  return queryContent().where({ 'tags': { $contains: tag.value.name } })
+    .where({ status: { $ne: 'draft' } })
     .sort({'createdAt': -1})
     .find()})
-
-    const formatDate = (date) => {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        let current_date = new Date(date);
-        let month = current_date.getMonth() + 1;
-        let prepend = month < 10 ? 0 : "";
-        return `${current_date.getFullYear()} · ${prepend}${month}`;
-    }
 </script>

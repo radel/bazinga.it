@@ -47,6 +47,7 @@ export default defineNuxtConfig({
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
+   '~/plugins/date.js' 
     // { src: '~/plugins/substack.js', mode: 'client' }
   ],
   /*

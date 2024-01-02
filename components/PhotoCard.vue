@@ -25,7 +25,7 @@
           {{ article.description }}
         </p>
         <span class="text-sm text-zinc-600 dark:text-zinc-400 py-4"
-          >{{ formatDate(article.createdAt) }} | {{ article.author.name }} |
+          >{{ $formatDate(article.createdAt) }} | {{ article.author.name }} |
           <span>
             {{ article.tags.join(',') }}
           </span>
@@ -35,9 +35,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
+<script setup>
+  const props = defineProps({
     article: {
       type: Object,
       default: () => {}
@@ -46,14 +45,6 @@ export default {
       type: Boolean,
       default: false
     }
-  },
-  methods: {
-    formatDate(date) {
-      let current_date = new Date(date)
-      let month = current_date.getMonth() + 1
-      let prepend = month < 10 ? 0 : ''
-      return `${current_date.getFullYear()} · ${prepend}${month}`
-    }
-  }
-}
+  })
+  const {$formatDate} = useNuxtApp()
 </script>

@@ -25,7 +25,7 @@
                         <author :author="article.author" />
                     </div>
                     <p class="mr-3 py-4">
-                        {{ formatDate(article.createdAt) }}
+                        {{ $formatDate(article.createdAt) }}
                     </p>
                 </div>
             </div>
@@ -49,6 +49,7 @@
                 <div class="text-xl leading-8 not-italic content font-body px-8 ">
                     <ContentDoc :path="article._path"/>
                 </div>
+                
                 <clientOnly>
                     <SubstackSubscribe>
                     </SubstackSubscribe> 
@@ -60,6 +61,7 @@
 </template>
 <script setup>
 const { params } = useRoute()
+const {$formatDate} = useNuxtApp()
 const {slug} = params; 
 const { data: article } = await useAsyncData(`content-${slug}`, () => { return queryContent().where({ slug: slug }).findOne() });
 
@@ -74,17 +76,6 @@ useHead({
         content: article.description 
     }]
  });
-
- const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    let current_date = new Date(date);
-    let month = current_date.getMonth() + 1;
-    let prepend = month < 10 ? 0 : "";
-    return `${current_date.getFullYear()} · ${prepend}${month}`;
-}
-
-
-
 
 </script>
 <style>
