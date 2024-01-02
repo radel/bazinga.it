@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-1 gap-4 w-full">
-    <NuxtLink
-      :to="`${path}`"
+    <a
+      :href="`${path}`"
       class="p-2 -m-2 flex flex-wrap transition-shadow duration-150 ease-in-out rounded hover:dark:bg-zinc-600/50 hover:bg-zinc-300/50"
     >
       <div class="flex flex-wrap w-full justify-between">
@@ -12,7 +12,7 @@
           <h2 class="dark:text-white underline">{{ article.title }}</h2>
         </div>
       </div>
-    </NuxtLink>
+    </a>
   </div>
 </template>
 

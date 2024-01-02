@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "20230320-vienna.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "20230320-vienna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "20230320-vienna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20230830-Cotswolds.md"
+                "file": "20230320-vienna.md"
               }
             }
           }
@@ -162,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7f72e7e8a3626f",
+  "active": "74af3d7cbbd715e6",
   "lastOpenFiles": [
-    "20230227-Le mie ricette Fujifilm preferite.md",
+    "20230108-val-d-orcia.md",
+    "20230320-vienna.md",
     "20230830-Cotswolds.md",
+    "20230227-Le mie ricette Fujifilm preferite.md",
     "20220328-Rome-2022.md",
     "20220703-Provence-2022.md",
     "20200203-prague.md",
@@ -177,7 +179,6 @@
     "20220610-Lio-piccolo-2022.md",
     "20180720-frankfurt.md",
     "20220220-Florence-2022.md",
-    "20230108-val-d-orcia.md",
     "templates/post-template.md",
     "templates/photos-template.md",
     "templates/tag-template.md",
@@ -189,7 +190,6 @@
     "photos/Nevegal-Belluno.md",
     "photos/passo-giau.md",
     "photos/prague.md",
-    "photos/Provence-2022.md",
     "recipes",
     "tags copy",
     "templates"

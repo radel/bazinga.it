@@ -24,7 +24,7 @@ export default {
     {
         const {flatUnwrap} = useUnwrap()
 
-        const getItemLength = (item) => {
+        const getItemLength = (item, log = false) => {
             return item.children.default().length;
         }
 

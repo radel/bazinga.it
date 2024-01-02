@@ -12,9 +12,7 @@
           <article-card :article="article" />
         </li>
       </ul>
-      <NuxtLink to="/"
-        ><p class="mt-8 hover:underline">Back to All Articles</p></NuxtLink
-      >
+      <a href="/"><p class="mt-8 hover:underline">Back to All Articles</p></a>
     </div>
   </div>
 </template>
