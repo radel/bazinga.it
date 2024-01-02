@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20240102-Obsidian-is-my-lightsaber.md",
+                "file": "20230830-Cotswolds.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20240102-Obsidian-is-my-lightsaber.md",
+                "file": "20230830-Cotswolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20240102-Obsidian-is-my-lightsaber.md",
+                "file": "20230830-Cotswolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20240102-Obsidian-is-my-lightsaber.md"
+                "file": "20230830-Cotswolds.md"
               }
             }
           }
@@ -156,11 +156,13 @@
   },
   "active": "2752ecc425186ad1",
   "lastOpenFiles": [
-    "Star Wars.md",
+    "20230120-baita-segantini.md",
+    "20230830-Cotswolds.md",
     "20240102-Obsidian-is-my-lightsaber.md",
+    "2024-01-02.md",
+    "Star Wars.md",
     "20230320-vienna.md",
     "20230108-val-d-orcia.md",
-    "20230830-Cotswolds.md",
     "20230227-Le mie ricette Fujifilm preferite.md",
     "20220328-Rome-2022.md",
     "20220703-Provence-2022.md",
@@ -180,8 +182,6 @@
     "photos/frankfurt.md",
     "photos/Lio-piccolo-2022.md",
     "photos/London-2022.md",
-    "photos/munchen-2019.md",
-    "photos/Nevegal-Belluno.md",
     "recipes",
     "tags copy",
     "templates"

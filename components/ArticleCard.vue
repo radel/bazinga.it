@@ -6,7 +6,7 @@
     >
       <div class="flex flex-wrap w-full justify-between">
         <div class="flex items-center text-xl">
-          <span class="text-zinc-600 dark:text-zinc-400 mr-4"
+          <span class="text-zinc-600 dark:text-zinc-400 mr-4 min-w-16 text-sm md:text-xl"
             >{{ $formatDate(article.createdAt) }}
           </span>
           <h2 class="dark:text-white underline">{{ article.title }}</h2>

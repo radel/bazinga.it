@@ -9,12 +9,12 @@
   @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
 }
 
-ul {
+.content ul {
     padding: 0.5rem 0 1rem 1em;
     margin: 0 0 0 0.5em;
 }
 
-li {
+.content ul li {
     padding: 0.15rem 0;
     list-style: disc;
 }
