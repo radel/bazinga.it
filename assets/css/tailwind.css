@@ -8,3 +8,13 @@
 .nuxt-content-highlight .filename {
   @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
 }
+
+ul {
+    padding: 0.5rem 0 1rem 1em;
+    margin: 0 0 0 0.5em;
+}
+
+li {
+    padding: 0.15rem 0;
+    list-style: disc;
+}

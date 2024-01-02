@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-//   extends: '@nuxt-themes/typography',
+  extends: '@nuxt-themes/typography',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -89,6 +89,7 @@ export default defineNuxtConfig({
    ** See https://content.nuxtjs.org/configuration
    */
   content: {
+    markdown: { remarkPlugins: ['remark-reading-time'] },
     /* markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'

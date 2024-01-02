@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "theme": "system"
+  "theme": "system",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "baseFontSize": 18
 }

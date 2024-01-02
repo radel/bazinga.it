@@ -1,6 +1,6 @@
 <template>
     <!-- <Modal :open="modalVisible" :image="selectedImage" @close="closeModal"></Modal> -->
-    <div class="w-full image-grid px-4">
+    <div class="w-full image-grid">
         <div class="image-grid-item" v-for="(item, index) of $slots.default()" :key="index">
             <div class="grid gap-4" :class="{
                 'grid-cols-1': getItemLength(item) == 1,
