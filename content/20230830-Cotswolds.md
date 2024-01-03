@@ -15,8 +15,8 @@ tags:
 category: photos
 ---
 
-[✓] Guidare a sinistra?  
-[✓] Cantare don't look back in anger con 15 mila gallesi?
+[✓] Guidare a sinistra  
+[✓] Cantare don't look back in anger con 15 mila gallesi
 
 La lista dei hightlights di questo viaggio sarebbe molto lunga, ma questi sono sicuramente due dei più importanti.
 È stato un viaggio rigenerante, attraverso piccoli paesi della campagna inglese ma con delle soste anche in città più grandi, le mie preferite Oxford e Bath!
