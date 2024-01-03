@@ -13,7 +13,7 @@
     <NuxtImg v-bind="$attrs"    
         fit="cover"
         loading="lazy"
-        class="w-full rounded shadow cursor-pointer"
+        class="w-full rounded shadow cursor-pointer postimage"
         sizes="sm:100vw md:50vw lg:900px"
         @click="showModal(item)"
         :modifiers="{rotate: null}"

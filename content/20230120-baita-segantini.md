@@ -1,7 +1,7 @@
 ---
 title: Baita Segantini
 description: un pomeriggio a Baita Segantini, sotto il Cimon della pala
-img: /images/baita-segantini/baita-segantini-2023-07.JPG
+img: images/baita-segantini/baita-segantini-2023-07.JPG
 alt: Baita Segantini
 createdAt: 2023-01-20
 status: published
@@ -15,21 +15,21 @@ category: photos
 slug: baita-segantini-2023
 ---
 
-::grid
-![baita segantini](/images/baita-segantini/baita-segantini-2023-01.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-02.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-03.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-04.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-05.JPG)
-::
-::grid
-![baita segantini](/images/baita-segantini/baita-segantini-2023-06.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-07.JPG)
-::
-::grid
-![baita segantini](/images/baita-segantini/baita-segantini-2023-08.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-09.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-10.JPG)
-![baita segantini](/images/baita-segantini/baita-segantini-2023-11.JPG)
-::
+
+![baita segantini](images/baita-segantini/baita-segantini-2023-01.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-02.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-03.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-04.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-05.JPG)
+
+
+![baita segantini](images/baita-segantini/baita-segantini-2023-06.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-07.JPG)
+
+
+![baita segantini](images/baita-segantini/baita-segantini-2023-08.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-09.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-10.JPG)
+![baita segantini](images/baita-segantini/baita-segantini-2023-11.JPG)
+
 

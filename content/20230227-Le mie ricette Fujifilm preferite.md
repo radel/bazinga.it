@@ -1,7 +1,7 @@
 ---
 title: Le mie ricette Fujifilm preferite per colori incredibili
 description: Le mie ricette Fujifilm preferite per colori incredibili
-img: /images/provence-2022/provence-23.JPG
+img: images/provence-2022/provence-23.JPG
 alt: fuji custom style
 createdAt: 2023-02-27
 status: published
@@ -37,7 +37,7 @@ BOOM. Niente più ore al computer a editare (male) centinaia di foto, ma finalme
 Con il tempo ne ho provate parecchie, ma gira e rigira torno sempre sulle stesse, qui vi condivido le mie preferite del 2022
 
 ::grid
-[![rome](/images/rome-2022/rome_2022_07.JPG)](/photos/rome-2022)
+[![rome](images/rome-2022/rome_2022_07.JPG)](/photos/rome-2022)
 <recipe name="Kodak Portra 400" :values='{
   "SourceFile": "DSCF2138.JPG",
   "FilmMode": "Classic Chrome",
@@ -53,7 +53,7 @@ Con il tempo ne ho provate parecchie, ma gira e rigira torno sempre sulle stesse
 }'
 />
 
-[![florence](/images/florence-2022/florence_2022_13.JPG)](/photos/florence-2022)
+[![florence](images/florence-2022/florence_2022_13.JPG)](/photos/florence-2022)
 <recipe name="Kodachrome II" :values='{
   "SourceFile": "DSCF1846.JPG",
   "FilmMode": "Classic Chrome",
@@ -70,7 +70,7 @@ Con il tempo ne ho provate parecchie, ma gira e rigira torno sempre sulle stesse
 />
 
 
-[![london](/images/london-2022/london-2022-03.JPG)](/photos/london-2022)
+[![london](images/london-2022/london-2022-03.JPG)](/photos/london-2022)
 <recipe name="Reggie's Portra" :values='{
   "SourceFile": "DSCF8972.JPG",
   "FilmMode": "Classic Chrome",

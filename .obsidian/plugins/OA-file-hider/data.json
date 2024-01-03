@@ -1,0 +1,10 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "node_modules",
+    "middleware",
+    "plugins",
+    "store",
+    "components"
+  ]
+}

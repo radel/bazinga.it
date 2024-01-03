@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "content/20230830-Cotswolds.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "content/20230830-Cotswolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230830-Cotswolds.md",
+                "file": "content/20230830-Cotswolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20230830-Cotswolds.md"
+                "file": "content/20230830-Cotswolds.md"
               }
             }
           }
@@ -156,34 +156,51 @@
   },
   "active": "2752ecc425186ad1",
   "lastOpenFiles": [
-    "20230120-baita-segantini.md",
-    "20230830-Cotswolds.md",
-    "20240102-Obsidian-is-my-lightsaber.md",
-    "2024-01-02.md",
-    "Star Wars.md",
-    "20230320-vienna.md",
-    "20230108-val-d-orcia.md",
-    "20230227-Le mie ricette Fujifilm preferite.md",
-    "20220328-Rome-2022.md",
-    "20220703-Provence-2022.md",
-    "20200203-prague.md",
-    "20220904-passo-giau.md",
-    "20231223-O Holy Night.md",
-    "20220929-Nevegal-Belluno.md",
-    "20191210-munchen-2019.md",
-    "20220902-London-2022.md",
-    "20220610-Lio-piccolo-2022.md",
-    "20180720-frankfurt.md",
-    "20220220-Florence-2022.md",
-    "templates/post-template.md",
-    "templates/photos-template.md",
-    "templates/tag-template.md",
-    "photos/Florence-2022.md",
-    "photos/frankfurt.md",
-    "photos/Lio-piccolo-2022.md",
-    "photos/London-2022.md",
-    "recipes",
-    "tags copy",
-    "templates"
+    "content/20180720-frankfurt.md",
+    "content/20191210-munchen-2019.md",
+    "content/20200203-prague.md",
+    "content/20220220-Florence-2022.md",
+    "content/20220328-Rome-2022.md",
+    "content/20220610-Lio-piccolo-2022.md",
+    "content/20220703-Provence-2022.md",
+    "content/20220902-London-2022.md",
+    "content/20220904-passo-giau.md",
+    "content/20220929-Nevegal-Belluno.md",
+    "content/20230108-val-d-orcia.md",
+    "content/20230830-Cotswolds.md",
+    "content/20230320-vienna.md",
+    "content/20230120-baita-segantini.md",
+    "server/plugins/content.ts",
+    "nuxt.config.js",
+    "server/plugins",
+    "server",
+    "plugins/server",
+    "plugins/content.ts",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-to-markdown/lib/util/indent-lines.js",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-wiki-link/src/types/micromark-extension-wiki-link.ts",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-wiki-link/dist/types/micromark-extension-wiki-link.d.ts",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-wiki-link/src/types/mdast-util-to-markdown.d.ts",
+    "node_modules/remark-wiki-link/README.md",
+    "node_modules/remark-wiki-link/node_modules/@types/unist/README.md",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-wiki-link/README.md",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-to-string/readme.md",
+    "node_modules/remark-wiki-link/node_modules/zwitch/readme.md",
+    "node_modules/remark-wiki-link/node_modules/mdast-util-to-markdown/readme.md",
+    "node_modules/remark-wiki-link/node_modules/longest-streak/readme.md",
+    "node_modules/remark-mdc/node_modules/parse-entities/node_modules/@types/unist/README.md",
+    "node_modules/repeat-string/README.md",
+    "node_modules/remark-wiki-link-plus/README.md",
+    "node_modules/remark-mdc/node_modules/parse-entities/readme.md",
+    "node_modules/remark-mdc/node_modules/is-alphanumerical/readme.md",
+    "public/images/cotswolds/cover.JPG",
+    "public/images/cotswolds/cotswolds-58.JPG",
+    "public/images/cotswolds/cotswolds-57.JPG",
+    "public/images/cotswolds/cotswolds-56.JPG",
+    "public/images/cotswolds/cotswolds-55.JPG",
+    "public/images/cotswolds/cotswolds-54.JPG",
+    "public/images/cotswolds/cotswolds-53.JPG",
+    "public/images/cotswolds/cotswolds-52.JPG",
+    "public/images/cotswolds/cotswolds-51.JPG",
+    "public/images/cotswolds/cotswolds-50.JPG"
   ]
 }

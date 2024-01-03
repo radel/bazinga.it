@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "public",
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
+}
