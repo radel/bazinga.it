@@ -2,7 +2,7 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "theme": "system",
-  "interfaceFontFamily": "Inter",
-  "textFontFamily": "Inter",
-  "baseFontSize": 18
+  "interfaceFontFamily": "IBM Plex Sans",
+  "textFontFamily": "IBM Plex Sans",
+  "baseFontSize": 20
 }

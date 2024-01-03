@@ -13,9 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/20230830-Cotswolds.md",
+                "file": "content/20220220-Florence-2022.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d21a0f1dc810dad4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309af32ccbe4bacc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/20220610-Lio-piccolo-2022.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/20230830-Cotswolds.md",
+                "file": "content/20220610-Lio-piccolo-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/20230830-Cotswolds.md",
+                "file": "content/20220610-Lio-piccolo-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/20230830-Cotswolds.md"
+                "file": "content/20220610-Lio-piccolo-2022.md"
               }
             }
           }
@@ -154,22 +172,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2752ecc425186ad1",
+  "active": "309af32ccbe4bacc",
   "lastOpenFiles": [
-    "content/20180720-frankfurt.md",
-    "content/20191210-munchen-2019.md",
-    "content/20200203-prague.md",
-    "content/20220220-Florence-2022.md",
     "content/20220328-Rome-2022.md",
+    "content/20220220-Florence-2022.md",
+    "content/20200203-prague.md",
+    "content/20191210-munchen-2019.md",
+    "content/20180720-frankfurt.md",
     "content/20220610-Lio-piccolo-2022.md",
     "content/20220703-Provence-2022.md",
     "content/20220902-London-2022.md",
     "content/20220904-passo-giau.md",
     "content/20220929-Nevegal-Belluno.md",
     "content/20230108-val-d-orcia.md",
-    "content/20230830-Cotswolds.md",
-    "content/20230320-vienna.md",
     "content/20230120-baita-segantini.md",
+    "content/20230320-vienna.md",
+    "content/20230830-Cotswolds.md",
     "server/plugins/content.ts",
     "nuxt.config.js",
     "server/plugins",

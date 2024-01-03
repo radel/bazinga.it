@@ -15,19 +15,18 @@ status: published
 slug: frankfurt-2019
 ---
 
-::image-gallery
----
-items:
-- "images/frankfurt/frankfurt4.jpg"
-- "images/frankfurt/frankfurt3.jpg"
-- "images/frankfurt/frankfurt1.jpg"
-- "images/frankfurt/frankfurt5.jpg"
-- "images/frankfurt/frankfurt2.jpg"
-- "images/frankfurt/frankfurt6.jpg"
-- "images/frankfurt/frankfurt7.jpg"
-- "images/frankfurt/frankfurt9.jpg"
-- "images/frankfurt/frankfurt10.jpg"
-- "images/frankfurt/frankfurt11.jpg"
----
-::
+![[images/frankfurt/frankfurt4.jpg]]
+![[images/frankfurt/frankfurt3.jpg]]
+
+![[images/frankfurt/frankfurt1.jpg]]
+![[images/frankfurt/frankfurt5.jpg]]
+![[images/frankfurt/frankfurt2.jpg]]
+
+![[images/frankfurt/frankfurt6.jpg]]
+![[images/frankfurt/frankfurt7.jpg]]
+![[images/frankfurt/frankfurt9.jpg]]
+
+![[images/frankfurt/frankfurt10.jpg]]
+![[images/frankfurt/frankfurt11.jpg]]
+
 
