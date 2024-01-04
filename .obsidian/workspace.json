@@ -156,6 +156,8 @@
   },
   "active": "1f52a94da40a17d8",
   "lastOpenFiles": [
+    "pages/photos/[slug].vue",
+    "pages/photos/[slug] copy.vue",
     "node_modules/nuxt-gtag/dist/runtime/plugin.client.mjs",
     "node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent.mjs",
     "node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent.d.ts",
@@ -165,8 +167,6 @@
     "node_modules/nuxt-gtag/dist/runtime/types.d.ts",
     "node_modules/nuxt-gtag/dist/runtime/gtag.mjs",
     "node_modules/nuxt-gtag/package.json",
-    "node_modules/nuxt-gtag/dist/runtime/plugin.client.d.ts",
-    "node_modules/nuxt-gtag/dist/runtime/gtag.d.ts",
     "node_modules/nuxt-gtag/README.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "content/About.md",

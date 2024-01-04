@@ -4,7 +4,7 @@
       <div
         class="mx-auto max-w-4xl py-4 flex flex-wrap items-center justify-center"
       >
-        <div class="w-full text-center mb-8" v-if="article.tags">
+        <div class="w-full text-left px-8 mb-8" v-if="article.tags">
           <span v-for="(tag, id) in tagsList" :key="id">
             <NuxtLink
               :to="`${tag._path}`"
@@ -30,7 +30,7 @@
           </p>
           <div class="flex flex-wrap text-xl text-left w-full">
             <p class="mr-3 py-4">
-              {{ formatDate(article.createdAt) }}  <span class="px-4"></span>  {{ article.readingTime.text }}
+              {{ formatDate(article.createdAt) }}  <span class="px-4" v-if="article.category == 'blog'">{{ article.readingTime.text }}</span>  
             </p>
           </div>
         </div>
@@ -61,14 +61,11 @@
           </ul>
         </nav>
         <!-- content from markdown -->
-        <div class="text-xl leading-8 not-italic content font-body px-8">
+        <div class="text-xl leading-8 not-italic content font-body px-8 img-grid">
           <ContentDoc :path="article._path" />
+          
+          
         </div>
-
-        <clientOnly>
-          <SubstackSubscribe> </SubstackSubscribe>
-        </clientOnly>
-        <!-- content author component -->
       </div>
     </div>
   </article>
