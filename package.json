@@ -21,6 +21,7 @@
     "remark-wiki-link-plus": "^1.1.1"
   },
   "devDependencies": {
-    "@nuxt/image": "npm:@nuxt/image-edge@latest"
+    "@nuxt/image": "npm:@nuxt/image-edge@latest",
+    "nuxt-gtag": "^1.1.2"
   }
 }

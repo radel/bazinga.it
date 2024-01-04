@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full border-b-zinc-300 dark:border-b-zinc-600 border-b py-4 fixed bg-zinc-200/80 dark:bg-zinc-800/80 text-gray-800 dark:text-zinc-300 backdrop-blur-sm z-10">
+  <header class="w-full border-b-zinc-300 dark:border-b-zinc-800 border-b py-4 fixed bg-zinc-200/80 dark:bg-zinc-900/80 text-gray-800 dark:text-zinc-300 backdrop-blur-sm z-10">
     <div class="max-w-4xl mx-auto flex justify-between px-4">
         <div class="w-fit">
             <a href="/" class="w-full group flex flex-wrap transition-all h-8 overflow-hidden">

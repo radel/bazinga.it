@@ -69,6 +69,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    'nuxt-gtag',
     [
       '@nuxtjs/google-fonts',
       {
@@ -100,6 +101,9 @@ export default defineNuxtConfig({
 
   sitemap: {    hostname: 'https://bazinga.it',  },
 
+  gtag: {
+    id: 'G-MYHVGJZ6HC'
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

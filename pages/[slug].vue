@@ -64,11 +64,7 @@
         <div class="text-xl leading-8 not-italic content font-body px-8 img-grid">
           <ContentDoc :path="article._path" />
           
-          <div class="mt-8">
-              <clientOnly>
-                  <SubstackSubscribe> </SubstackSubscribe>
-                </clientOnly>
-            </div>
+          
         </div>
       </div>
     </div>
