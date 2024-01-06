@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/About.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md"
+                "file": "content/About.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "1f52a94da40a17d8",
   "lastOpenFiles": [
+    "content/index.md",
     "node_modules/nuxt-feedme/dist/runtime/defaults/mapping.mjs",
     "node_modules/nuxt-feedme/dist/runtime/defaults/mapping.d.ts",
     "node_modules/nuxt-feedme/dist/runtime/handler.mjs",
@@ -166,7 +167,6 @@
     "node_modules/nuxt-feedme/dist/runtime/content.d.ts",
     "node_modules/nuxt-feedme/node_modules/@nuxt/kit/node_modules/defu/lib/defu.cjs",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/node_modules/defu/lib/defu.cjs",
-    "node_modules/nuxt-feedme/node_modules/@nuxt/schema/node_modules/defu/dist/defu.mjs",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/schema/config.md",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/node_modules/defu/README.md",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/README.md",
@@ -183,7 +183,6 @@
     "node_modules/feed/CODE_OF_CONDUCT.md",
     "node_modules/feed/CHANGELOG.md",
     "content/About.md",
-    "content/index.md",
     "content/20220703-Provence-2022.md",
     "node_modules/nuxt-gtag/README.md",
     "public/images/florence-2022/florence_2022_17.JPG",

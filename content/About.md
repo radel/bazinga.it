@@ -16,9 +16,11 @@ slug: about
 
 Mi chiamo Marco, sono di Belluno ma da almeno 25 anni vivo sul web.
 
-Mi sono innamorato del web fin dalla prima volta che mi sono seduto di fronte a un Browser (Netscape) e sono stato attirato dallo sviluppo fin dalla prima volta che ho scritto qualche tag dentro un editor.
+Mi sono innamorato del web fin dalla prima volta che mi sono seduto di fronte a un Browser (Netscape) e sono stato attirato dallo sviluppo non appena ho scritto qualche tag dentro un editor.
 
-Sono cresciuto tra i sobborghi di geocities, ho vissuto gli anni di piombo di flash, personalizzato pagine myspace, testimone oculare della nascita, della morte e della rinascita di PHP e ho scoperto l'esistenza di un framework javascript al giorno facendo ricerche con il mio computer su cui è installato linux da almeno 20 anni.
+Sono cresciuto tra i sobborghi di geocities, sono sopravvissuto agli anni di piombo di Flash, ho sbarcato il lunario personalizzando pagine myspace, sono stato testimone oculare della nascita, della morte e della rinascita di PHP e ho scoperto l'esistenza di un framework javascript al giorno leggendo twitter dal mio computer su cui è installato linux da almeno 20 anni.
+
+Come ho cominciato a sviluppare sul web? più o meno così:
 
 > I remember when I was a kid and I got into web design
 > by ripping off sites I liked, all you add to do was *view source* on your browser and there it was the code: you could copy it, paste id, modify it a little, put your name on it and like that is was your site
@@ -39,7 +41,7 @@ Sono cresciuto tra i sobborghi di geocities, ho vissuto gli anni di piombo di fl
 - Github: [github](https://github.com/radel)
 - Gitlab: [gitlab](https://gitlab.com/radel)
 
-### come faccio le cose
+### Come faccio le cose
 
 Questo blog è aggiornato con [Obsidian](https://obsidian.md), il layout è fatto con [nuxt](https://www.nuxt.com) e risiede da qualche parte nel cloud su [vercel](http://www.vercel.com)
 Mi piace lo stile minimal, pulito, semplice e comunque non sono mai soddisfatto. Questo blog è l'essenza stessa di chi sono, perfezionista del dettaglio ma poco costante, *abituati*.
