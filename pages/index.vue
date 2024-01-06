@@ -2,11 +2,7 @@
   <div class="pt-24 m-0">
     <div class="max-w-4xl mx-auto px-4">
       <div class="py-4 text-3xl mb-8">
-        <div class="text-3xl font-bold">Ciao, sono Marco!</div>
-        <div class="text-2xl">
-          web developer, fotografo amatoriale, alpinista della domenica, cuoco
-          casalingo, aspirante agricoltore.
-        </div>
+          <ContentDoc />
       </div>
       <PostSection v-if="tags.length" title="topics">
         <div class="col-span-3">

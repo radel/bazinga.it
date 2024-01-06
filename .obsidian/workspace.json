@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/20220703-Provence-2022.md",
-                "mode": "preview",
+                "file": "content/index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/20220703-Provence-2022.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/20220703-Provence-2022.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/20220703-Provence-2022.md"
+                "file": "content/index.md"
               }
             }
           }
@@ -154,29 +154,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f52a94da40a17d8",
+  "active": "fb7f72e7e8a3626f",
   "lastOpenFiles": [
-    "pages/photos/[slug].vue",
-    "pages/photos/[slug] copy.vue",
-    "node_modules/nuxt-gtag/dist/runtime/plugin.client.mjs",
-    "node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent.mjs",
-    "node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent.d.ts",
-    "node_modules/nuxt-gtag/dist/runtime/composables/useGtag.mjs",
-    "node_modules/nuxt-gtag/dist/runtime/composables/useGtag.d.ts",
-    "node_modules/nuxt-gtag/dist/runtime/types.mjs",
-    "node_modules/nuxt-gtag/dist/runtime/types.d.ts",
-    "node_modules/nuxt-gtag/dist/runtime/gtag.mjs",
-    "node_modules/nuxt-gtag/package.json",
+    "content/About.md",
+    "content/index.md",
+    "components/ArticlePage.vue",
+    "components/global/ArticlePage.vue",
+    "plugins/fetchArticle.js",
+    "server/plugins/fetchArticle.js",
+    "composables/useArticle.js",
+    "composables/article.js",
+    "composables",
+    "components/composables/article.js",
+    "components/composables",
+    "assets/composables",
+    "content/20220703-Provence-2022.md",
     "node_modules/nuxt-gtag/README.md",
     "public/images/florence-2022/florence_2022_17.JPG",
-    "content/About.md",
     "content/20220610-Lio-piccolo-2022.md",
     "content/20220328-Rome-2022.md",
     "content/20220220-Florence-2022.md",
     "content/20200203-prague.md",
     "content/20191210-munchen-2019.md",
     "content/20180720-frankfurt.md",
-    "content/20220703-Provence-2022.md",
     "content/20220902-London-2022.md",
     "content/20220904-passo-giau.md",
     "content/20220929-Nevegal-Belluno.md",

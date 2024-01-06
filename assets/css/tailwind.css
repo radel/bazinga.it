@@ -19,6 +19,14 @@
     list-style: disc;
 }
 
+.content h3 {
+    @apply my-4;
+}
+
+.content h2 {
+    @apply my-4;
+}
+
 body {
 	 --image-grid-fit: cover;
 	 --image-grid-background: transparent;
@@ -63,3 +71,7 @@ body {
 	 align-self: center;
 }
  
+
+blockquote {
+    @apply border-l dark:border-zinc-800 border-zinc-200 pl-4 dark:text-zinc-400 text-zinc-600 my-4;
+}
