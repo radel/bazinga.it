@@ -60,6 +60,8 @@ export default defineNuxtConfig({
   image: {    
   },
 
+ 
+
   /*
    ** Nuxt.js modules
    */
@@ -70,6 +72,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     'nuxt-gtag',
+    'nuxt-feedme',
     [
       '@nuxtjs/google-fonts',
       {
