@@ -14,7 +14,6 @@ category: page
 slug: about
 ---
 
-n
 Mi chiamo Marco, sono di Belluno ma da almeno 25 anni vivo sul web.
 
 Mi sono innamorato del web fin dalla prima volta che mi sono seduto di fronte a un Browser (Netscape) e sono stato attirato dallo sviluppo non appena ho scritto qualche tag dentro un editor.
