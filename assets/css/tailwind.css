@@ -67,7 +67,8 @@ body {
 }
  .img-grid  > div > p > img {
 	 object-fit: var(--image-grid-fit);
-	 height: 100%;
+	 height: auto;
+     width: 100%;
 	 align-self: center;
 }
  
