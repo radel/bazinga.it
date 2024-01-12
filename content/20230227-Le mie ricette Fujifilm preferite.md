@@ -1,5 +1,5 @@
 ---
-title: Le mie ricette Fujifilm preferite per colori incredibili
+title: Le mie ricette Fujifilm preferite
 description: Le mie ricette Fujifilm preferite per colori incredibili
 img: images/provence-2022/provence-23.JPG
 alt: fuji custom style
@@ -14,12 +14,6 @@ tags:
   - photography
 category: blog
 ---
-const formatDate = (date) => {
-    let current_date = new Date(date);
-    let month = current_date.getMonth() + 1;
-    let prepend = month < 10 ? 0 : "";
-    return `${current_date.getFullYear()} · ${prepend}${month}` ;
-  }
 
 Il 2022 è stato l'anno in cui ho ritrovato la passione per la fotografia. Non se n'era mai andata, ma ero arrivato ad una specie di plateau: non crescevo, non miglioravo mai, le mie foto erano sempre molto simili. Avevo anche poca immaginazione, passavo ore al computer editando le mie fotografie, seguendo i consigli di molti bravi fotografi su youtube ma i risultati erano deludenti.
 
@@ -34,55 +28,4 @@ Ho scoperto che gli utenti della serie X di Fujifilm possono caricare combinazio
 
 BOOM. Niente più ore al computer a editare (male) centinaia di foto, ma finalmente un processo semplice e lineare: Scatto, esporto le foto, le condivido.  Al massimo correggo un po' l'esposizione e raddrizzo la foto, ma la stragrande maggioranza delle foto (e tutte quelle che vedete in questo sito) sono Jpeg usciti dalla mia macchina fotografica (SOOC = Straight Out Of Camera)
 
-Con il tempo ne ho provate parecchie, ma gira e rigira torno sempre sulle stesse, qui vi condivido le mie preferite del 2022
-
-::grid
-[![rome](images/rome-2022/rome_2022_07.JPG)](/photos/rome-2022)
-<recipe name="Kodak Portra 400" :values='{
-  "SourceFile": "DSCF2138.JPG",
-  "FilmMode": "Classic Chrome",
-  "DynamicRangeSetting": "Manual",
-  "GrainEffect": "Strong",
-  "WhiteBalance": "Daylight",
-  "WhiteBalanceFineTune": "Red +40, Blue -100",
-  "HighlightTone": "-1 (medium soft)",
-  "ShadowTone": "+2 (hard)",
-  "Saturation": "-2 (low)",
-  "Sharpness": "Hard",
-  "NoiseReduction": "-3 (very weak)"
-}'
-/>
-
-[![florence](images/florence-2022/florence_2022_13.JPG)](/photos/florence-2022)
-<recipe name="Kodachrome II" :values='{
-  "SourceFile": "DSCF1846.JPG",
-  "FilmMode": "Classic Chrome",
-  "DynamicRangeSetting": "Manual",
-  "GrainEffect": "Weak",
-  "WhiteBalance": "Auto",
-  "WhiteBalanceFineTune": "Red +60, Blue -80",
-  "HighlightTone": "+1 (medium hard)",
-  "ShadowTone": "+2 (hard)",
-  "Saturation": "-1 (medium low)",
-  "Sharpness": "Hard",
-  "NoiseReduction": "-3 (very weak)"
-}'
-/>
-
-
-[![london](images/london-2022/london-2022-03.JPG)](/photos/london-2022)
-<recipe name="Reggie's Portra" :values='{
-  "SourceFile": "DSCF8972.JPG",
-  "FilmMode": "Classic Chrome",
-  "DynamicRangeSetting": "Auto",
-  "GrainEffect": "Weak",
-  "WhiteBalance": "Auto",
-  "WhiteBalanceFineTune": "Red +40, Blue -80",
-  "HighlightTone": "-1 (medium soft)",
-  "ShadowTone": "-2 (soft)",
-  "Saturation": "+2 (high)",
-  "Sharpness": "Soft",
-  "NoiseReduction": "-4 (weakest)"
-}'
-/>
-::
+Con il tempo ne ho provate parecchie ma gira e rigira torno sempre sulle stesse, qui vi condivido le mie preferite del 2022, lse ho raccolte in una pagina dedicata: [Fujifilm Film Simulations](/film-simulations)
