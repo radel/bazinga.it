@@ -24,13 +24,9 @@ const { data: articles } = await useAsyncData('articles', () => queryContent().o
     'title',
     'description',
     'img',
-    'slug',
     '_path',
-    'author',
-    'createdAt',
-    'tags'
 ])
-.where({ category: {$eq: 'blog'}})
+.where({ category: {$eq: 'recipe'}})
 .where({ status: { $ne: 'draft' } })
 .sort({ 'createdAt': -1 }).find());
 </script>

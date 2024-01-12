@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     htmlAttrs: {
       lang: 'it'
     },
-    title: 'Bazinga!',
+    title: 'Marco Bonomo - my digital garden',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -71,7 +71,6 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    'nuxt-gtag',
     'nuxt-feedme',
     [
       '@nuxtjs/google-fonts',
@@ -102,11 +101,8 @@ export default defineNuxtConfig({
     nestedProperties: ['author.name']
   },
 
-  sitemap: {    hostname: 'https://bazinga.it',  },
+  sitemap: {    hostname: 'https://www.marcobonomo.dev',  },
 
-  gtag: {
-    id: 'G-MYHVGJZ6HC'
-  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

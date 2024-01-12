@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-4xl min-h-screen pt-32 px-4">
+  <div class="mx-auto max-w-3xl min-h-screen pt-32 px-4">
     <div class="flex flex-wrap w-full mb-8" v-if="tag">
       <h1 class="w-full text-2xl mb-4">
         {{ tag.name }}

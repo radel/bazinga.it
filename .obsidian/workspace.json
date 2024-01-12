@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/20240112-complessita-si-conserva.md",
+                "file": "content/film-simulations/portra 400.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/20240112-complessita-si-conserva.md",
+                "file": "content/film-simulations/portra 400.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/20240112-complessita-si-conserva.md",
+                "file": "content/film-simulations/portra 400.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/20240112-complessita-si-conserva.md"
+                "file": "content/film-simulations/portra 400.md"
               }
             }
           }
@@ -156,8 +156,18 @@
   },
   "active": "1f52a94da40a17d8",
   "lastOpenFiles": [
-    "content/tags/web.md",
+    "content/film-simulations/Kodachome-II.md",
+    "content/film-simulations/portra 400.md",
+    "content/20220328-Rome-2022.md",
+    "photos/rome-2022.md",
+    "photos",
+    "content/templates/recipe template.md",
+    "content/recipes/photography.md",
+    "content/recipes/Kodachome-II 1.md",
+    "content/recipes/travel.md",
+    "content/recipes/portra-400.md",
     "content/20240112-complessita-si-conserva.md",
+    "content/tags/web.md",
     "content/20240102-Obsidian-is-my-lightsaber.md",
     "202412Fr.md",
     "content/20230830-Cotswolds.md",
@@ -172,7 +182,6 @@
     "node_modules/nuxt-feedme/dist/runtime/feedme.d.ts",
     "node_modules/nuxt-feedme/dist/runtime/content.d.ts",
     "node_modules/nuxt-feedme/node_modules/@nuxt/kit/node_modules/defu/lib/defu.cjs",
-    "node_modules/nuxt-feedme/node_modules/@nuxt/schema/node_modules/defu/lib/defu.cjs",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/schema/config.md",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/node_modules/defu/README.md",
     "node_modules/nuxt-feedme/node_modules/@nuxt/schema/README.md",
@@ -183,16 +192,7 @@
     "node_modules/xml-js/README.md",
     "node_modules/sax/README.md",
     "node_modules/feed/CONTRIBUTORS.md",
-    "node_modules/nuxt-module-feed/README.md",
-    "node_modules/feed/README.md",
-    "node_modules/feed/CONTRIBUTING.md",
-    "node_modules/feed/CODE_OF_CONDUCT.md",
-    "node_modules/feed/CHANGELOG.md",
-    "content/20220703-Provence-2022.md",
-    "node_modules/nuxt-gtag/README.md",
     "public/images/florence-2022/florence_2022_17.JPG",
-    "content/20220610-Lio-piccolo-2022.md",
-    "content/20220328-Rome-2022.md",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",
     "public/images/cotswolds/cotswolds-57.JPG",

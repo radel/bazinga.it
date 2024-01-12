@@ -31,6 +31,7 @@ Come ho cominciato a sviluppare sul web? più o meno così:
 
 - [Blog](/blog)
 - [Fotografie e Viaggi](/photos)
+- [Fujifilm Film Simulations](/film-simulations)
 
 ### Puoi seguirmi anche su:
 
