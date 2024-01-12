@@ -1,6 +1,6 @@
 <template>
   <div class="pt-24 m-0">
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto px-4">
       <div class="py-4 text-3xl mb-8">
           <ContentDoc />
       </div>
@@ -16,7 +16,7 @@
           <article-card :article="post" />
         </div>
       </PostSection>
-      <PostSection title="viaggi e fotografia" link="/photos">
+      <PostSection title="viaggi e fotografie" link="/photos">
         <photo-card
           :article="photo"
           v-for="photo of photos"

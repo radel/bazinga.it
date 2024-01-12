@@ -56,6 +56,8 @@ body {
 	 margin-block-end: var(--img-grid-gap);
 	 grid-column-gap: var(--img-grid-gap);
 	 grid-row-gap: 0;
+     margin-bottom: 0;
+     padding-bottom: 0;
 	 grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 }
  .img-grid > div > p > br {
@@ -71,7 +73,6 @@ body {
      width: 100%;
 	 align-self: center;
 }
- 
 
 blockquote {
     @apply border-l dark:border-zinc-800 border-zinc-200 pl-4 dark:text-zinc-400 text-zinc-600 my-4;

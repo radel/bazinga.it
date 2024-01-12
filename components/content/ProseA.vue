@@ -1,6 +1,6 @@
 <template>
     <iframe width="100%" height="400" :src="`https://www.youtube.com/embed/${youtubeEmbed}`" v-if="isYoutube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <NuxtLink class="text-orange-400" :href="href" :target="target">
+    <NuxtLink class="text-orange" :href="href" :target="target">
         <slot />
     </NuxtLink>
 </template>

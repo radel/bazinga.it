@@ -1,5 +1,5 @@
 <template>
-<article class="flex flex-wrap w-full pt-24 mx-auto max-w-4xl px-4">
+<article class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
     <div class="w-full">
       <div
         class="py-4 flex flex-wrap items-center justify-center"
