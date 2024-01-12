@@ -25,12 +25,12 @@
           >
             {{ article.title }}
           </h1>
-          <p v-if="article.description && article.category != 'page'" class="w-full text-left text-xl italic mb-4 py-4 font-body">
+          <p v-if="article.description && article.category != 'page'" class="w-full text-left text-xl italic py-4 font-body">
             {{ article.description }}
           </p>
           <div class="flex flex-wrap text-xl text-left w-full" v-if="article.category != 'page'">
-            <p class="mr-3 py-4">
-              {{ $formatDate(article.createdAt) }}  <span class="px-4" v-if="article.category == 'blog'">{{ article.readingTime.text }}</span>  
+            <p class="mr-3 py-2">
+              {{ $formatDate(article.createdAt) }}  <span class="px-4" v-if="article.category !== 'page'">{{ article.readingTime.text }}</span>  
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@
     <div class="w-full flex flex-wrap markdown-body post-right">
       <div class="max-w-4xl w-full mx-auto py-8">
         <!-- table of contents -->
-        <nav class="pb-6">
+        <nav class="pb-6" v-if="article.toc">
           <ul>
             <li
               v-for="link of article.toc"

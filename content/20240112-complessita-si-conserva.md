@@ -1,5 +1,5 @@
 ---
-title: La Complessità si conserva
+title: La complessità si conserva
 description: Di quando ho creduto di aver inventato qualcosa
 img: 
 alt: 
