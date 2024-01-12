@@ -5,6 +5,11 @@
     "middleware",
     "plugins",
     "store",
-    "components"
+    "components",
+    "server",
+    "layouts",
+    "pages",
+    "composables",
+    "assets"
   ]
 }

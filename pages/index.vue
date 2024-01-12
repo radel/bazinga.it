@@ -76,7 +76,7 @@ const { data: posts } = await useAsyncData('posts', () =>
     .where({ category: {$eq: 'blog'}})
     .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
-    .limit(3)
+    .limit(10)
     .find()
 )
 

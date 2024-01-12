@@ -1,5 +1,5 @@
 {
-  "format": "yyyymmdd",
-  "folder": "/",
+  "format": "yyyyMD-",
+  "folder": "content",
   "template": "templates/post-template"
 }
