@@ -43,7 +43,7 @@ Come ho cominciato a sviluppare sul web? più o meno così:
 
 ### Come faccio le cose
 
-Questo blog è aggiornato con [Obsidian](https://obsidian.md), il layout è fatto con [nuxt](https://www.nuxt.com) e risiede da qualche parte nel cloud su [vercel](http://www.vercel.com)
+Questo blog è aggiornato con [Obsidian](/obsidian-is-my-lightsaber), il layout è fatto con [nuxt](https://www.nuxt.com) e risiede da qualche parte nel cloud su [vercel](http://www.vercel.com)
 Mi piace lo stile minimal e pulito, ma non sono mai soddisfatto, quindi lo vedrete cambiare spesso. Questo blog è l'essenza stessa di chi sono, perfezionista del dettaglio ma poco costante, _abituati_.
 
 Mi piace il software _libero_ e un giorno anche questo layout sarà pubblicato, ma per ora è solo un grande cantiere di idee.

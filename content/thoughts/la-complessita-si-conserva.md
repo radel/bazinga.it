@@ -22,7 +22,7 @@ Mi era sempre più chiaro che dietro a quel click la complessità rimaneva la st
 
 Così ho coniato addirittura un nome: *Legge della conservazione della complessità*, prendendo spunto dalla legge della conservazione della quantità di moto in fisica.
 
-Soltanto poco tempo fa, completamente casualmente, ho scoperto l'esistenza della [*legge di Tesler*](https://humanist.co/blog/law-of-conservation-of-complexity/) che ironia della sorte si chiama proprio *legge della corservazione della complessità* e recita più o meno così:
+Soltanto poco tempo fa, completamente casualmente, ho scoperto l'esistenza della [*legge di Tesler*](https://humanist.co/blog/law-of-conservation-of-complexity/) che ironia della sorte si chiama proprio *legge della conservazione della complessità* e recita più o meno così:
 
 > Every application must have an inherent amount of irreducible complexity. The only question is who will have to deal with it. 
 > 

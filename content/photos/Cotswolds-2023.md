@@ -5,7 +5,7 @@ img: images/cotswolds/cover.JPG
 alt: 
 createdAt: 2023-08-31
 status: published
-slug: cotswolds-2022
+slug: cotswolds-2023
 author:
   name: Marco
   bio: Marco Bonomo
