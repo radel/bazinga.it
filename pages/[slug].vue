@@ -1,9 +1,13 @@
 <template>
-        <article-page 
+    <div class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
+        <collection-page :content="article" v-if="article.category === 'collections'" />
+        <content-page 
         :article="article" 
-        :tagsList="tagsList" />
+        :tagsList="tagsList" v-else />
+    </div>
 </template>
 <script setup>
+
 const { params } = useRoute()
 const { slug } = params
 const { data: article } = await useAsyncData(`content-${slug}`, () => {

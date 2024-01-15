@@ -1,9 +1,7 @@
 <template>
-<article class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
+  <article>
     <div class="w-full">
-      <div
-        class="py-4 flex flex-wrap items-center justify-center"
-      >
+      <div class="py-4 flex flex-wrap items-center justify-center">
         <div class="w-full text-left mb-8" v-if="article.tags">
           <span v-for="(tag, id) in tagsList" :key="id">
             <NuxtLink
@@ -25,12 +23,21 @@
           >
             {{ article.title }}
           </h1>
-          <p v-if="article.description && article.category != 'page'" class="w-full text-left text-xl italic py-4 font-body">
+          <p
+            v-if="article.description && article.category != 'page'"
+            class="w-full text-left text-xl italic py-4 font-body"
+          >
             {{ article.description }}
           </p>
-          <div class="flex flex-wrap text-xl text-left w-full" v-if="article.category != 'page'">
-            <p class="mr-3 py-2">
-              {{ $formatDate(article.createdAt) }}  <span class="px-4" v-if="article.category !== 'page'">{{ article.readingTime.text }}</span>  
+          <div
+            class="flex flex-wrap text-xl text-left w-full"
+            v-if="article.category != 'page'"
+          >
+            <p class="mr-3 py-2" v-if="article.createdAt">
+              {{ $formatDate(article.createdAt) }}
+              <span class="px-4" v-if="article.category !== 'page'">{{
+                article.readingTime.text
+              }}</span>
             </p>
           </div>
         </div>
@@ -62,24 +69,27 @@
         </nav>
         <!-- content from markdown -->
         <div class="text-xl leading-8 not-italic content font-body img-grid">
-          <ContentDoc :path="article._path" />
+            <component :is="`${article.category}-content`" :article="article">
+                <ContentDoc :path="article._path" />
+            </component>
         </div>
       </div>
     </div>
-  </article>    
+  </article>
 </template>
 <script setup>
 const props = defineProps({
-    article: {
-        type: Object,
-        required: true
-    },
-    tagsList: {
-        type: Array,
-        default: () => []
-    }
+  article: {
+    type: Object,
+    required: true
+  }
 })
 
-const { $formatDate } = useNuxtApp()
+const { data: tagsList } = await useAsyncData('tags', () =>
+  queryContent('/tags')
+    .where({ name: { $contains: article.tags } })
+    .find()
+)
 
+const { $formatDate } = useNuxtApp()
 </script>

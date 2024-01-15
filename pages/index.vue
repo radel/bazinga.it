@@ -4,18 +4,23 @@
       <div class="py-4 text-3xl mb-8">
           <ContentDoc />
       </div>
-      <PostSection v-if="tags.length" title="topics">
+      <PostSection v-if="tags.length" title="argomenti">
         <div class="col-span-3">
             <span v-for="tag of tags" :key="tag">
                 <a :href="tag._path" class="text-xl">{{ tag.name }}</a> · 
             </span>
         </div>
       </PostSection>
-      <PostSection v-if="posts.length" title="blog" link="/blog">
+      <PostSection v-if="posts.length" title="pensieri" link="/blog">
         <div v-for="post of posts" :key="post.slug" class="col-span-3">
           <article-card :article="post" />
         </div>
       </PostSection>
+      <PostSection v-if="collections.body.length" title="collezioni" link="/collections">
+            <div v-for="collection of collections.body" class="">
+                <article-card :article="collection" />
+            </div>
+          </PostSection>
       <PostSection title="viaggi e fotografie" link="/photos">
         <photo-card
           :article="photo"
@@ -89,5 +94,9 @@ const { data: tags } = await useAsyncData('tags', () =>
             'description'
         ])
         .find()
+)
+const { data: collections } = await useAsyncData('collections', () =>
+    queryContent('/collections')
+        .findOne()
 )
 </script>

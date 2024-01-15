@@ -19,7 +19,7 @@ Io e Vale siamo innamorati di Londra. Ci andiamo spesso (quasi ogni anno, covid 
 
 Questa volta abbiamo preso come base East London e abbiamo girovagato per Shoreditch e i suoi mercati. La prima sera siamo stati verso Victoria Park per vedere i The National come headliner al festival All Points East. È stato un concerto fantastico, anche il ritorno mi è piaciuto, un fiume di gente che si spostava a piedi verso le fermate del tube.
 
-Ho finalmente rivisto il Big Ben spacchettato ed è stato come un sogno, in qualche foto si nota, *sembra finto*.
+Ho finalmente rivisto il Big Ben spacchettato ed è stato come un sogno, in qualche foto si nota: *Sembra finto*.
 
 
 ![[images/london-2022/london-2022-01.JPG]]

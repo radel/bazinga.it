@@ -14,6 +14,7 @@
         fit="cover"
         width="424px"
         height="256px"
+        decoding="auto"
         sizes="sm:100vw md:50vw lg:900px"
         :src="article.img"
         :alt="article.title"

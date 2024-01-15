@@ -5,7 +5,7 @@
             loading="lazy"
             format="webp"
             fit="contain"
-            sizes="sm:100vw md:100vw lg:2000px"
+            sizes="sm:100vw md:100vw"
             :modifiers="{rotate: null}"
             class="rounded-lg shadow cursor-pointer object-contain h-full"
           />
