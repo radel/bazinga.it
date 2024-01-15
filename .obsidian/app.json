@@ -6,5 +6,6 @@
   "attachmentFolderPath": "public",
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

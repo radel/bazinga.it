@@ -4,73 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1ec3c7045a8b8606",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "da54459df6701a1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/thoughts/fuji-custom-film-simulation-recipes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6812d6a988db8250",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/thoughts/la-complessita-si-conserva.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf5f91c406cf0c07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/thoughts/o-holy-night.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f65097e1ee02a1e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/film-simulations/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e67550682c404b92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/recipes/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "80cc379e66e8068b",
         "type": "tabs",
         "children": [
@@ -80,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/recipes/index.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/recipes/index.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/recipes/index.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/recipes/index.md"
+                "file": "content/books/Turn-the-ship-around.md"
               }
             }
           }
@@ -223,10 +156,17 @@
   },
   "active": "36f128947aba657a",
   "lastOpenFiles": [
+    "content/recipes/Pizza-in-teglia-leggerissima.md",
+    "content/books/Turn-the-ship-around.md",
+    "content/books/index.md",
     "content/film-simulations/index.md",
+    "content/film-simulations/Kodachome-ii.md",
+    "content/film-simulations/portra-400.md",
     "content/recipes/index.md",
-    "content/recipes/Pizza in teglia leggerissima.md",
-    "content/film-simulations/Kodachome-II.md",
+    "content/thoughts/fuji-custom-film-simulation-recipes.md",
+    "content/thoughts/la-complessita-si-conserva.md",
+    "content/thoughts/o-holy-night.md",
+    "content/index.md",
     "content/recipes",
     "pages/collections/index.vue",
     "pages/collections/[collection]/index.vue",
@@ -234,19 +174,14 @@
     "pages/collections",
     "pages/[collection]/index.vue",
     "pages/[collection]",
-    "content/film-simulations/portra 400.md",
     "content/pages/About.md",
     "pages/aaafilm-simulations/index.vue",
     "pages/aaafilm-simulations",
     "pages/[category]/index.vue",
     "content/collections/film-simulations/Kodachome-II.md",
     "content/thoughts/obsidian-is-my-lightsaber.md",
-    "content/thoughts/o-holy-night.md",
-    "content/thoughts/la-complessita-si-conserva.md",
-    "content/thoughts/fuji-custom-film-simulation-recipes.md",
     "obsidian-is-my-lightsaber.md",
     "film-simulations.md",
-    "content/index.md",
     "about.md",
     "content/collections/film-simulations/portra 400.md",
     "content/photos/val-d-orcia-2023.md",
@@ -257,8 +192,6 @@
     "content/photos/London-2022.md",
     "content/photos/Cotswolds-2023.md",
     "content/photos/baita-segantini-2023.md",
-    "content/20220328-Rome-2022.md",
-    "photos/rome-2022.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",

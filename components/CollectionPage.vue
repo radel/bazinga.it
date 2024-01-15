@@ -3,7 +3,9 @@
     <h1 class="text-3xl w-full font-extrabold text-left text-shadow font-body">
       {{ content.title }}
     </h1>
-    <ContentDoc :path="content._path" />
+    <div class="text-xl leading-8 not-italic content font-body img-grid">
+      <ContentDoc :path="content._path" />
+    </div>
     <div v-for="article of articles" :key="article.slug" class="">
       <article-card :article="article" />
     </div>
