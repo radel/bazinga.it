@@ -1,8 +1,8 @@
 <template>
     <div class="pt-24 m-0">
         <div class="max-w-3xl mx-auto px-4">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <photo-card :article="article" v-for="(article, index) of articles" :class="{'col-span-1' :  index > 0, 'col-span-2' : index==0}" :key="article.slug"  
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <photo-card :article="article" v-for="(article, index) of articles" :class="{'md:col-span-1' :  index > 0, 'md:col-span-2' : index==0}" :key="article.slug"  
                         :fullwidth="index == 0"
                     />
             </div>

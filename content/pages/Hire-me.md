@@ -1,5 +1,5 @@
 ---
-title: Uses
+title: 
 description: 
 img: 
 alt: 
@@ -10,7 +10,6 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags: 
-category:
-  - page
-slug: uses
+category: 
+slug: hire-me
 ---

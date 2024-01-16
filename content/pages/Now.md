@@ -16,25 +16,25 @@ slug: now
 ---
 *this page is a [Now page](https://nownownow.com/about), you should make one too!*
 
-Guido un team di giovani sviluppatori e insegno come tirare fuori il meglio da [vuejs](https://www.vuejs.org) e [laravel](https://www.laravel.com)
+Guido un team di giovani sviluppatori e insegno come tirare fuori il meglio da [vuejs](https://www.vuejs.org) e [laravel](https://www.laravel.com) e da loro stessi, mi chiamano addirittura *sensei*. Applico la filosofia che ho imparato in [Turn-the-ship-around](Turn-the-ship-around.md).
 
-La domenica sono su qualche cima delle Dolomiti, solitamente per passeggiate anche impegnative, ogni tanto per ferrate. Due o tre volte l'anno arrampico in falesia, ma vorrei fare *di più*
+La domenica sono su qualche cima delle Dolomiti, solitamente per passeggiate abbastanza impegnative, ogni tanto per vie ferrate. Due o tre volte l'anno arrampico in falesia ma vorrei fare *di più*
 
-Seguo la parte tecnica di [Dolomiti Review](https://www.dolomitireview.com), un magazine online dedicato alle Dolomiti che è un po' il business di famiglia. Già che ci sono, scrivo le relazioni delle escursioni in montagna.
+Seguo la parte tecnica di [Dolomiti Review](https://www.dolomitireview.com), un magazine online dedicato alle Dolomiti che è anche un po' il business di famiglia. Già che ci sono, scrivo le relazioni delle escursioni in montagna.
 
-Faccio il volontario tuttofare per [oltrelevette](http://www.oltrelevette.it)
+Faccio il volontario tuttofare per [Oltrelevette](http://www.oltrelevette.it) un festival dedicato alla montagna che si tiene ogni anno a Belluno.
 
-Preparò caffè specialty con il V60, acquisto da torrefazioni della zona come [Taste](https://www.tastecoffee.it) e [NeroScuro](https://neroscurocoffee.com/)
+Preparo caffè specialty con il V60, acquisto il caffè da torrefazioni della zona come [Taste](https://www.tastecoffee.it) e [NeroScuro](https://neroscurocoffee.com/). 
 
 Dalla primavera all'autunno ho un orto: lo preparo, lo nutro, semino e trapianto ortaggi, curo i fiori che attirano gli insetti impollinatori e ne raccolgo zucche, zucchine, melanzane, pomodori e altre verdure per tutta l'estate.
 
-Mi piace provare ristoranti di una certa qualità, a casa cerco di replicare le ricette più semplici. Mi piace cucinare, e qui troverete qualche [ricetta](recipes).
+Mi piace provare ristoranti di una certa qualità e a casa cerco di replicare le ricette più semplici. Mi piace molto cucinare e qui troverete qualche [ricetta](recipes).
 
-Creo piccoli bozzetti dei volti delle persone. Ho cominciato per caso dopo un [corso di Notesketching](https://www.domestika.org/it/courses/4382-sketchnoting-comunica-con-note-visive), non ho mai messo in pratica nulla di quel corso a parte la codifica con i colori, ma mi è rimasta la passione di disegnare i volti.
+Creo piccoli bozzetti dei volti delle persone. Ho cominciato per caso dopo un [corso di Notesketching](https://www.domestika.org/it/courses/4382-sketchnoting-comunica-con-note-visive): non ho mai messo in pratica nulla di quel corso a parte la codifica con i colori, ma mi è rimasta la passione di disegnare i volti.
 
-Faccio lo zio, quando posso, e cerco di trasmettere ai miei nipoti la passione per la montagna, la calma di inventare un gioco e costruirlo insieme con i lego o con un pezzo di cartone. 
+Quando posso faccio lo zio: cerco di trasmettere ai miei nipoti la passione per la montagna e la calma di inventare un gioco e costruirlo insieme con i lego o con un pezzo di cartone. 
 
-Per comodità, ho raccolto i libri che sto leggendo in una pagina [Libri](books)
+Per comodità, ho raccolto i libri che sto leggendo in questo periodo in una pagina [Libri](books)
 
 ## Next
 

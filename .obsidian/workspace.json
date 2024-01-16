@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/pages/Now.md",
+                "file": "content/pages/Hire-me.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/pages/Now.md",
+                "file": "content/pages/Hire-me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/pages/Now.md",
+                "file": "content/pages/Hire-me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/pages/Now.md"
+                "file": "content/pages/Hire-me.md"
               }
             }
           }
@@ -156,11 +156,13 @@
   },
   "active": "785734ca142b4c8b",
   "lastOpenFiles": [
-    "content/recipes.md",
-    "content/pages/Now.md",
-    "content/books.md",
-    "content/pages/About.md",
     "content/pages/Uses.md",
+    "content/pages/About.md",
+    "content/templates/post-template.md",
+    "content/pages/Hire-me.md",
+    "content/pages/Now.md",
+    "content/recipes.md",
+    "content/books.md",
     "content/().md",
     "content/books/Turn-the-ship-around.md",
     "content/recipes/Pizza-in-teglia-leggerissima.md",
@@ -190,8 +192,6 @@
     "about.md",
     "content/collections/film-simulations/portra 400.md",
     "content/photos/val-d-orcia-2023.md",
-    "content/photos/Rome-2022.md",
-    "content/photos/prague-2020.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",
