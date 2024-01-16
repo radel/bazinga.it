@@ -5,7 +5,8 @@ export default defineNuxtConfig({
    ** See https://nuxtjs.org/api/configuration-target
    */
   generate: {
-    fallback: true
+    fallback: true,
+    minify: false
   },
   documentDriven: {
     page: false
@@ -32,11 +33,10 @@ export default defineNuxtConfig({
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
-       {
-         src: "https://substackapi.com/widget.js"
-       }
-    ],
-
+      {
+        src: 'https://substackapi.com/widget.js'
+      }
+    ]
   },
   /*
    ** Global CSS
@@ -47,7 +47,7 @@ export default defineNuxtConfig({
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-   '~/plugins/date.js' 
+    '~/plugins/date.js'
     // { src: '~/plugins/substack.js', mode: 'client' }
   ],
   /*
@@ -57,10 +57,7 @@ export default defineNuxtConfig({
   /*
    ** Nuxt.js dev-modules
    */
-  image: {    
-  },
-
- 
+  image: {},
 
   /*
    ** Nuxt.js modules
@@ -81,12 +78,12 @@ export default defineNuxtConfig({
         families: {
           'IBM Plex Sans': {
             wght: [300, 400, 800]
-          },
+          }
         }
       }
     ]
   ],
-  colorMode: {    classSuffix: ''  },
+  colorMode: { classSuffix: '' },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
@@ -101,7 +98,7 @@ export default defineNuxtConfig({
     nestedProperties: ['author.name']
   },
 
-  sitemap: {    hostname: 'https://www.marcobonomo.dev',  },
+  sitemap: { hostname: 'https://www.marcobonomo.dev' },
 
   /*
    ** Build configuration

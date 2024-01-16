@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "038b2d9044818a6f",
+        "id": "bc0abfedc392b478",
         "type": "tabs",
         "children": [
           {
-            "id": "785734ca142b4c8b",
+            "id": "e95e3ce5dfdda816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/film-simulations/portra-400.md",
+                "file": "content/notes/Caffe.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/film-simulations/portra-400.md",
+                "file": "content/notes/Caffe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/film-simulations/portra-400.md",
+                "file": "content/notes/Caffe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/film-simulations/portra-400.md"
+                "file": "content/notes/Caffe.md"
               }
             }
           }
@@ -154,8 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7f72e7e8a3626f",
+  "active": "e95e3ce5dfdda816",
   "lastOpenFiles": [
+    "content/recipes/Pizza in teglia leggerissima.md",
+    "content/recipes/one-cup-v60-technique.md",
+    "content/notes/Caffe.md",
+    "content/people/James Hoffman.md",
+    "content/().md",
+    "content/people",
+    "content/photos/Untitled",
+    "content/photos/passo-giau-belluno-veneto-2022.md",
+    "content/photos/vienna-2023.md",
+    "content/film-simulations/portra-400.md",
     "content/film-simulations/Kodachome-ii.md",
     "content/film-simulations/index.md",
     "content/books/Turn-the-ship-around.md",
@@ -167,10 +177,7 @@
     "content/pages/Now.md",
     "content/recipes.md",
     "content/books.md",
-    "content/().md",
-    "content/recipes/Pizza-in-teglia-leggerissima.md",
     "content/books/index.md",
-    "content/film-simulations/portra-400.md",
     "content/recipes/index.md",
     "content/notes/fuji-custom-film-simulation-recipes.md",
     "content/notes/la-complessita-si-conserva.md",
@@ -184,14 +191,7 @@
     "pages/[collection]/index.vue",
     "pages/[collection]",
     "pages/aaafilm-simulations/index.vue",
-    "pages/aaafilm-simulations",
-    "pages/[category]/index.vue",
     "content/collections/film-simulations/Kodachome-II.md",
-    "content/notes/obsidian-is-my-lightsaber.md",
-    "obsidian-is-my-lightsaber.md",
-    "film-simulations.md",
-    "about.md",
-    "content/collections/film-simulations/portra 400.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",

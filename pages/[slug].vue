@@ -1,23 +1,23 @@
 <template>
-    <div class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
-        <collection-page :content="article" v-if="article.category === 'collections'" />
-        <content-page 
-        :article="article" 
-        :tagsList="tagsList" v-else />
-    </div>
+  <div class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
+    <collection-page
+      :content="article"
+      v-if="article.category === 'collections'"
+    />
+    <content-page :article="article" :tagsList="tagsList" v-else />
+  </div>
 </template>
 <script setup>
-
 const { params } = useRoute()
 const { slug } = params
 const { data: article } = await useAsyncData(`content-${slug}`, () => {
-    return queryContent().where({ slug: slug }).findOne()
+  return queryContent().where({ slug: slug }).findOne()
 })
 
 const { data: tagsList } = await useAsyncData('tags', () =>
-    queryContent('/tags')
-        .where({ name: { $contains: article.tags } })
-        .find()
+  queryContent('/tags')
+    .where({ name: { $contains: article.tags } })
+    .find()
 )
 
 useHead({
@@ -26,6 +26,10 @@ useHead({
     {
       name: 'description',
       content: article.description
+    },
+    {
+      name: 'author',
+      content: article.author
     }
   ]
 })

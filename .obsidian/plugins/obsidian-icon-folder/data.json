@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CoUsers",
       "CoImage02",
       "CoGlobe",
       "IbFilm",
-      "CoListRemove",
-      "CoTag"
+      "CoListRemove"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "content/templates": "CoListRemove",
   "content/film-simulations": "IbFilm",
   "public": "CoGlobe",
-  "public/images": "CoImage02"
+  "public/images": "CoImage02",
+  "content/people": "CoUsers"
 }
