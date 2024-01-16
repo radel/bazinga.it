@@ -20,15 +20,15 @@ Guido un team di giovani sviluppatori e insegno come tirare fuori il meglio da [
 
 La domenica sono su qualche cima delle Dolomiti, solitamente per passeggiate abbastanza impegnative, ogni tanto per vie ferrate. Due o tre volte l'anno arrampico in falesia ma vorrei fare *di più*
 
-Seguo la parte tecnica di [Dolomiti Review](https://www.dolomitireview.com), un magazine online dedicato alle Dolomiti che è anche un po' il business di famiglia. Già che ci sono, scrivo le relazioni delle escursioni in montagna.
+Seguo la parte tecnica di [Dolomiti Review](https://www.dolomitireview.com), un magazine online dedicato alle Dolomiti che è anche un po' il business di famiglia. Già che ci sono, scrivo le relazioni delle [escursioni](https://www.dolomitireview.com/escursioni-dolomiti) in montagna.
 
-Faccio il volontario tuttofare per [Oltrelevette](http://www.oltrelevette.it) un festival dedicato alla montagna che si tiene ogni anno a Belluno.
+Faccio il volontario tuttofare per [Oltrelevette](http://www.oltrelevette.it), un festival dedicato alla montagna che si tiene ogni anno a Belluno.
 
-Preparo caffè specialty con il V60, acquisto il caffè da torrefazioni della zona come [Taste](https://www.tastecoffee.it) e [NeroScuro](https://neroscurocoffee.com/). 
+Preparo in casa caffè specialty con il V60, acquisto il caffè da torrefazioni della zona come [Taste](https://www.tastecoffee.it) e [NeroScuro](https://neroscurocoffee.com/). 
 
 Dalla primavera all'autunno ho un orto: lo preparo, lo nutro, semino e trapianto ortaggi, curo i fiori che attirano gli insetti impollinatori e ne raccolgo zucche, zucchine, melanzane, pomodori e altre verdure per tutta l'estate.
 
-Mi piace provare ristoranti di una certa qualità e a casa cerco di replicare le ricette più semplici. Mi piace molto cucinare e qui troverete qualche [ricetta](recipes).
+Mi piace provare ristoranti di una certa qualità e a casa cerco di replicare le ricette più semplici. Mi piace molto cucinare e qui troverete qualche [ricetta](recipes). Non escludo che un giorno troverete segnalato anche qualche ristorante.
 
 Creo piccoli bozzetti dei volti delle persone. Ho cominciato per caso dopo un [corso di Notesketching](https://www.domestika.org/it/courses/4382-sketchnoting-comunica-con-note-visive): non ho mai messo in pratica nulla di quel corso a parte la codifica con i colori, ma mi è rimasta la passione di disegnare i volti.
 

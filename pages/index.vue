@@ -11,7 +11,7 @@
             </span>
         </div>
       </PostSection>
-      <PostSection v-if="posts.length" title="pensieri" link="/blog">
+      <PostSection v-if="posts.length" title="Note" link="/blog">
         <div v-for="post of posts" :key="post.slug" class="col-span-3">
           <article-card :article="post" />
         </div>
