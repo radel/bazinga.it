@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="flex items-center">
         <icon-dark class="dark:hidden block cursor-pointer" @click="$colorMode.preference = 'dark'"></icon-dark>
         <icon-light class="hidden dark:block cursor-pointer" @click="$colorMode.preference = 'light'"></icon-light>
     </div>

@@ -7,7 +7,11 @@
                 <h1 class="w-full text-2xl font-bold opacity-100 hover:opacity-90 transition-all">Bazinga<i class="text-yellow-500 dark:text-zinc-500">!</i></h1>
             </a>
         </div>
-      <div class="text-right justify-right">
+      <div class="text-right justify-right flex">
+        <div class="md:inline-flex hidden items-center gap-4 px-4 capitalize text-xl">
+            <a href="/about">About</a>
+            <a href="/now">now</a>
+        </div>
         <color-mode-picker class="opacity-100 hover:opacity-80"/>
       </div>
     </div>

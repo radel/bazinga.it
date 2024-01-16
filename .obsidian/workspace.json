@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "80cc379e66e8068b",
+        "id": "038b2d9044818a6f",
         "type": "tabs",
         "children": [
           {
-            "id": "36f128947aba657a",
+            "id": "785734ca142b4c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
+                "file": "content/pages/Now.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
+                "file": "content/pages/Now.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
+                "file": "content/pages/Now.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md"
+                "file": "content/pages/Now.md"
               }
             }
           }
@@ -154,18 +154,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36f128947aba657a",
+  "active": "785734ca142b4c8b",
   "lastOpenFiles": [
-    "content/recipes/Pizza-in-teglia-leggerissima.md",
+    "content/recipes.md",
+    "content/pages/Now.md",
+    "content/books.md",
+    "content/pages/About.md",
+    "content/pages/Uses.md",
+    "content/().md",
     "content/books/Turn-the-ship-around.md",
+    "content/recipes/Pizza-in-teglia-leggerissima.md",
     "content/books/index.md",
     "content/film-simulations/index.md",
     "content/film-simulations/Kodachome-ii.md",
     "content/film-simulations/portra-400.md",
     "content/recipes/index.md",
-    "content/thoughts/fuji-custom-film-simulation-recipes.md",
-    "content/thoughts/la-complessita-si-conserva.md",
-    "content/thoughts/o-holy-night.md",
+    "content/notes/fuji-custom-film-simulation-recipes.md",
+    "content/notes/la-complessita-si-conserva.md",
+    "content/notes/o-holy-night.md",
     "content/index.md",
     "content/recipes",
     "pages/collections/index.vue",
@@ -174,12 +180,11 @@
     "pages/collections",
     "pages/[collection]/index.vue",
     "pages/[collection]",
-    "content/pages/About.md",
     "pages/aaafilm-simulations/index.vue",
     "pages/aaafilm-simulations",
     "pages/[category]/index.vue",
     "content/collections/film-simulations/Kodachome-II.md",
-    "content/thoughts/obsidian-is-my-lightsaber.md",
+    "content/notes/obsidian-is-my-lightsaber.md",
     "obsidian-is-my-lightsaber.md",
     "film-simulations.md",
     "about.md",
@@ -187,11 +192,6 @@
     "content/photos/val-d-orcia-2023.md",
     "content/photos/Rome-2022.md",
     "content/photos/prague-2020.md",
-    "content/photos/nevegal-belluno-sunset-2022.md",
-    "content/photos/munchen-2019.md",
-    "content/photos/London-2022.md",
-    "content/photos/Cotswolds-2023.md",
-    "content/photos/baita-segantini-2023.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",

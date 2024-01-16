@@ -27,12 +27,16 @@ Come ho cominciato a sviluppare sul web? più o meno così:
 >
 > _Elliot - Mr Robot_
 
+
+Puoi dare un'occhiata a cosa sto facendo [adesso](now)
+
 ### Cosa troverai qui dentro
 
-- [Blog](/blog)
+- [Pensieri e Note](/blog)
 - [Fotografie e Viaggi](/photos)
 - [Fujifilm Film Simulations](/film-simulations)
-
+- [Ricette](recipes)
+- [Libri](books)
 ### Puoi seguirmi anche su:
 
 - Instagram: [marco\_\_bnm](https://www.instagram.com/marco__bnm)
@@ -43,7 +47,7 @@ Come ho cominciato a sviluppare sul web? più o meno così:
 
 ### Come faccio le cose
 
-Questo blog è aggiornato con [Obsidian](obsidian-is-my-lightsaber), il layout è fatto con [nuxt](https://www.nuxt.com) e risiede da qualche parte nel cloud su [vercel](http://www.vercel.com)
+Questo blog è aggiornato con [Obsidian](obsidian-is-my-lightsaber.md), il layout è fatto con [nuxt](https://www.nuxt.com) e risiede da qualche parte nel cloud su [vercel](http://www.vercel.com)
 Mi piace lo stile minimal e pulito, ma non sono mai soddisfatto, quindi lo vedrete cambiare spesso. Questo blog è l'essenza stessa di chi sono, perfezionista del dettaglio ma poco costante, _abituati_.
 
 Mi piace il software _libero_ e un giorno anche questo layout sarà pubblicato, ma per ora è solo un grande cantiere di idee.

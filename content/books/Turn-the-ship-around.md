@@ -3,11 +3,13 @@ title: Turn the ship around!
 description: 
 img: 
 alt: 
-createdAt: 
+createdAt: 2024-01-15
 status: published
 tags:
   - work
-category: books
+  - nowreading
+category:
+  - books
 slug: turn-the-ship-around
 collection: books
 authro: David Marquet

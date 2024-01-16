@@ -59,7 +59,7 @@ const { data: photos } = await useAsyncData('photos', () =>
       'createdAt',
       'tags'
     ])
-    .where({ category: {$eq: 'photos'}})
+    .where({ category: { $contains: 'photos'}})
     .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
     .limit(3)
@@ -78,7 +78,7 @@ const { data: posts } = await useAsyncData('posts', () =>
       'createdAt',
       'tags'
     ])
-    .where({ category: {$eq: 'blog'}})
+    .where({ category: { $contains: 'blog'}})
     .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
     .limit(10)

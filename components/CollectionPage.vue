@@ -22,7 +22,7 @@ const props = defineProps({
 const { data: articles } = await useAsyncData('articles', () =>
   queryContent()
     .where({ collection: { $eq: props.content.collection } })
-    .where({ category: { $eq: props.content.collection } })
+    .where({ category: { $contains: props.content.collection } })
     .where({ status: { $ne: 'draft' } })
     .sort({ createdAt: -1 })
     .find()
