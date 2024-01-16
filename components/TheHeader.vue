@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full border-b-base-300 dark:border-b-base-800 border-b py-4 fixed bg-base-paper-200 dark:bg-base-black/80 text-base-black dark:text-base-paper backdrop-blur-sm z-10"
+    class="w-full border-b-base-300 dark:border-b-base-800 border-b py-4 fixed bg-base-paper/80 dark:bg-base-black/80 text-base-black dark:text-base-paper backdrop-blur-sm z-10"
   >
     <div class="max-w-3xl mx-auto flex justify-between px-4 relative">
       <div class="w-fit">
@@ -37,7 +37,7 @@
           />
         </svg>
         <nav
-          class="md:inline-flex z-10 -bottom-50 left-0 bg-base-paper dark:bg-base-black text-base-black dark:text-base-paper absolute md:static w-full md:w-auto items-center gap-4 px-4 capitalize text-xl"
+          class="md:inline-flex z-10 -bottom-50 left-0 absolute md:static w-full md:w-auto items-center gap-4 px-4 capitalize text-xl"
           :class="menuClass"
         >
           <a href="/about">About</a>
@@ -55,7 +55,7 @@ const open = ref(false);
 
 const menuClass = computed(() => {
     return {
-        'flex flex-col mt-40 p-4 shadow-lg border-t border-b-base-300' : open.value,
+        'flex flex-col mt-40 p-4 shadow-lg border-t border-b-base-300 bg-base-paper/80 dark:bg-base-black text-base-black dark:text-base-paper backdrop-blur-sm' : open.value,
         'hidden': !open.value
     }
 })
