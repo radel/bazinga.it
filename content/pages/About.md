@@ -14,11 +14,11 @@ category: page
 slug: about
 ---
 
-Mi chiamo Marco, sono di Belluno ma da almeno 25 anni vivo sul web.
+Mi chiamo Marco, sono di Belluno ma da almeno 25 anni vivo nel web.
 
-Mi sono innamorato del web fin dalla prima volta che mi sono seduto di fronte a un Browser (Netscape) e sono stato attirato dallo sviluppo non appena ho scritto qualche tag dentro un editor.
+Mi sono innamorato del web fin dalla prima volta che ho guardato la finestra di un Browser (Netscape) e sono stato attirato dallo sviluppo non appena ho scritto qualche tag dentro un editor.
 
-Sono cresciuto tra i sobborghi di geocities, sono sopravvissuto agli anni di piombo di Flash, ho sbarcato il lunario personalizzando pagine myspace, sono stato testimone oculare della nascita, della morte e della rinascita di PHP e ho scoperto l'esistenza di un framework javascript al giorno leggendo twitter dal mio computer su cui è installato linux da almeno 20 anni.
+Sono cresciuto tra i sobborghi di geocities, sono sopravvissuto agli anni di piombo di Flash, ho sbarcato il lunario personalizzando pagine myspace, sono stato testimone oculare della nascita, della morte e della rinascita di PHP e ho scoperto l'esistenza di un framework javascript al giorno grazie a twitter, dal mio computer su cui è installato linux da almeno 20 anni.
 
 Come ho cominciato a sviluppare sul web? più o meno così:
 
