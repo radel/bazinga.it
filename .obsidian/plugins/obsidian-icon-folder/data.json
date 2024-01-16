@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "CoImage02",
+      "CoGlobe",
+      "IbFilm",
+      "CoListRemove",
+      "CoTag"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "content": "CoLeaf",
+  "content/books": "CoBook",
+  "content/notes": "CoNote",
+  "content/pages": "IbDocumentText",
+  "content/photos": "IbPhotoAndVideo",
+  "content/recipes": "IbHotBrew",
+  "content/tags": "CoTag",
+  "content/templates": "CoListRemove",
+  "content/film-simulations": "IbFilm",
+  "public": "CoGlobe",
+  "public/images": "CoImage02"
+}
