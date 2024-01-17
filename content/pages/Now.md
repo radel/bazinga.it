@@ -16,7 +16,7 @@ slug: now
 ---
 *this page is a [Now page](https://nownownow.com/about), you should make one too!*
 
-Guido un team di giovani sviluppatori e insegno come tirare fuori il meglio da [vuejs](https://www.vuejs.org) e [laravel](https://www.laravel.com) e da loro stessi, mi chiamano addirittura *sensei*. Applico la filosofia che ho imparato in [Turn-the-ship-around](Turn-the-ship-around.md).
+Guido un team di giovani sviluppatori e insegno come tirare fuori il meglio da [vuejs](https://www.vuejs.org) e [laravel](https://www.laravel.com) e da loro stessi, mi chiamano addirittura *sensei*. Applico la filosofia che ho imparato in [Turn the ship around](turn-the-ship-around).
 
 La domenica sono su qualche cima delle Dolomiti, solitamente per passeggiate abbastanza impegnative, ogni tanto per vie ferrate. Due o tre volte l'anno arrampico in falesia ma vorrei fare *di più*
 

@@ -5,6 +5,7 @@
       v-if="article.category === 'collections'"
     />
     <content-page :article="article" :tagsList="tagsList" v-else />
+    <backlinks :slug="slug" /> 
   </div>
 </template>
 <script setup>
