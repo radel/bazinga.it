@@ -7,7 +7,7 @@
       <PostSection v-if="tags.length" title="argomenti">
         <div class="col-span-3">
             <span v-for="tag of tags" :key="tag">
-                <a :href="tag._path" class="text-xl">{{ tag.name }}</a> · 
+                <a :href="tag._path" class="text-xl p-2 md:p-0">{{ tag.name }}</a> · 
             </span>
         </div>
       </PostSection>
