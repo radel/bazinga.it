@@ -1,6 +1,6 @@
 ---
 title: About me
-description:
+description: qualcosa su di me
 img:
 alt:
 createdAt:

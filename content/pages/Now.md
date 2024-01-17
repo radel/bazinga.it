@@ -1,6 +1,6 @@
 ---
 title: Now
-description: 
+description: quello che sto facendo in questo periodo 
 img: 
 alt: 
 createdAt: 
