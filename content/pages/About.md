@@ -27,16 +27,8 @@ Come ho cominciato a sviluppare sul web? più o meno così:
 >
 > _Elliot - Mr Robot_
 
-
 Puoi dare un'occhiata a cosa sto facendo [adesso](now)
 
-### Cosa troverai qui dentro
-
-- [Pensieri e Note](/blog)
-- [Fotografie e Viaggi](/photos)
-- [Fujifilm Film Simulations](/film-simulations)
-- [Ricette](recipes)
-- [Libri](books)
 ### Puoi seguirmi anche su:
 
 - Instagram: [marco\_\_bnm](https://www.instagram.com/marco__bnm)
