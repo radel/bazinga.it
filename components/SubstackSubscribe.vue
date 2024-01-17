@@ -5,7 +5,7 @@
                     class="flex p-8 transition-shadow gap-4 mb-8 duration-150 ease-in-out  dark:bg-base-800/80 rounded-md bg-base-100/80 p-4">
                     <div class="w-1/2">
                         <slot>
-                            <h4 class="font-bold text-xl w-full">Ho anche una newsletter, pensa un po'</h4>
+                            <span class="font-bold text-xl w-full">Ho anche una newsletter, pensa un po'</span>
                             <p>Parla di cucina, di codice e di fotografia. Non tutto insieme! </p>
                         </slot>
                     </div>
