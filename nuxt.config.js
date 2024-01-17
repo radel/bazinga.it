@@ -12,6 +12,8 @@ export default defineNuxtConfig({
     page: false
   },
 
+  ssr: true,
+
   target: 'static',
   /*
    ** Headers ofimport { defineNuxtConfig } from 'nuxt' import { defineNuxtConfig } from 'nuxt'the page

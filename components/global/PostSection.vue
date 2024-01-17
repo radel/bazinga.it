@@ -4,12 +4,13 @@
       v-if="title"
       class="flex flex-wrap items-center leading-loose justify-between col-span-1 md:col-span-3 mb-4"
     >
-      <NuxtLink :href="link">
+      <NuxtLink :href="link" v-if="link">
         <h3 class="text-2xl dark:text-base-400">{{ title }}</h3>
       </NuxtLink>
+      <h3 v-else class="text-2xl dark:text-base-400">{{ title }}</h3>
     </header>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-        <slot></slot>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <slot></slot>
     </div>
   </section>
 </template>
