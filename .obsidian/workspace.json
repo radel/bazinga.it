@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/Caffe.md",
-                "mode": "source",
+                "file": "content/photos/Cotswolds-2023.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/photos/Cotswolds-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/photos/Cotswolds-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/Caffe.md"
+                "file": "content/photos/Cotswolds-2023.md"
               }
             }
           }
@@ -156,9 +156,12 @@
   },
   "active": "e95e3ce5dfdda816",
   "lastOpenFiles": [
+    "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
+    "content/photos/Cotswolds-2023.md",
+    "Clippings",
+    "content/notes/Caffe.md",
     "content/recipes/Pizza in teglia leggerissima.md",
     "content/recipes/one-cup-v60-technique.md",
-    "content/notes/Caffe.md",
     "content/people/James Hoffman.md",
     "content/().md",
     "content/people",
@@ -182,7 +185,6 @@
     "content/notes/fuji-custom-film-simulation-recipes.md",
     "content/notes/la-complessita-si-conserva.md",
     "content/notes/o-holy-night.md",
-    "content/index.md",
     "content/recipes",
     "pages/collections/index.vue",
     "pages/collections/[collection]/index.vue",
@@ -190,8 +192,6 @@
     "pages/collections",
     "pages/[collection]/index.vue",
     "pages/[collection]",
-    "pages/aaafilm-simulations/index.vue",
-    "content/collections/film-simulations/Kodachome-II.md",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",

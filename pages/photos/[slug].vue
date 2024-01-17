@@ -2,6 +2,6 @@
 <script setup>
 const { params } = useRoute()
 const { slug } = params
-await navigateTo(slug)
+await navigateTo('/photos')
 
 </script>
