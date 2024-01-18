@@ -34,7 +34,7 @@ Creo piccoli bozzetti dei volti delle persone. Ho cominciato per caso dopo un [c
 
 Quando posso faccio lo zio: cerco di trasmettere ai miei nipoti la passione per la montagna e la calma di inventare un gioco e costruirlo insieme con i lego o con un pezzo di cartone. 
 
-Per comodità, ho raccolto i libri che sto leggendo in questo periodo in una pagina [Libri](books)
+Per comodità, ho raccolto i libri che sto leggendo in questo periodo in una pagina [Libri](Books.md)
 
 ## Next
 

@@ -1,15 +1,8 @@
 <template>
   <div class="flex flex-wrap w-full pt-24 mx-auto max-w-3xl px-4">
-    <collection-page
-      :content="article"
-      v-if="article.category === 'collections'"
-    />
-    <content-page :article="article" :tagsList="tagsList" v-else />
-</div>
-<div class="border-b border-base-300 dark:border-base-900 pt-24"></div>
-<div class="max-w-3xl mx-auto py-8 px-4">
-    <backlinks :slug="slug" /> 
-</div>
+    <content-page :article="article" :tagsList="tagsList" />
+  </div>
+    <backlinks :slug="slug" />
 </template>
 <script setup>
 const { params } = useRoute()

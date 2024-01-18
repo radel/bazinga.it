@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/photos/Cotswolds-2023.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "mode": "preview",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/photos/Cotswolds-2023.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/photos/Cotswolds-2023.md",
+                "file": "content/books/Turn-the-ship-around.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/photos/Cotswolds-2023.md"
+                "file": "content/books/Turn-the-ship-around.md"
               }
             }
           }
@@ -156,10 +156,16 @@
   },
   "active": "e95e3ce5dfdda816",
   "lastOpenFiles": [
-    "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
-    "content/photos/Cotswolds-2023.md",
-    "Clippings",
+    "content/pages/Film Simulatioins.md",
+    "content/books/Turn-the-ship-around.md",
+    "content/pages/Books.md",
+    "content/pages/Recipes.md",
+    "components/global/CollectionList.vue",
+    "components/CollectionList.vue",
     "content/notes/Caffe.md",
+    "content/photos/Cotswolds-2023.md",
+    "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
+    "Clippings",
     "content/recipes/Pizza in teglia leggerissima.md",
     "content/recipes/one-cup-v60-technique.md",
     "content/people/James Hoffman.md",
@@ -170,28 +176,21 @@
     "content/photos/vienna-2023.md",
     "content/film-simulations/portra-400.md",
     "content/film-simulations/Kodachome-ii.md",
-    "content/film-simulations/index.md",
-    "content/books/Turn-the-ship-around.md",
     "README.md",
-    "content/pages/Hire-me.md",
+    "content/pages/Hire me.md",
     "content/pages/Uses.md",
     "content/pages/About.md",
     "content/templates/post-template.md",
     "content/pages/Now.md",
     "content/recipes.md",
     "content/books.md",
-    "content/books/index.md",
-    "content/recipes/index.md",
     "content/notes/fuji-custom-film-simulation-recipes.md",
     "content/notes/la-complessita-si-conserva.md",
-    "content/notes/o-holy-night.md",
     "content/recipes",
     "pages/collections/index.vue",
     "pages/collections/[collection]/index.vue",
     "pages/collections/[collection]",
     "pages/collections",
-    "pages/[collection]/index.vue",
-    "pages/[collection]",
     "public/images/florence-2022/florence_2022_17.JPG",
     "public/images/cotswolds/cover.JPG",
     "public/images/cotswolds/cotswolds-58.JPG",

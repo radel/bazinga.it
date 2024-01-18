@@ -1,6 +1,5 @@
 ---
-category: collections
-collection: books
+category: page
 title: Libri
 slug: books
 ---
@@ -20,3 +19,8 @@ Cosa sto leggendo in questo periodo:
 
 Ecco una serie di altri libri che ho letto e che trovo interessanti, con una piccola nota per ognuno.
 
+::collection-list
+---
+collection: books
+---
+::
