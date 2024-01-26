@@ -15,7 +15,7 @@ category:
 slug: coffee
 ---
 
-All'inizio dell'estate del 2022 sono capitato per caso su un video di [James Hoffman](James%20Hoffman.md) che spiegava come fare il caffè con la moka.
+All'inizio dell'estate del 2022 sono capitato per caso su un video di James Hoffman che spiegava come fare il caffè con la moka.
 Mi sono appassionato ai suoi video e alle sue spiegazioni e inevitabilmente mi sono appassionato al caffè.
 
 Ho cercato di capirne di più, vedendo che in Italia la questione caffè è un vero disastro. Beviamo caffè troppo tostato, troppo caldo, come fosse una medicina amara. 
