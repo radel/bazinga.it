@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/notes/Cosa possiamo sapere?.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/notes/Cosa possiamo sapere?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/notes/Cosa possiamo sapere?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/Caffe.md"
+                "file": "content/notes/Cosa possiamo sapere?.md"
               }
             }
           }
@@ -169,8 +169,9 @@
   },
   "active": "5768123d9059f1c5",
   "lastOpenFiles": [
-    "content/recipes/one-cup-v60-technique.md",
     "content/notes/Caffe.md",
+    "content/notes/Cosa possiamo sapere?.md",
+    "content/recipes/one-cup-v60-technique.md",
     "content/Comandante.md",
     "content/books/Turn-the-ship-around.md",
     "content/pages/Film Simulatioins.md",
@@ -199,7 +200,6 @@
     "content/recipes.md",
     "content/books.md",
     "content/notes/fuji-custom-film-simulation-recipes.md",
-    "content/notes/la-complessita-si-conserva.md",
     "content/recipes",
     "pages/collections/index.vue",
     "pages/collections/[collection]/index.vue",
