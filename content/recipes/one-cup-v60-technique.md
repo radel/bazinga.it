@@ -31,11 +31,10 @@ Questa è la tecnica di [James Hoffman](https://www.youtube.com/@jameshoffmann) 
 ## procedimento
 
 - 15 g di caffè macinato
-- 250 g di acqua dolce filtrata, appena bollita (per arrosti più leggeri)
-- Macinatura: medio-fine
+- 250 g di acqua dolce filtrata, bollente.
 
  - 0m00s: Versare 50 g di acqua
- - 0m10 - 0m15: vortica delicatamente
+ - 0m10 - 0m15: ruotare delicatamente
  - 0:00 - 0:45: blooming
  - 0m45s - 1m00s: versare fino a 100 g totali (40% del peso totale)
  - 1m00 - 1m10: Pausa
@@ -45,5 +44,6 @@ Questa è la tecnica di [James Hoffman](https://www.youtube.com/@jameshoffmann) 
  - 1m40 - 1m50: Pausa
  - 1 minuto e 50 - 2 minuti: versare fino a 250 g totali (100% del peso totale)
  - 2:00 - 2:05: ruotare delicatamente 
+ - aspettare che tutto il caffè finisca nella caraffa
 
-
+Buon caffè!

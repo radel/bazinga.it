@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "bc0abfedc392b478",
+        "id": "cbabc33735faddd9",
         "type": "tabs",
         "children": [
           {
-            "id": "e95e3ce5dfdda816",
+            "id": "5a8a2ba1ba8df970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
-                "mode": "preview",
-                "source": true
+                "file": "content/notes/Caffe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5768123d9059f1c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/notes/Caffe.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
+                "file": "content/notes/Caffe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md",
+                "file": "content/notes/Caffe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/books/Turn-the-ship-around.md"
+                "file": "content/notes/Caffe.md"
               }
             }
           }
@@ -154,20 +167,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e95e3ce5dfdda816",
+  "active": "5768123d9059f1c5",
   "lastOpenFiles": [
-    "content/pages/Film Simulatioins.md",
+    "content/recipes/one-cup-v60-technique.md",
+    "content/notes/Caffe.md",
+    "content/Comandante.md",
     "content/books/Turn-the-ship-around.md",
+    "content/pages/Film Simulatioins.md",
     "content/pages/Books.md",
     "content/pages/Recipes.md",
     "components/global/CollectionList.vue",
     "components/CollectionList.vue",
-    "content/notes/Caffe.md",
     "content/photos/Cotswolds-2023.md",
     "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
     "Clippings",
     "content/recipes/Pizza in teglia leggerissima.md",
-    "content/recipes/one-cup-v60-technique.md",
     "content/people/James Hoffman.md",
     "content/().md",
     "content/people",
