@@ -44,8 +44,23 @@
         <div class="px-2 font-bold">Sharpening</div>
         <div>{{ values.Sharpness }}</div>
 
+        <div v-if="values.Saturation" class="px-2 font-bold">Saturation</div>
+        <div v-if="values.Saturation">{{ values.Saturation }}</div>
+
+        <div v-if="values.Color" class="px-2 font-bold">Color</div>
+        <div v-if="values.Color">{{ values.Color }}</div>
+
         <div class="px-2 font-bold">Noise Reduction</div>
         <div>{{ values.NoiseReduction }}</div>
+
+         <div v-if="values.Clarity" class="px-2 font-bold">Clarity</div>
+         <div v-if="values.Clarity">{{ values.Clarity }}</div>
+
+         <div v-if="values.ColorChrome" class="px-2 font-bold">Color Chrome</div>
+         <div v-if="values.ColorChrome">{{ values.ColorChrome }}</div>
+
+         <div v-if="values.ColorChromeFXBlue" class="px-2 font-bold">Color Chrome Fx Blue</div>
+         <div v-if="values.ColorChromeFXBlue">{{ values.ColorChromeFXBlue }}</div>
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 ---
 description: a Classic Negative for other X cameras
 img: images/rome-2022/rome-cover.JPG
-title: portra 400
+title: Classic Negative for the rest of us
 alt: 
 createdAt: 
 status: published
@@ -25,8 +25,8 @@ Sharpness: "0"
 NoiseReduction: "-4"
 Color: "+4"
 Clarity: "-2"
-Color Chrome: Strong
-Color Chrome FX Blue: Strong
+ColorChrome: Strong
+ColorChromeFXBlue: Strong
 category:
   - film-simulations
 ---
