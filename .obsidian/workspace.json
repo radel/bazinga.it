@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cbabc33735faddd9",
+        "id": "47d8fd0aa57c9c0c",
         "type": "tabs",
         "children": [
           {
-            "id": "5a8a2ba1ba8df970",
+            "id": "6cdaf80436f6e2e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/Caffe.md",
+                "file": "content/photos/Cinque Terre 2023.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5768123d9059f1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/Cosa possiamo sapere.md",
-                "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/Cosa possiamo sapere.md",
+                "file": "content/photos/Cinque Terre 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/Cosa possiamo sapere.md",
+                "file": "content/photos/Cinque Terre 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/Cosa possiamo sapere.md"
+                "file": "content/photos/Cinque Terre 2023.md"
               }
             }
           }
@@ -167,9 +154,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5768123d9059f1c5",
+  "active": "6cdaf80436f6e2e0",
   "lastOpenFiles": [
+    "public/images/cinque-terre/cover.JPG",
+    "content/photos/Cinque Terre 2023.md",
+    "public/images/cinque-terre/cinque-terre-15 (copia).jpg",
+    "public/content/photos/Cinque Terre 2023/IMG-20240203154124035.jpg",
+    "public/content/photos/Cinque Terre 2023",
+    "public/content/photos",
+    "public/content",
+    "public/content/photos/Cinque Terre 2023/IMG-20240203154112409.jpg",
+    "public/images/cotswolds/cotswolds-58.JPG",
+    "public/images/cotswolds/cotswolds-57.JPG",
+    "public/images/cotswolds/cotswolds-56.JPG",
+    "public/images/cotswolds/cotswolds-54.JPG",
+    "public/images/cotswolds/cotswolds-53.JPG",
+    "public/images/cotswolds/cotswolds-52.JPG",
+    "content/photos/Cotswolds-2023.md",
+    "content/2023831-.md",
+    "content/film-simulations/Classic Negative for Everybody.md",
     "content/notes/Caffe.md",
+    "content/film-simulations/portra-400.md",
     "content/notes/Cosa possiamo sapere.md",
     "content/recipes/one-cup-v60-technique.md",
     "content/Comandante.md",
@@ -179,7 +184,6 @@
     "content/pages/Recipes.md",
     "components/global/CollectionList.vue",
     "components/CollectionList.vue",
-    "content/photos/Cotswolds-2023.md",
     "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
     "Clippings",
     "content/recipes/Pizza in teglia leggerissima.md",
@@ -189,31 +193,13 @@
     "content/photos/Untitled",
     "content/photos/passo-giau-belluno-veneto-2022.md",
     "content/photos/vienna-2023.md",
-    "content/film-simulations/portra-400.md",
     "content/film-simulations/Kodachome-ii.md",
     "README.md",
     "content/pages/Hire me.md",
     "content/pages/Uses.md",
     "content/pages/About.md",
     "content/templates/post-template.md",
-    "content/pages/Now.md",
-    "content/recipes.md",
-    "content/books.md",
-    "content/notes/fuji-custom-film-simulation-recipes.md",
     "content/recipes",
-    "pages/collections/index.vue",
-    "pages/collections/[collection]/index.vue",
-    "pages/collections/[collection]",
-    "pages/collections",
-    "public/images/florence-2022/florence_2022_17.JPG",
-    "public/images/cotswolds/cover.JPG",
-    "public/images/cotswolds/cotswolds-58.JPG",
-    "public/images/cotswolds/cotswolds-57.JPG",
-    "public/images/cotswolds/cotswolds-56.JPG",
-    "public/images/cotswolds/cotswolds-55.JPG",
-    "public/images/cotswolds/cotswolds-54.JPG",
-    "public/images/cotswolds/cotswolds-53.JPG",
-    "public/images/cotswolds/cotswolds-52.JPG",
-    "public/images/cotswolds/cotswolds-51.JPG"
+    "pages/collections/index.vue"
   ]
 }
