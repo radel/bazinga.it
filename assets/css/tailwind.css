@@ -9,6 +9,41 @@
   @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
 }
 
+.page-content {
+  --gap: 0;
+  --full: minmax(var(--gap), 1fr);
+  --content: min(56rem, 100% - var(--gap) * 2);
+  --popout: minmax(0, 5rem);
+  --feature: minmax(0, 10rem);
+
+  display: grid;
+  grid-template-columns:
+    [full-start] var(--full)
+    [feature-start] var(--feature)
+    [popout-start] var(--popout)
+    [content-start] var(--content) [content-end]
+    var(--popout) [popout-end]
+    var(--feature) [feature-end]
+    var(--full) [full-end];
+}
+
+
+.page-content > * {
+  grid-column: content;
+}
+
+.popout {
+  grid-column: popout;
+}
+
+.feature {
+  grid-column: feature;
+}
+
+.full {
+  grid-column: full;
+}
+
 .content ul {
     padding: 0.5rem 0 1rem 1em;
     margin: 0 0 0 0.5em;
@@ -52,6 +87,7 @@ body {
 }
  .img-grid > div > p:has(.postimage) {
 	 display: grid;
+     grid-column: feature;
 	 margin-block-start: var(--img-grid-gap);
 	 margin-block-end: var(--img-grid-gap);
 	 grid-column-gap: var(--img-grid-gap);
@@ -60,6 +96,13 @@ body {
      padding-bottom: 0;
 	 grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 }
+
+@media screen(md) {
+    .img-grid > div > p:has(.postimage) {
+        margin: 1rem -8rem;
+    }
+}
+
  .img-grid > div > p > br {
 	 display: none;
 }
