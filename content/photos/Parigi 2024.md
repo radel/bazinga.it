@@ -1,7 +1,7 @@
 ---
 title: Parigi
 description: un intenso weekend a Parigi
-img: images/parigi-2024/paris_2024_07.JPG
+img: images/parigi-2024/cover.JPG
 alt: 
 createdAt: 2024-03-05
 status: published
