@@ -10,9 +10,6 @@ Una selezione di libri, per lo più saggi, che ho letto o che vorrei leggere che
 Cosa sto leggendo in questo periodo:
 
 - [La manutezione dei sensi](https://amzn.to/3Uv5gye) - Franco Faggiani
-- 
-
-
 
 ## Read
 

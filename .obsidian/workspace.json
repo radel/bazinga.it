@@ -11,12 +11,8 @@
             "id": "d8c61b967e570640",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/pages/Books.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -111,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/pages/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/pages/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/pages/Books.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -174,12 +166,13 @@
   },
   "active": "d8c61b967e570640",
   "lastOpenFiles": [
-    "content/books/Turn-the-ship-around.md",
-    "content/pages/Now.md",
+    "content/film-simulations/portra-400.md",
     "content/film-simulations/Kodachome-ii.md",
     "content/film-simulations/Astia Travel.md",
     "content/film-simulations/Classic Negative for Everybody.md",
-    "content/film-simulations/portra-400.md",
+    "content/pages/Books.md",
+    "content/books/Turn-the-ship-around.md",
+    "content/pages/Now.md",
     "content/pages/Film Simulatioins.md",
     "content/film-simulations/Astia G.md",
     "content/index.md",
@@ -213,7 +206,6 @@
     "content/photos/Cotswolds-2023.md",
     "content/2023831-.md",
     "content/notes/Caffe.md",
-    "content/pages/Books.md",
     "content/pages/Recipes.md",
     "components/global/CollectionList.vue",
     "components/CollectionList.vue",
