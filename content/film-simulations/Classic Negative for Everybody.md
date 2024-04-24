@@ -1,32 +1,21 @@
 ---
 description: a Classic Negative for other X cameras
-img: images/rome-2022/rome-cover.JPG
-title: Classic Negative for the rest of us
-alt: 
-createdAt: 
-status: published
-author:
-  name: Marco
-  bio: Marco Bonomo
-  img: images/marco.png
+Film Simulation: Classic Chrome
+Dynamic Range: "200"
+Grain Effect: Weak
+White Balance: Auto
+White Balance Adjust: Red +3 Blue -5
+Highlight Tone: -1
+Shadow Tone: 0
+Saturation: -1
+Sharpness: 0
+Noise Reduction: -4
+Color: 
+Clarity: -2
+Color Chrome Effect: Strong
+Color Chrome Effect Blue: Strong
 tags:
   - photography
-collection: film-simulations
-slug: classic-negative
-FilmMode: Classic Chrome
-DynamicRangeSetting: "200"
-GrainEffect: Weak
-WhiteBalance: Auto
-WhiteBalanceFineTune: Red +3 Blue -5
-HighlightTone: "-1"
-ShadowTone: "0"
-Saturation: "-1"
-Sharpness: "0"
-NoiseReduction: "-4"
-Color: "+4"
-Clarity: "-2"
-ColorChrome: Strong
-ColorChromeFXBlue: Strong
 category:
-  - film-simulations
+  - "[[Film Simulation Recipes]]"
 ---

@@ -69,7 +69,7 @@
         </nav>
         <!-- content from markdown -->
         <div class="text-xl leading-8 not-italic content font-body img-grid">
-            <component :is="`${category}-content`" :article="article">
+            <component :is="contentType" :article="article">
                 <ContentDoc :path="article._path" />
             </component>
         </div>
@@ -92,6 +92,10 @@ const { data: tagsList } = await useAsyncData('tags', () =>
 )
 
 const { $formatDate } = useNuxtApp()
+
+const contentType = computed(() => {
+    return props.article.collection ? `${props.article.collection}-content`  : `${category.value}-content`;
+})
 
 const category = computed(() => {
     if (props.article.category instanceof Array) {
