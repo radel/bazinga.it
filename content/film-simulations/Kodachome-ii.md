@@ -9,8 +9,6 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags:
-  - photography
 collection: "film-simulations"
 slug: kodachrome-ii
 FilmMode: Classic Chrome

@@ -14,8 +14,6 @@ Color:
 Clarity: -2
 Color Chrome Effect: Strong
 Color Chrome Effect Blue: Strong
-tags:
-  - photography
-category:
-  - "[[Film Simulation Recipes]]"
+category: film-simulations
+collection: "film-simulations"
 ---

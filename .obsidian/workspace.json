@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/ora-legale.md",
+                "file": "content/pages/Books.md",
                 "mode": "source",
                 "source": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/ora-legale.md",
+                "file": "content/pages/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/ora-legale.md",
+                "file": "content/pages/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/ora-legale.md"
+                "file": "content/pages/Books.md"
               }
             }
           }
@@ -174,8 +174,19 @@
   },
   "active": "d8c61b967e570640",
   "lastOpenFiles": [
-    "content/notes/Cosa possiamo sapere.md",
+    "content/books/Turn-the-ship-around.md",
+    "content/pages/Now.md",
+    "content/film-simulations/Kodachome-ii.md",
+    "content/film-simulations/Astia Travel.md",
+    "content/film-simulations/Classic Negative for Everybody.md",
+    "content/film-simulations/portra-400.md",
+    "content/pages/Film Simulatioins.md",
+    "content/film-simulations/Astia G.md",
+    "content/index.md",
+    "content/Comandante.md",
+    "content/tags/photography.md",
     "content/notes/ora-legale.md",
+    "content/notes/Cosa possiamo sapere.md",
     "content/recipes/Porro fondente.md",
     "content/recipes/Olio verde.md",
     "content/recipes/one-cup-v60-technique.md",
@@ -195,30 +206,19 @@
     "public/content",
     "content/photos/frankfurt-2019.md",
     "public/images/parigi-2024",
-    "content/Comandante.md",
     "content/photos/Cinque Terre 2023.md",
     "public/images/cinque-terre",
     "public/images/cinque-terre-2023",
     "public/content/photos/Cinque Terre 2023",
     "content/photos/Cotswolds-2023.md",
     "content/2023831-.md",
-    "content/film-simulations/Classic Negative for Everybody.md",
     "content/notes/Caffe.md",
-    "content/film-simulations/portra-400.md",
-    "content/books/Turn-the-ship-around.md",
-    "content/pages/Film Simulatioins.md",
     "content/pages/Books.md",
     "content/pages/Recipes.md",
     "components/global/CollectionList.vue",
     "components/CollectionList.vue",
     "Clippings/The 'dark earth' revealing the Amazon's secrets.md",
     "Clippings",
-    "content/recipes/Pizza in teglia leggerissima.md",
-    "content/people/James Hoffman.md",
-    "content/().md",
-    "content/photos/passo-giau-belluno-veneto-2022.md",
-    "content/photos/vienna-2023.md",
-    "content/film-simulations/Kodachome-ii.md",
-    "README.md"
+    "content/recipes/Pizza in teglia leggerissima.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
-category:
-  - "[[Film Simulation Recipes]]"
+title: Astia Travel
+slug: astia-travel
 description: 
 author: 
 camera: x-t30
@@ -17,7 +17,9 @@ Sharpness: 2
 Noise Reduction: -4
 Clarity: 0
 Color Chrome Effect Blue: off
-tags:
-  - recipes
+category: film-simulations
+collection: "film-simulations"
 ---
+
+
 

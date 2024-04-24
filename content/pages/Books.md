@@ -9,15 +9,18 @@ Una selezione di libri, per lo più saggi, che ho letto o che vorrei leggere che
 
 Cosa sto leggendo in questo periodo:
 
-- [La grande cecità](https://amzn.to/3RQT08s) - Amitav Ghosh
-- [California](https://amzn.to/3HkCmt6) - Francesco Costa
-- [The tipping point](https://amzn.to/3O2yz7w) - Malcolm Gladwell
+- [La manutezione dei sensi](https://amzn.to/3Uv5gye) - Franco Faggiani
+- 
 
 
 
 ## Read
 
-Ecco una serie di altri libri che ho letto e che trovo interessanti, con una piccola nota per ognuno.
+Ecco una serie di altri libri che ho letto e che trovo interessanti. 
+
+- [La grande cecità](https://amzn.to/3RQT08s) - Amitav Ghosh
+- [California](https://amzn.to/3HkCmt6) - Francesco Costa
+- [The tipping point](https://amzn.to/3O2yz7w) - Malcolm Gladwell
 
 ::collection-list
 ---
