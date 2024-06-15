@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photos/umbria-2024.md",
+                "file": "photos/braies-2024.md",
                 "mode": "source",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/umbria-2024.md",
+                "file": "photos/braies-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/umbria-2024.md",
+                "file": "photos/braies-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/umbria-2024.md"
+                "file": "photos/braies-2024.md"
               }
             }
           }
@@ -149,19 +149,22 @@
   },
   "active": "660d76567c0eea7b",
   "lastOpenFiles": [
+    "images/braies-2024/cover.jpg",
+    "images/braies-2024/braies-2024-02.rotated.rotated.rotated.jpg",
+    "images/braies-2024/braies-2024-02.rotated.rotated.jpg",
+    "images/braies-2024/braies-2024-02.rotated.jpg",
+    "images/braies-2024/braies-2024-25.jpg",
+    "photos/braies-2024.md",
+    "photos/umbria-2024.md",
+    "images/braies-2024/braies-2024-24.jpg",
+    "images/braies-2024/braies-2024-23.jpg",
+    "images/braies-2024/braies-2024-22.jpg",
+    "images/braies-2024/braies-2024-21.jpg",
+    "images/braies-2024/braies-2024-20.jpg",
+    "images/braies-2024/braies-2024-19.jpg",
+    "images/braies-2024",
     "notes/manifesto-cucina-amatoriale.md",
     "notes/la-complessita-si-conserva.md",
-    "photos/umbria-2024.md",
-    "images/umbria-2024/umbria2024-01.JPG",
-    "images/umbria-2024/umbria2024-40.jpg",
-    "images/umbria-2024/umbria2024-39.jpg",
-    "images/umbria-2024/umbria2024-38.jpg",
-    "images/umbria-2024/umbria2024-37.jpg",
-    "images/umbria-2024/umbria2024-36.jpg",
-    "images/umbria-2024/umbria2024-35.jpg",
-    "images/umbria-2024/umbria2024-34.jpg",
-    "images/umbria-2024/umbria2024-33.jpg",
-    "images/umbria-2024/umbria2024-32.jpg",
     "images/umbria-2024",
     "templates/recipe-template.md",
     "templates/tag-template.md",
@@ -184,7 +187,6 @@
     "notes/ora-legale.md",
     "notes/obsidian-is-my-lightsaber.md",
     "tags/produttività.md",
-    "recipes/Porro fondente.md",
     "images/vienna",
     "images/val-d-orcia-2023",
     "images/rome-2022",
@@ -192,7 +194,6 @@
     "images/prague",
     "images/passo-giau-2022",
     "images/parigi-2024",
-    "images/nevegal-2022",
-    "images/munchen"
+    "images/nevegal-2022"
   ]
 }
