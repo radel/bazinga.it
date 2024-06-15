@@ -1,6 +1,4 @@
 ---
-topics:
-  - "[[Cucina]]"
 title: Manifesto per una nuova cucina amatoriale
 description: 
 img: 
@@ -13,8 +11,9 @@ author:
   img: images/marco.png
 tags:
   - cucina
-category: 
 slug: manifesto-cucina-amatoriale
+category:
+  - blog
 ---
 
 Durante il mio Viaggio a [Parigi](/parigi-2024), in una libreria a Le Marais ho trovato un libro di cucina che mi ha attirato immediatamente dal titolo "[Manuel du cuisinier amateur](https://amzn.eu/d/2fPd6tc)" con 150 ricette e tecniche per cucinare, bene, a casa.

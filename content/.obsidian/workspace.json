@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0ef39803e1f61260",
+        "id": "c43ae1e853fd57d7",
         "type": "tabs",
         "children": [
           {
-            "id": "58cc36060f36c894",
+            "id": "660d76567c0eea7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "file": "photos/umbria-2024.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3dcd659f0b51535a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "file": "photos/umbria-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "file": "photos/umbria-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Manifesto per una nuova cucina amatoriale.md"
+                "file": "photos/umbria-2024.md"
               }
             }
           }
@@ -146,8 +147,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58cc36060f36c894",
+  "active": "660d76567c0eea7b",
   "lastOpenFiles": [
+    "notes/manifesto-cucina-amatoriale.md",
+    "notes/la-complessita-si-conserva.md",
+    "photos/umbria-2024.md",
+    "images/umbria-2024/umbria2024-01.JPG",
+    "images/umbria-2024/umbria2024-40.jpg",
+    "images/umbria-2024/umbria2024-39.jpg",
+    "images/umbria-2024/umbria2024-38.jpg",
+    "images/umbria-2024/umbria2024-37.jpg",
+    "images/umbria-2024/umbria2024-36.jpg",
+    "images/umbria-2024/umbria2024-35.jpg",
+    "images/umbria-2024/umbria2024-34.jpg",
+    "images/umbria-2024/umbria2024-33.jpg",
+    "images/umbria-2024/umbria2024-32.jpg",
+    "images/umbria-2024",
     "templates/recipe-template.md",
     "templates/tag-template.md",
     "templates/book-template.md",
@@ -165,25 +180,11 @@
     "notes/Caffe.md",
     "notes/Cosa possiamo sapere.md",
     "notes/fuji-custom-film-simulation-recipes.md",
-    "notes/la-complessita-si-conserva.md",
-    "notes/Manifesto per una nuova cucina amatoriale.md",
     "notes/o-holy-night.md",
     "notes/ora-legale.md",
     "notes/obsidian-is-my-lightsaber.md",
     "tags/produttività.md",
     "recipes/Porro fondente.md",
-    "recipes/Pizza in teglia leggerissima.md",
-    "recipes/one-cup-v60-technique.md",
-    "images/vienna/vienna14.jpg",
-    "images/vienna/vienna13.jpg",
-    "images/vienna/vienna12.jpg",
-    "images/vienna/vienna11.jpg",
-    "images/vienna/vienna10.jpg",
-    "images/vienna/vienna09.jpg",
-    "images/vienna/vienna08.jpg",
-    "images/vienna/vienna07.jpg",
-    "images/vienna/vienna06.jpg",
-    "images/vienna/vienna05.jpg",
     "images/vienna",
     "images/val-d-orcia-2023",
     "images/rome-2022",
@@ -192,7 +193,6 @@
     "images/passo-giau-2022",
     "images/parigi-2024",
     "images/nevegal-2022",
-    "images/munchen",
-    "images/london-2022"
+    "images/munchen"
   ]
 }
