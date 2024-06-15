@@ -10,8 +10,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - photography
-category: photos
+  - fotografia
+category:
+  - photos
 slug: baita-segantini-2023
 ---
 

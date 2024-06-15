@@ -2,7 +2,7 @@
 title: Vienna
 description: un weekend a Vienna, alla ricerca di vecchi ricordi
 img: images/vienna/vienna11.jpg
-alt: Vienna 
+alt: Vienna
 createdAt: 2023-03-28
 status: published
 author:
@@ -10,8 +10,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - travel
-category: photos
+  - viaggi
+category:
+  - photos
 slug: vienna-2023
 ---
 

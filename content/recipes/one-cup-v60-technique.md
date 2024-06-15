@@ -9,7 +9,8 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: 
+tags:
+  - cucina
 category:
   - recipes
 slug: one-cup-v60-technique

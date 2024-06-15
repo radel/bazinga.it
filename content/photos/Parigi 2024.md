@@ -9,8 +9,8 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: 
-  - travel
+tags:
+  - viaggi
 category:
   - photos
 slug: parigi-2024

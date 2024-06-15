@@ -10,7 +10,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-category: recipes
+  - cucina
+category:
+  - recipes
 slug: pizza-in-teglia
 collection: recipes
 ---

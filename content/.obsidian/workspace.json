@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "716f34e1072d17aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ef39803e1f61260",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58cc36060f36c894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b72334eb4cd4384",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4525adbf7b6afe5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82af9f25ddbed8d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8cde42e950a90cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "339556f74ff22d68",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3dcd659f0b51535a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1afc103eef9ab8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cc1c2575e1b8bd9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c1f99d299d8f5b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/Manifesto per una nuova cucina amatoriale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "813f7ce578936893",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9c4196123e127dd5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/Manifesto per una nuova cucina amatoriale.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "58cc36060f36c894",
+  "lastOpenFiles": [
+    "templates/recipe-template.md",
+    "templates/tag-template.md",
+    "templates/book-template.md",
+    "templates/filmrecipe template.md",
+    "templates/photos-template.md",
+    "templates/post-template.md",
+    "pages/About.md",
+    "pages/Books.md",
+    "pages/Film Simulatioins.md",
+    "pages/Hire me.md",
+    "pages/Now.md",
+    "pages/Recipes.md",
+    "people/James Hoffman.md",
+    "notes/back-on-vim.md",
+    "notes/Caffe.md",
+    "notes/Cosa possiamo sapere.md",
+    "notes/fuji-custom-film-simulation-recipes.md",
+    "notes/la-complessita-si-conserva.md",
+    "notes/Manifesto per una nuova cucina amatoriale.md",
+    "notes/o-holy-night.md",
+    "notes/ora-legale.md",
+    "notes/obsidian-is-my-lightsaber.md",
+    "tags/produttività.md",
+    "recipes/Porro fondente.md",
+    "recipes/Pizza in teglia leggerissima.md",
+    "recipes/one-cup-v60-technique.md",
+    "images/vienna/vienna14.jpg",
+    "images/vienna/vienna13.jpg",
+    "images/vienna/vienna12.jpg",
+    "images/vienna/vienna11.jpg",
+    "images/vienna/vienna10.jpg",
+    "images/vienna/vienna09.jpg",
+    "images/vienna/vienna08.jpg",
+    "images/vienna/vienna07.jpg",
+    "images/vienna/vienna06.jpg",
+    "images/vienna/vienna05.jpg",
+    "images/vienna",
+    "images/val-d-orcia-2023",
+    "images/rome-2022",
+    "images/provence-2022",
+    "images/prague",
+    "images/passo-giau-2022",
+    "images/parigi-2024",
+    "images/nevegal-2022",
+    "images/munchen",
+    "images/london-2022"
+  ]
+}

@@ -9,7 +9,8 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: 
+tags:
+  - natura
 category:
   - blog
 slug: ora-legale

@@ -9,8 +9,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - travel
-category: photos
+  - fotografia
+category:
+  - photos
 status: published
 slug: passo-giau-belluno-veneto-2022
 ---

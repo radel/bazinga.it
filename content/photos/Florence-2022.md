@@ -9,8 +9,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - travel
-category: photos
+  - viaggi
+category:
+  - photos
 status: published
 slug: florence-2022
 ---

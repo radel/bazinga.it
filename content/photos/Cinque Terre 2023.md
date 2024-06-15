@@ -1,4 +1,3 @@
-
 ---
 title: Cinque Terre
 description: un rigenerante viaggio tra le campagne inglesi, guidando dal lato sbagliato
@@ -12,7 +11,7 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - travel
+  - viaggi
 category:
   - photos
 ---

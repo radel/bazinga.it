@@ -1,7 +1,7 @@
 ---
 title: Cotswolds
 description: un rigenerante viaggio tra le campagne inglesi, guidando dal lato sbagliato
-img: images/cotswolds/cover.JPG 
+img: images/cotswolds/cover.JPG
 alt: 
 createdAt: 2023-08-31
 status: published
@@ -11,8 +11,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - travel
-category: photos
+  - viaggi
+category:
+  - photos
 ---
 
 [✓] Guidare a sinistra   

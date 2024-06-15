@@ -1,4 +1,4 @@
 ---
-name: photography
+name: natura
 description: photography.
 ---

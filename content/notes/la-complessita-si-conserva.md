@@ -11,7 +11,8 @@ author:
   img: images/marco.png
 tags:
   - web
-category: blog
+category:
+  - blog
 slug: la-complessita-si-conserva
 ---
 Fino a qualche mese fa ho creduto per anni di aver *davvero* inventato qualcosa di importante, ma mi sbagliavo.

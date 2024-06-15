@@ -4,13 +4,14 @@ description:
 img: 
 alt: 
 createdAt: 
-status: published
+status: draft
 author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
 tags: 
-category: recipe
+category:
+  - recipe
 slug: 
 FilmMode: 
 DynamicRangeSetting: 

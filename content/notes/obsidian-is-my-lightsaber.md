@@ -10,8 +10,9 @@ author:
   bio: Marco Bonomo
   img: images/marco.png
 tags:
-  - productivity
-category: blog
+  - web
+category:
+  - blog
 slug: obsidian-is-my-lightsaber
 lang: it
 ---

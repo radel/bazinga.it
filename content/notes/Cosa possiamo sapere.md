@@ -9,7 +9,9 @@ author:
   name: Marco
   bio: Marco Bonomo
   img: images/marco.png
-tags: 
+tags:
+  - natura
+  - filosofia
 category:
   - blog
 slug: kant-cosa-possiamo-sapere
