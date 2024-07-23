@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photos/braies-2024.md",
+                "file": "pages/Books.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3dcd659f0b51535a",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photos/braies-2024.md",
+                "file": "pages/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photos/braies-2024.md",
+                "file": "pages/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photos/braies-2024.md"
+                "file": "pages/Books.md"
               }
             }
           }
@@ -149,19 +148,20 @@
   },
   "active": "660d76567c0eea7b",
   "lastOpenFiles": [
+    "books/Turn-the-ship-around.md",
+    "pages/Books.md",
+    "photos/braies-2024.md",
     "images/braies-2024/cover.jpg",
     "images/braies-2024/braies-2024-02.rotated.rotated.rotated.jpg",
     "images/braies-2024/braies-2024-02.rotated.rotated.jpg",
     "images/braies-2024/braies-2024-02.rotated.jpg",
     "images/braies-2024/braies-2024-25.jpg",
-    "photos/braies-2024.md",
     "photos/umbria-2024.md",
     "images/braies-2024/braies-2024-24.jpg",
     "images/braies-2024/braies-2024-23.jpg",
     "images/braies-2024/braies-2024-22.jpg",
     "images/braies-2024/braies-2024-21.jpg",
     "images/braies-2024/braies-2024-20.jpg",
-    "images/braies-2024/braies-2024-19.jpg",
     "images/braies-2024",
     "notes/manifesto-cucina-amatoriale.md",
     "notes/la-complessita-si-conserva.md",
@@ -173,7 +173,6 @@
     "templates/photos-template.md",
     "templates/post-template.md",
     "pages/About.md",
-    "pages/Books.md",
     "pages/Film Simulatioins.md",
     "pages/Hire me.md",
     "pages/Now.md",
