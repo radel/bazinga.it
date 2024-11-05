@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Books.md",
-                "mode": "source",
+                "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
+                "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Le-cose-migliori-che-abbia-mai-mangiato-finora"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 499.5
   },
   "right": {
     "id": "3dcd659f0b51535a",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Books.md",
+                "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Le-cose-migliori-che-abbia-mai-mangiato-finora"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Books.md",
+                "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Le-cose-migliori-che-abbia-mai-mangiato-finora"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Books.md"
-              }
+                "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Le-cose-migliori-che-abbia-mai-mangiato-finora"
             }
           }
         ]
@@ -146,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "660d76567c0eea7b",
+  "active": "82af9f25ddbed8d2",
   "lastOpenFiles": [
-    "books/Turn-the-ship-around.md",
+    "notes/la-complessita-si-conserva.md",
+    "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
     "pages/Books.md",
+    "books/Turn-the-ship-around.md",
     "photos/braies-2024.md",
     "images/braies-2024/cover.jpg",
     "images/braies-2024/braies-2024-02.rotated.rotated.rotated.jpg",
@@ -164,7 +182,6 @@
     "images/braies-2024/braies-2024-20.jpg",
     "images/braies-2024",
     "notes/manifesto-cucina-amatoriale.md",
-    "notes/la-complessita-si-conserva.md",
     "images/umbria-2024",
     "templates/recipe-template.md",
     "templates/tag-template.md",
@@ -185,7 +202,6 @@
     "notes/o-holy-night.md",
     "notes/ora-legale.md",
     "notes/obsidian-is-my-lightsaber.md",
-    "tags/produttività.md",
     "images/vienna",
     "images/val-d-orcia-2023",
     "images/rome-2022",
