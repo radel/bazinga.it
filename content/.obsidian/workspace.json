@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -162,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82af9f25ddbed8d2",
+  "active": "660d76567c0eea7b",
   "lastOpenFiles": [
     "notes/la-complessita-si-conserva.md",
     "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
