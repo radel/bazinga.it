@@ -1,34 +1,34 @@
 <template>
-    <div class="pt-24 m-0">
-        <div class="max-w-3xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <photo-card :article="article" v-for="(article, index) of articles" :class="{'md:col-span-1' :  index > 0, 'md:col-span-2' : index==0}" :key="article.slug"  
-                        :fullwidth="index == 0"
-                    />
-            </div>
-        </div>
-
+  <div class="pt-24 m-0">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <photo-card :article="article" v-for="(article, index) of articles"
+          :class="{ 'md:col-span-1': index > 0, 'md:col-span-2': index == 0 }" :key="article.slug"
+          :fullwidth="index == 0" />
+      </div>
     </div>
+
+  </div>
 </template>
 
 <script setup>
-useHead({ 
-    title: "Bazinga - Marco Bonomo blog", 
-    meta: [{ 
-        name: 'description', 
-        content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer." 
-    }]
- });
+useHead({
+  title: "Bazinga - Marco Bonomo blog",
+  meta: [{
+    name: 'description',
+    content: " Hi! I'm Marco: web developer, amateur photographer, mountain wanderer, cooking lover, tinkerer."
+  }]
+});
 const { data: articles } = await useAsyncData('articles', () => queryContent().only([
-    'title',
-    'description',
-    'img',
-    'slug',
-    'author',
-    'createdAt',
-    'tags'
+  'title',
+  'description',
+  'img',
+  'slug',
+  'author',
+  'createdAt',
+  'tags'
 ])
-.where({ category: {$eq: 'photos'}})
-.where({ status: { $ne: 'draft' } })
-.sort({ 'createdAt': -1 }).find());
+  .where({ 'category': { $contains: 'photos' } })
+  .where({ status: { $ne: 'draft' } })
+  .sort({ 'createdAt': -1 }).find());
 </script>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
+                "file": "film-sim/classic-negative.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Le-cose-migliori-che-abbia-mai-mangiato-finora"
+              "title": "classic-negative"
             }
           }
         ]
@@ -164,22 +164,30 @@
   },
   "active": "660d76567c0eea7b",
   "lastOpenFiles": [
-    "notes/la-complessita-si-conserva.md",
-    "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
+    "images/val-di-funes-2024/funes-2024_08-7.jpg",
+    "images/val-di-funes-2024/funes-2024_08-6.jpg",
+    "images/val-di-funes-2024/funes-2024_08-5.jpg",
+    "images/val-di-funes-2024/funes-2024_08-4.jpg",
+    "images/val-di-funes-2024/funes-2024_08-3.jpg",
+    "images/val-di-funes-2024/funes-2024_08-2.jpg",
+    "images/val-di-funes-2024/funes-2024_08-1.jpg",
+    "images/val-di-funes-2024/funes-2024_08-0.jpg",
+    "images/torino-2024/torino-2024_0029-27.jpg",
+    "images/torino-2024/torino-2024_0029-26.jpg",
+    "images/torino-2024/torino-2024_0029-25.jpg",
+    "film-sim/eterna-v3.md",
+    "film-sim/classic-negative.md",
+    "film-sim/classic-negative.md~",
+    "film-sim/4913",
+    "pages/Recipes.md",
+    "film-sim",
+    "pages/film-simulations.md",
     "pages/Books.md",
+    "notes/Le-cose-migliori-che-abbia-mai-mangiato-finora.md",
+    "notes/la-complessita-si-conserva.md",
     "books/Turn-the-ship-around.md",
     "photos/braies-2024.md",
-    "images/braies-2024/cover.jpg",
-    "images/braies-2024/braies-2024-02.rotated.rotated.rotated.jpg",
-    "images/braies-2024/braies-2024-02.rotated.rotated.jpg",
-    "images/braies-2024/braies-2024-02.rotated.jpg",
-    "images/braies-2024/braies-2024-25.jpg",
     "photos/umbria-2024.md",
-    "images/braies-2024/braies-2024-24.jpg",
-    "images/braies-2024/braies-2024-23.jpg",
-    "images/braies-2024/braies-2024-22.jpg",
-    "images/braies-2024/braies-2024-21.jpg",
-    "images/braies-2024/braies-2024-20.jpg",
     "images/braies-2024",
     "notes/manifesto-cucina-amatoriale.md",
     "images/umbria-2024",
@@ -193,22 +201,14 @@
     "pages/Film Simulatioins.md",
     "pages/Hire me.md",
     "pages/Now.md",
-    "pages/Recipes.md",
     "people/James Hoffman.md",
     "notes/back-on-vim.md",
     "notes/Caffe.md",
     "notes/Cosa possiamo sapere.md",
-    "notes/fuji-custom-film-simulation-recipes.md",
-    "notes/o-holy-night.md",
-    "notes/ora-legale.md",
-    "notes/obsidian-is-my-lightsaber.md",
     "images/vienna",
     "images/val-d-orcia-2023",
     "images/rome-2022",
     "images/provence-2022",
-    "images/prague",
-    "images/passo-giau-2022",
-    "images/parigi-2024",
-    "images/nevegal-2022"
+    "images/prague"
   ]
 }
