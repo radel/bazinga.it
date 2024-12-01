@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "c43ae1e853fd57d7",
+        "id": "2e2b02f72d469c74",
         "type": "tabs",
         "children": [
           {
-            "id": "660d76567c0eea7b",
+            "id": "14637925edfe6eee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "film-sim/classic-negative.md",
+                "file": "photos/Torino-2023.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "classic-negative"
+              "title": "Torino-2023"
+            }
+          }
+        ]
+      },
+      {
+        "id": "780378816a809182",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f048e61bb1a15907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "photos/Torino-2023.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Torino-2023"
             }
           }
         ]
@@ -162,21 +182,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "660d76567c0eea7b",
+  "active": "f048e61bb1a15907",
   "lastOpenFiles": [
-    "images/val-di-funes-2024/funes-2024_08-7.jpg",
-    "images/val-di-funes-2024/funes-2024_08-6.jpg",
-    "images/val-di-funes-2024/funes-2024_08-5.jpg",
-    "images/val-di-funes-2024/funes-2024_08-4.jpg",
-    "images/val-di-funes-2024/funes-2024_08-3.jpg",
-    "images/val-di-funes-2024/funes-2024_08-2.jpg",
-    "images/val-di-funes-2024/funes-2024_08-1.jpg",
-    "images/val-di-funes-2024/funes-2024_08-0.jpg",
-    "images/torino-2024/torino-2024_0029-27.jpg",
-    "images/torino-2024/torino-2024_0029-26.jpg",
-    "images/torino-2024/torino-2024_0029-25.jpg",
-    "film-sim/eterna-v3.md",
+    "images/torino-2024/torino-2024_0001.jpg",
+    "photos/Torino-2023.md",
+    "photos/prague-2020.md",
+    "torino-2024_0001.jpg",
+    "torino-2024_0029.jpg",
+    "torino-2024_0028.jpg",
+    "torino-2024_0027.jpg",
+    "torino-2024_0026.jpg",
+    "torino-2024_0025.jpg",
+    "torino-2024_0024.jpg",
+    "torino-2024_0023.jpg",
+    "torino-2024_0022.jpg",
+    "photos/Rome-2022.md",
+    "photos/Provence-2022.md",
     "film-sim/classic-negative.md",
+    "film-sim/eterna-v3.md",
     "film-sim/classic-negative.md~",
     "film-sim/4913",
     "pages/Recipes.md",
@@ -201,10 +224,6 @@
     "pages/Film Simulatioins.md",
     "pages/Hire me.md",
     "pages/Now.md",
-    "people/James Hoffman.md",
-    "notes/back-on-vim.md",
-    "notes/Caffe.md",
-    "notes/Cosa possiamo sapere.md",
     "images/vienna",
     "images/val-d-orcia-2023",
     "images/rome-2022",

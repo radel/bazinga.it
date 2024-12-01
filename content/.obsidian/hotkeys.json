@@ -1,0 +1,11 @@
+{
+  "simple-image-inserter:image-insert": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ]
+}
