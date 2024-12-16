@@ -4,13 +4,15 @@
       {{ title }}
     </h1>
     <div v-for="article of articles" :key="article.slug" class="">
-      <article-card :article="article" />
+      <slot :article="article">
+        <article-card :article="article" />
+      </slot>
     </div>
   </div>
 </template>
 <script setup>
 const props = defineProps({
-  title:String,
+  title: String,
   collection: String,
   tags: Array
 })
