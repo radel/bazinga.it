@@ -26,14 +26,19 @@
       </PostSection>
       <PostSection v-if="bookmarks?.length" title="Segnalibri" link="/">
         <ul class="w-full col-span-3">
-          <li v-for="bookmark of bookmarks" :key="bookmark.slug" class="w-full py-2 text-xl">
-            <a target="_blank" :href="bookmark.source" class="flex">
-              {{ bookmark.title }} <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="currentColor" class="ml-1 w-3 h-3">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-
+          <li v-for="bookmark of bookmarks" :key="bookmark.slug"
+            class="flex gap-4 items-center w-full border-b border-base-100 py-2 text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+            <a target="_blank" :href="bookmark.source" class="flex justify-between w-full">
+              {{ bookmark.title }}
+              <span class="opacity-50 text-xs mr-8" v-if="bookmark.clipped">
+                {{ new Date(bookmark.clipped).toLocaleDateString()
+                  || "" }}
+              </span>
             </a>
           </li>
         </ul>
@@ -101,7 +106,8 @@ const { data: bookmarks } = await useAsyncData('bookmarks', () =>
   queryContent()
     .only([
       'title',
-      'source'
+      'source',
+      'clipped'
     ])
     .where({ category: { $contains: 'Clippings' } })
     .sort({ clipped: -1 })

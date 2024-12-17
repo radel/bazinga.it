@@ -1,8 +1,8 @@
 ---
-title: Umbria 2024
-description: 
+title: Umbria
+description:
 img: /images/umbria-2024/umbria2024-04.jpg
-alt: 
+alt:
 createdAt: 2024-03-30
 status: published
 author:
@@ -15,6 +15,7 @@ category:
   - photos
 slug: umbria-2024
 ---
+
 ![](images/umbria-2024/umbria2024-01.jpg)
 ![](images/umbria-2024/umbria2024-02.jpg)
 ![](images/umbria-2024/umbria2024-03.jpg)
@@ -59,3 +60,4 @@ slug: umbria-2024
 ![](images/umbria-2024/umbria2024-37.jpg)
 ![](images/umbria-2024/umbria2024-38.jpg)
 ![](images/umbria-2024/umbria2024-39.jpg)
+

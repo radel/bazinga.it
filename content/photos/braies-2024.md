@@ -1,8 +1,8 @@
 ---
-title: 
-description: 
+title: Braies
+description:
 img: /images/braies-2024/cover.jpg
-alt: 
+alt:
 createdAt: 2024-06-01
 status: published
 author:
@@ -51,3 +51,4 @@ slug: braies-2024
 ![](images/braies-2024/braies-2024-24.jpg)
 
 ![](images/braies-2024/braies-2024-23.jpg)
+

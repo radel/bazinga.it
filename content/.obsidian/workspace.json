@@ -11,10 +11,14 @@
             "id": "2f0efb998b89b4f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "clippings/Always Go To The Funeral.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Always Go To The Funeral"
             }
           }
         ]
@@ -160,6 +164,12 @@
   },
   "active": "2f0efb998b89b4f3",
   "lastOpenFiles": [
+    "photos/umbria-2024.md~",
+    "photos/braies-2024.md~",
+    "clippings/Contro il fatalismo climatico - Lucy.md",
+    "clippings/Always Go To The Funeral.md",
+    "clippings/No, non potevi farlo anche tu - Il Post.md",
+    "clippings/30 anni del Parco Nazionale Dolomiti Bellunesi.md",
     "clippings/travel.md",
     "clippings/running.md",
     "clippings/rothko.md",
@@ -178,14 +188,9 @@
     "clippings/Perché diciamo che ci manca il tempo - Il Post.md",
     "clippings/Opinion | How Beer Gave Us Civilization (Published 2013).md",
     "clippings/Non c’è un macroscopico vuoto di verità sul caso Moro - Il Post.md",
-    "clippings/No, non potevi farlo anche tu - Il Post.md",
     "clippings/Il miglior percorso per visitare Manhattan - Il Post.md",
     "clippings/How to Use Your Dishwasher Better.md",
     "clippings/Earth Was Due for Another Year of Record Warmth. But This Warm.md",
-    "clippings/Contro il fatalismo climatico - Lucy.md",
-    "clippings/Come il prosecco è diventato il prosecco - Il Post.md",
-    "clippings/fatalismo.md",
-    "clippings/prosecco.md",
     "clippings (Copy)",
     "images/torino-2024/torino-2024_0001.jpg",
     "torino-2024_0001.jpg",
@@ -204,7 +209,6 @@
     "images/umbria-2024",
     "images/vienna",
     "images/val-d-orcia-2023",
-    "images/rome-2022",
-    "images/provence-2022"
+    "images/rome-2022"
   ]
 }
