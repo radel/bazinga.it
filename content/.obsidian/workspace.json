@@ -11,14 +11,10 @@
             "id": "2f0efb998b89b4f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "clippings/travel.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "travel"
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.5
+    "width": 317.5
   },
   "right": {
     "id": "3dcd659f0b51535a",
@@ -164,7 +160,17 @@
   },
   "active": "2f0efb998b89b4f3",
   "lastOpenFiles": [
+    "clippings/travel.md",
+    "clippings/running.md",
+    "clippings/rothko.md",
+    "clippings/risotto.md",
+    "clippings/record-warmth.md",
+    "clippings/pndb.md",
+    "clippings/manhattan.md",
+    "clippings/dishwasher.md",
     "clippings/caffe-gambero.md",
+    "clippings/beer.md",
+    "clippings/beatles.md",
     "clippings/The Secret History of Risotto.md",
     "clippings/The Running Novelist.md",
     "clippings/The Case Against Travel.md",
@@ -178,19 +184,9 @@
     "clippings/Earth Was Due for Another Year of Record Warmth. But This Warm.md",
     "clippings/Contro il fatalismo climatico - Lucy.md",
     "clippings/Come il prosecco è diventato il prosecco - Il Post.md",
-    "clippings (Copy)/travel.md",
-    "clippings (Copy)/running.md",
-    "clippings (Copy)/rothko.md",
-    "clippings (Copy)/risotto.md",
-    "clippings (Copy)/record-warmth.md",
-    "clippings (Copy)/pndb.md",
-    "clippings (Copy)/manhattan.md",
-    "clippings (Copy)/dishwasher.md",
-    "clippings (Copy)/beer.md",
-    "clippings (Copy)/beatles.md",
+    "clippings/fatalismo.md",
+    "clippings/prosecco.md",
     "clippings (Copy)",
-    "clippings/running.md",
-    "clippings/rothko.md",
     "images/torino-2024/torino-2024_0001.jpg",
     "torino-2024_0001.jpg",
     "torino-2024_0029.jpg",

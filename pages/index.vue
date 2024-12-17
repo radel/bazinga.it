@@ -4,19 +4,19 @@
       <div class="py-4 text-3xl mb-8">
         <ContentDoc />
       </div>
-      <PostSection v-if="tags.length" title="argomenti">
+      <PostSection v-if="tags?.length" title="argomenti">
         <div class="col-span-3">
           <span v-for="tag of tags" :key="tag">
             <a :href="tag._path" class="text-xl p-2 md:p-0">{{ tag.name }}</a> ·
           </span>
         </div>
       </PostSection>
-      <PostSection v-if="posts.length" title="note" link="/blog">
+      <PostSection v-if="posts?.length" title="note" link="/blog">
         <div v-for="post of posts" :key="post.slug" class="col-span-3">
           <article-card :article="post" />
         </div>
       </PostSection>
-      <PostSection v-if="collections.body.length" title="collezioni" link="/collections">
+      <PostSection v-if="collections?.body.length" title="collezioni" link="/collections">
         <div v-for="collection of collections.body" class="">
           <article-card :article="collection" />
         </div>
@@ -24,7 +24,7 @@
       <PostSection title="viaggi e fotografie" link="/photos">
         <photo-card :article="photo" v-for="photo of photos" :key="photo.slug" />
       </PostSection>
-      <PostSection v-if="bookmarks.length" title="Segnalibri" link="/">
+      <PostSection v-if="bookmarks?.length" title="Segnalibri" link="/">
         <ul class="w-full col-span-3">
           <li v-for="bookmark of bookmarks" :key="bookmark.slug" class="w-full py-2 text-xl">
             <a target="_blank" :href="bookmark.source" class="flex">

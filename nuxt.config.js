@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     page: false
   },
 
+  nitro: {
+    prerender :{
+    }
+  },
+
   ssr: true,
 
   target: 'static',
