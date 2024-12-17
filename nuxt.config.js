@@ -70,7 +70,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    'nuxt-feedme',
+    // 'nuxt-feedme',
     [
       '@nuxtjs/google-fonts',
       {

@@ -1,8 +1,7 @@
 <template>
   <div class="mt-4 w-full hover:dark:bg-base-900/50 hover:bg-base-300/50 rounded-md relative">
     <a :href="`/${article.slug}`"
-      class="grid grid-cols-3 md:flex md:flex-wrap transition-shadow duration-150 ease-in-out" ⬢ code cdd
-      marcobonomo.dev>
+      class="grid grid-cols-3 md:flex md:flex-wrap transition-shadow duration-150 ease-in-out">
       <nuxt-img v-if="article.img"
         class="md:h-96 h-32 w-full rounded-md object-cover shadow-lg border-zinc-100 dark:border-zinc-700 border"
         loading="lazy" format="webp" fit="cover" width="424px" height="256px" decoding="auto"
